@@ -1,0 +1,216 @@
+﻿<style>
+
+    /* .main-popup{
+                            background: url('./indian-village-house-surrounded-by-green-grass-beatiful-cloudy-blue-sky-village-landscape\ 1.png') no-repeat center center/cover;
+                            height: 100vh;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            transition: background 0.5s ease-in-out;
+                        } */
+    .thank-you-popup {
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 99999;
+        justify-content: space-between;
+    }
+
+    .popup {
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        width: 50%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 99999;
+        justify-content: space-between;
+    }
+
+        .popup img {
+            width: 45%;
+            border-radius: 10px;
+        }
+
+    .form-container {
+        padding: 3px;
+        width: 50%;
+    }
+
+        .form-container h2 {
+            margin-bottom: 10px;
+        }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border-radius: 5px;
+        background-color: #F0F0F0;
+    }
+
+    .price-range {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+        .price-range label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    /* button {
+                            width: 100%;
+                            padding: 10px;
+                            background: blue;
+                            color: white;
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                        } */
+    /* button:hover {
+                            background: darkblue;
+                        } */
+    .thank-you-popup {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #1fa7ea;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .great-day {
+        width: 155px;
+        height: 45px;
+        background-color: #0B579C;
+        color: white;
+        margin: auto;
+        padding: -5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    @@media (max-width:800px) {
+        .popup {
+            background: white;
+            border-radius: 10px;
+            display: flex;
+            width: 90%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            z-index: 99999;
+            justify-content: space-between;
+            flex-direction: column-reverse;
+        }
+
+        .form-container {
+            padding: 3px;
+            width: 98%;
+        }
+
+        .popup img {
+            width: 95%;
+            border-radius: 10px;
+        }
+
+        .thank-you-popup {
+            width: 85%;
+        }
+    }
+</style>
+<div class="popup" id="popup-default" style="display: none;">
+
+    <button class="close-btn" onclick="closePopup()">&times;</button>
+
+    <img src="~/assets/images/home/Mask group.png" alt="House">
+    <div class="form-container">
+        <h2>Let's Connect!!</h2>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+        <input type="tel" placeholder="Phone Number">
+        <select>
+            <option>Select Category</option>
+            <option>Buy</option>
+            <option>Rent</option>
+            <option>Sell</option>
+        </select>
+        <h5 class="text-dark-blu">Budget Range</h5>
+        <div class="price-range">
+            <label><input type="radio" name="price" value="$700K"> $700K</label>
+            <label><input type="radio" name="price" value="$900K"> $900K</label>
+            <label><input type="radio" name="price" value="$1.2M"> $1.2M</label>
+            <label><input type="radio" name="price" value="$1.5M"> $1.5M</label>
+        </div>
+        <textarea placeholder="Type your detailed message here..."></textarea>
+        <button class="text-white font-medium text-[16px] leading-none tracking-[0.02em] bg-secondary py-[17px] px-[20px] mt-5 sm:mt-0 rounded-[10px] hover:bg-white hover:text-primary transition-all  sm:right-[4px] sm:top-1/2 " onclick="showThankYou()" style="width: 100%;">Submit</button>
+    </div>
+
+</div>
+
+<div class="popup" id="popup-project" style="display: none;">
+    <button class="close-btn" onclick="closePopup()">&times;</button>
+
+    <img src="~/assets/images/home/Mask group.png" alt="House">
+    <div class="form-container">
+        <h2>Let's Connect!!</h2>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+        <input type="tel" placeholder="Phone Number">
+        
+        <textarea placeholder="Type your detailed message here..."></textarea>
+        <button class="text-white font-medium text-[16px] leading-none tracking-[0.02em] bg-secondary py-[17px] px-[20px] mt-5 sm:mt-0 rounded-[10px] hover:bg-white hover:text-primary transition-all  sm:right-[4px] sm:top-1/2 " onclick="showThankYou()" style="width: 100%;">Submit</button>
+    </div>
+
+</div>
+
+
+<div class="thank-you-popup">
+    <img src="~/assets/images/home/Frame.png" alt="" style="margin: auto;">
+    <h2>Thank You!</h2>
+    <p>
+        Please check your email inbox or
+        spam folder to see our response.
+    </p>
+    <div class="great-day">
+        Have a great day!
+    </div>
+</div>

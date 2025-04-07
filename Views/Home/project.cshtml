@@ -1,0 +1,544 @@
+﻿@section Title {
+    <title>Studio Apartment for Sale in UAE | 10% ROI | No Maintenance Fees</title>
+    <meta name="description" content="Own a studio with 10% guaranteed ROI in the UAE – no service or maintenance fees. Limited-time investment offer with full personal guidance from a trusted real estate consultant." />
+}
+
+<style>
+    .custom-cta-btn {
+        position: relative;
+        display: inline-block;
+        padding: 15px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        text-transform: capitalize;
+        background-color: #1FA7E1; /* Initial blue background */
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+        .custom-cta-btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            background-color: white;
+            transition: all 0.3s ease;
+            z-index: -1;
+            border-radius: 10px;
+        }
+
+        .custom-cta-btn:hover::before {
+            width: 100%;
+            left: 0;
+            right: auto;
+        }
+
+        .custom-cta-btn:hover {
+            color: black;
+        }
+
+</style>
+<section class="hero-section bg-white">
+    <div class="bg-no-repeat bg-left-bottom z-[1] relative before:absolute before:w-full before:h-full before:inset-0 before:content-[''] before:bg-[#000000] before:opacity-[50%] before:z-[-1] py-[80px] lg:py-[125px] min-h-screen"
+         style="background-image: url('assets/images/StudioX/Hero-Image.png'); background-size: cover; background-position: center;">
+        <div class="container">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12">
+                    <div class="slider-content">
+                        <!-- Subtitle -->
+                        <div class="relative mb-5 sub_title">
+                            <span class="text-base text-white block">Smart Investment</span>
+                        </div>
+
+                        <!-- Title -->
+                        <h1 class="font-lora text-white text-[36px] sm:text-[50px] md:text-[68px] lg:text-[50px] leading-tight xl:text-2xl title">
+                            <span>StudioX Apartments</span>
+                        </h1>
+
+                        <!-- Location -->
+                        <p class="text-base text-white font-light underline text">
+                            Dubai Industrial City, Developed by Dugasta Properties
+                        </p>
+
+                        <!-- ROI Box -->
+                        <span class="text-white inline-block font-lora text-[28px] px-[20px] py-[12px] leading-none border-b-2 border-secondary bg-primary mt-[40px] mb-[20px] hero_btn text-center">
+                            [With 10% Net ROI for 10 Years]
+                        </span>
+
+                        <ul class="flex gap-6 list-disc pl-6 text-white text-base font-light mb-[60px]">
+                            <li>No Service Charges</li>
+                            <li>No Maintenance Fee</li>
+                        </ul>
+
+
+                    </div>
+                </div>
+
+                <!-- Icons Section -->
+                <div class="col-span-12 xl:col-span-10">
+                    <ul class="flex flex-wrap items-center sm:justify-between text-white mt-[-20px] mb-[10px] lg:mb-[60px]">
+                        <li class="pr-[30px] sm:pr-[35px] lg:pr-[70px] sm:border-r sm:border-[#E0E0E0] my-[20px]">
+                            <img class="mb-[15px]" src="assets/images/icon/home.png" width="33" height="33" alt="Home size icon showing square footage">
+                            <span>400 Sq.ft</span>
+                        </li>
+                        <li class="pr-[30px] sm:pr-[35px] lg:pr-[70px] sm:border-r sm:border-[#E0E0E0] my-[20px]">
+                            <img class="mb-[15px]" src="assets/images/icon/bathroom.png" width="32" height="33" alt="Bathroom icon">
+                            <span>Bathroom</span>
+                        </li>
+                        <li class="pr-[30px] sm:pr-[35px] lg:pr-[70px] sm:border-r sm:border-[#E0E0E0] my-[20px]">
+                            <img class="mb-[15px]" src="assets/images/icon/kitchen.png" width="31" height="31" alt="Kitchen icon">
+                            <span>1 Kitchen</span>
+                        </li>
+                        <li class="my-[20px]">
+                            <img class="mb-[15px]" src="assets/images/icon/garage.png" width="32" height="32" alt="Garage icon">
+                            <span>Cover Parking</span>
+                        </li>
+                    </ul>
+                    <!-- CTA Button -->
+                 @*    <div class="inline-block hero_btn" style="border-radius:10px !important;">
+                        <a style="background:#1FA7E1;border-radius:10px;" href="#" class="before:rounded-md before:block before:absolute before:left-auto before:right-0 before:inset-y-0 before:-z-[1] before:bg-white before:w-0  before:transition-all leading-none px-[20px] py-[15px] capitalize font-medium text-white text-[14px] xl:text-[16px] relative after:block after:absolute after:inset-0 after:-z-[2] after:bg-secondary after:rounded-md after:transition-all block" onclick="openPopup1()">Get Expert Advice</a>
+                    </div> *@
+                    <div class="inline-block hero_btn">
+                        <a href="#" class="custom-cta-btn" onclick="openPopup('project')">Get Expert Advice</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Hero section end -->
+<!-- About Us Sectin Start -->
+<section class="about-section py-[80px] lg:py-[120px]">
+    <div class="container">
+        <div class="grid grid-cols-12 gap-x-[30px] mb-[-30px]">
+            <div class="col-span-12 lg:col-span-6 relative mb-[30px]">
+               @*  <div class="scene absolute top-0 right-[5%] xl:right-[10%]" data-relative-input="true">
+                    <img data-depth="0.2" src="assets/images/about/dot-with-line.png" width="48" height="158" alt="Decorative dotted line graphic">
+                </div>
+
+                <div class="scene absolute bottom-[10%] lg:bottom-[25%] xl:bottom-[15%] left-[10%]" data-relative-input="true">
+                    <img data-depth="0.3" src="assets/images/about/star.png" width="85" height="64" loading="lazy" alt="image">
+                </div> *@
+
+
+                <div class="scene" data-relative-input="true">
+                    <img class="block mx-auto" data-depth="0.1" src="assets/images/StudioX/Why-Invest-with-Us.png" loading="lazy" width="520" height="467" alt="About us image showing apartment interior or building exterior">
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-6 mb-[30px]">
+                <span class="text-secondary text-tiny inline-block mb-2">Why Invest With Us</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl max-w-[500px] mb-3 font-medium">
+                    We Offer Safe  Investment Opportunities with Guaranteed Returns<span class="text-secondary">.</span>
+                </h2>
+
+                <p class="max-w-[480px]">
+                    A wide range of premium studios available for secure, long-term investment. Also enjoy effortless ownership with high ROI and flexible payment plans.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 py-[30px]">
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col ">
+                        <img src="assets/images/updated_icons/High-returns.png" alt="Dollar icon" class="w-12 h-12 mb-4">
+                        <h3 class="text-l font-lora text-blue-800 mb-2">Guaranteed Returns</h3>
+                        <p class="text-sm text-gray-600">Earn stable, guaranteed rental income backed by reliable real estate strategies.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col ">
+                        <img src="assets/images/updated_icons/Strategic-location.png" alt="Location icon" class="w-12 h-12 mb-4">
+                        <h3 class="text-l font-lora text-blue-800 mb-2">Strategic Location</h3>
+                        <p class="text-sm text-gray-600">Situated in Dubai Industrial City, minutes from the new Al Maktoum International Airport.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col ">
+                        <img src="assets/images/updated_icons/Reliable-Investment.png" alt="safe investment icon" class="w-12 h-12 mb-4">
+                        <h3 class="text-l font-lora text-blue-800 mb-2">Safe Investment</h3>
+                        <p class="text-sm text-gray-600">Your funds stay secure in a regulated escrow account until each project milestone is met.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Us Sectin End -->
+<!-- Service sction start -->
+<section class="service-section">
+
+    <div class="container">
+        <div class="grid grid-cols-12 text-center">
+            <div class="col-span-12 text-center mb-[55px]">
+                <div class="max-w-[460px] mx-auto">
+                    <span class="text-secondary text-tiny inline-block mb-2">How we Work</span>
+                    <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-3 font-medium">
+                        It’s a very simple process<span class="text-secondary">.</span>
+                    </h2>
+
+                    <p>
+                        Find the perfect studio apartment for you. Plus, our team ensures a smooth transaction from start to finish.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid gap-x-[50px] grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mb-[-30px] xl:px-[35px]">
+            <div class="relative p-[20px] xl:p-[30px] mb-[30px] bg-[#E8F1FF] hover:bg-[#FFF6F0] transition-all drop-shadow-[0px_10px_20px_rgba(0,0,0,0.15)] rounded-[10px] skew-left">
+                <div class="flex flex-wrap justify-between">
+                    <span class="font-lora text-[28px] leading-none text-secondary mb-[10px] block">01.</span>
+                    <img class="self-start mb-[-20px] md:mb-[0] lg:mb-[-20px]" src="assets/images/service-icon/chart.png" alt="Chart icon representing consultation step" width="50" height="50" loading='lazy' />
+                </div>
+                <h3 class="font-lora text-base text-primary mb-[5px]">Book a Consultation</h3>
+                <p class="font-light text-[14px] max-w-[250px]">
+                    We connect with you to understand your investment goals and preferences.
+                </p>
+            </div>
+            <div class="relative p-[20px] xl:p-[30px] mb-[30px] hover:bg-[#FFF6F0] bg-[#FFF6F0] transition-all drop-shadow-[0px_10px_20px_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex flex-wrap justify-between">
+                    <span class="font-lora text-[28px] leading-none text-secondary mb-[10px] block">02.</span>
+                    <img class="self-start mb-[-20px] md:mb-[0] lg:mb-[-20px]" src="assets/images/service-icon/note.png" alt="image" width="50" height="50" loading='lazy' />
+                </div>
+                <h3 class="font-lora text-base text-primary mb-[5px]">Finalize Agreement</h3>
+                <p class="font-light text-[14px] max-w-[250px]">
+                    We ensure full transparency while guiding you through paperwork and payment plans.
+                </p>
+            </div>
+            <div class="relative p-[20px] xl:p-[30px] mb-[30px] bg-[#E8F1FF] hover:bg-[#FFF6F0] transition-all drop-shadow-[0px_10px_20px_rgba(0,0,0,0.15)] rounded-[10px] skew-right">
+                <div class="flex flex-wrap justify-between">
+                    <span class="font-lora text-[28px] leading-none text-secondary mb-[10px] block">03.</span>
+                    <img class="self-start mb-[-20px] md:mb-[0] lg:mb-[-20px]" src="assets/images/service-icon/key.png" alt="image" width="50" height="54" loading='lazy' />
+                </div>
+                <h3 class="font-lora text-base text-primary mb-[5px]">Property Handover</h3>
+                <p class="font-light text-[14px] max-w-[250px]">
+                    Your fully managed investment is ready, no effort required on your part.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Service sction end -->
+<!-- interior carousel Start -->
+<section class="pt-[80px] lg:pt-[120px] interior-carousel">
+    <div class="container">
+        <div class="grid grid-cols-12 items-center">
+            <div class="col-span-12 lg:col-span-4 pb-[30px] relative lg:pr-[30px] xl:pr-[45px] lg:mb-0 mb-12">
+                <span class="text-secondary text-tiny inline-block mb-2">Premium Features</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-3 font-medium">Elegant design & high-end finishing<span class="text-secondary">.</span></h2>
+                <p class="mb-10">A wide range of studio apartments available for purchase, resale, and rental. You also get exclusive deals and flexible payment plans.</p>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev w-[36px] h-[36px] rounded-full bg-primary text-white hover:bg-secondary top-auto bottom-0 left-0">
+                </div>
+                <div class="swiper-button-next w-[36px] h-[36px] rounded-full bg-primary text-white hover:bg-secondary top-auto bottom-0 left-[56px]">
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-8 rounded-[10px] overflow-hidden">
+                <div class="swiper">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+                            <img src="assets/images/StudioX/Premium-Features-1st-Image.png" alt="Modern studio apartment with elegant finishing" width="330" height="360">
+                        </div>
+
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+                            <img src="assets/images/StudioX/Premium-Features-2nd-Image.png" alt="Luxury studio interior with contemporary design" width="240" height="360">
+                        </div>
+
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+                            <img src="assets/images/StudioX/Premium-Features-3rd-Image.png" alt="High-end apartment living room with decor" width="147" height="360">
+                        </div>
+
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+
+                            <img src="assets/images/interior/slide2.png" alt="Luxury studio interior with contemporary design" width="240" height="360">
+                        </div>
+
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+                            <img src="assets/images/interior/slide1.png" alt="Modern studio apartment with elegant finishing" width="330" height="360">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- interior carousel end -->
+<!-- About section start -->
+<section class="pt-[80px] lg:pt-[120px]">
+    <div class="container">
+        <div class="grid grid-cols-12 mb-[-30px] items-center">
+            <div class="col-span-12 lg:col-span-6 mb-[30px]">
+                <div class="relative">
+                    <img src="assets/images/StudioX/Whats-Included.png" width="685" height="575" alt="Exterior view of luxury residential property">
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-6 xl:pl-[60px] mb-[30px]">
+                <span class="text-secondary text-tiny inline-block mb-2">What’s Included</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-3 font-medium">
+                    Exclusive Facilities & Modern Comforts<span class="text-secondary">.</span>
+                </h2>
+                <p>
+                    A selection of high-end residences for investment, offering exclusive benefits for buyers and renters.
+                </p>
+
+                <div>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-[40px] mt-[40px]" style="">
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>7 Studio Variations</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>5-Star Interiors</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Central Cooling</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>24/7 Surveillance</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>3-Level Parking</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>High-Speed Connectivity</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>10 Dining Options Nearby</span>
+                        </li>
+
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>6 Prestigious Schools</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>State-of-the-Art Gym</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Built-in Kitchen Appliances</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>5 Private Balconies</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Infinity Pool</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Seamless Wi-Fi Access</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+<img class="mr-[15px]" src="assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Advanced Security System</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- About section end -->
+<!--Floor Plan start -->
+<section class="Floor-plan pt-[80px] lg:pt-[120px]">
+    <div class="container">
+
+        <div class="grid gap-x-[30px]">
+            <div class="col-span-12 relative pb-[45px] text-center max-w-[480px] mx-auto">
+                <span class="text-secondary text-tiny inline-block mb-2">Layout Design</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-3 font-medium">
+
+                    Explore Our Exclusive Layouts<span class="text-secondary">.</span>
+                </h2>
+
+                <p>
+                    A variety of premium residences available for buying, renting, and investing. You’ll also find shared living spaces with numerous opportunities.
+                </p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-[30px] mb-[-30px]">
+            <div class="text-center">
+                <img src="assets/images/StudioX/Layout-Design-Image-1.png" width="370" height="484" alt="Ground floor plan layout">
+                <p>Ground floor</p>
+            </div>
+            <div class="text-center">
+                <img src="assets/images/StudioX/Layout-Design-Image-2.png" width="361" height="491" alt="Single flat layout design">
+                <p>Single flat</p>
+            </div>
+            <div class="text-center">
+                <img src="assets/images/StudioX/Layout-Design-Image-3.png" width="370" height="484" alt="First floor plan layout">
+                <p>1st Floor</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Floor Plan end -->
+<!-- Properties Grids Start-->
+
+<!-- Contact Us section start -->
+<section class="contact-us-section pb-[80px] lg:pb-[120px] pt-[80px] pb-[120px] lg:py-[120px]">
+    <div class="container">
+        <div class="grid grid-cols-12 gap-x-[30px] mb-[-30px] items-end">
+            <div class="col-span-12 lg:col-span-5 mb-[30px] text-center">
+                <div class="lg:mr-[20px] xl:mr-[120px]">
+                    <div class="relative rounded-[6px_6px_0px_0px]">
+                    @*     <div class="scene absolute top-[80px] right-[-70px] z-20" data-relative-input="true">
+                            <img data-depth="0.3" src="assets/images/about/star.png" width="85" height="64" loading="lazy" alt="Decorative star shape graphic">
+                        </div> *@
+                        <a href="#" class="block relative before:absolute before:content-[''] before:inset-x-0 before:bottom-0 before:w-full before:h-[calc(100%_-_60px)] before:z-[-1] before:rounded-[6px_6px_0px_0px]">
+                            <img src="assets/images/StudioX/Contact-section.png" class="w-auto h-auto block mx-auto" loading="lazy" alt="Albert S. Smith" width="301" height="474">
+                        </a>
+                    </div>
+
+                  
+
+
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-7 mb-[30px]">
+                <span class="text-secondary text-tiny capitalize inline-block mb-[15px]">Connect with Our Agent</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-[15px] font-medium">
+                    Get Personalized Assistance Today<span class="text-secondary">!</span>
+                </h2>
+
+                <p class="max-w-[460px]">
+                    Talk to a specialist for personalized investment insights, exclusive deals, and expert guidance on maximizing your returns.
+                </p>
+
+                <div class="mt-[50px]">
+                    <form action="#" class="grid grid-cols-12 gap-x-[20px] gap-y-[30px]">
+
+                        <div class="col-span-12 md:col-span-6">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="text" placeholder="First Name">
+                        </div>
+
+                        <div class="col-span-12 md:col-span-6">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="text" placeholder="Last Name">
+                        </div>
+
+                        <div class="col-span-12 md:col-span-6">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="text" placeholder="Phone number">
+                        </div>
+
+                        <div class="col-span-12 md:col-span-6">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="email" placeholder="Email Address">
+                        </div>
+
+                        <div class="col-span-12">
+                            <textarea class="h-[196px] font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] resize-none" name="textarea" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="col-span-12" style="border-radius:20px !important;">
+                            <button type="submit"  class="before:rounded-md before:block before:absolute before:left-auto before:right-0 before:inset-y-0 before:-z-[1] before:bg-secondary before:w-0 hover:before:w-full hover:before:left-0 hover:before:right-auto before:transition-all leading-none px-[30px] py-[15px] capitalize font-medium text-white block text-[14px] xl:text-[16px] relative after:block after:absolute after:inset-0 after:-z-[2] after:bg-primary after:rounded-md after:transition-all" style="background:#1FA7E1;">Contact us</button>
+                        </div>
+
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Us section End -->
+<!-- Blog Section Start  -->
+@* <section class="blog-section relative pb-[80px] lg:pb-[120px]">
+    <div class="container">
+        <div class="">
+            <div class="">
+                <div class="mb-[60px] text-center">
+                    <span class="text-secondary text-tiny inline-block mb-2">Our Blog</span>
+                    <h2 class="font-lora text-primary text-[24px] sm:text-[30px] xl:text-xl capitalize font-medium">
+                        Check our blog post's<span class="text-secondary">.</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-[30px] mb-[-30px]">
+                    <div class="mb-[30px]">
+                        <a href="blog-details.html" class="block overflow-hidden rounded-[6px] mb-[30px]">
+                            <img class="w-full h-full" src="assets/images/home/Popular-3.png" width="370" height="270" loading="lazy" alt="Real estate advice on market conditions from an expert agent">
+                        </a>
+                        <div>
+                            <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">James Alber on 22 December, 21</span>
+                            <h3><a href="blog-details.html" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">Tip’s about Real Estate Recent Conditions from Agent.</a></h3>
+                            <p class="font-light text-[#494949] text-[16px] leading-[1.75]">Properties are most budget friendly so you have are opportunity to find are the best the best...</p>
+                        </div>
+                    </div>
+                    <div class="mb-[30px]">
+                        <a href="blog-details.html" class="block overflow-hidden rounded-[6px] mb-[30px]">
+                            <img class="w-full h-full" src="assets/images/blog/post2.png" width="370" height="270" loading="lazy" alt="Modern real estate insights focusing on build quality">
+                        </a>
+                        <div>
+                            <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">Shohel Gyes on 21 December, 21</span>
+                            <h3><a href="blog-details.html" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">Importance of Build quality of modern Real Estate.</a></h3>
+                            <p class="font-light text-[#494949] text-[16px] leading-[1.75]">Properties are most budget friendly so you have are opportunity to find are the best the best...</p>
+                        </div>
+                    </div>
+                    <div class="mb-[30px]">
+                        <a href="blog-details.html" class="block overflow-hidden rounded-[6px] mb-[30px]">
+                            <img class="w-full h-full" src="assets/images/blog/post3.png" width="370" height="270" loading="lazy" alt="Construction standards and quality in today’s real estate">
+                        </a>
+                        <div>
+                            <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">Shohel Gyes on 21 December, 21</span>
+                            <h3><a href="blog-details.html" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">Importance of Build quality of modern Real Estate.</a></h3>
+                            <p class="font-light text-[#494949] text-[16px] leading-[1.75]">Properties are most budget friendly so you have are opportunity to find are the best the best...</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Section End  -->
+ *@<!-- News Letter section start -->@* 
+<section class="py-[80px] lg:p-[90px] bg-primary relative">
+    <div class="container">
+        <div class="grid grid-cols-1">
+            <div class="col-span">
+                <div class="flex flex-wrap items-center justify-between">
+                    <div class="w-full lg:w-auto">
+                        <h3 class="font-lora text-white text-[24px] sm:text-[30px] xl:text-[36px] leading-[1.277] mb-[10px]">Own a Property?</h3>
+                        <p class="text-secondary leading-[1.5] tracking-[0.03em] mb-10">Share your email and get it listed.</p>
+                        <form id="mc-form" action="#" class="relative w-full" >
+                            <input style="background:#283E7A;" id="mc-email" class="font-light text-white leading-[1.75] opacity-100 border border-secondary w-full lg:w-[395px] xl:w-[495px] h-[60px] rounded-[10px] py-[15px] pl-[15px] pr-[15px] sm:pr-[135px] focus:border-white focus:outline-none border-opacity-60 placeholder:text-[#E2E2E2] bg-transparent" type="text" placeholder="Enter your email here...">
+                            <button id="mc-submit" type="submit" class="text-white font-medium text-[16px] leading-none tracking-[0.02em] bg-secondary py-[17px] px-[20px] mt-5 sm:mt-0 rounded-[10px] hover:bg-white hover:text-primary transition-all sm:absolute sm:right-[4px] sm:top-1/2 sm:-translate-y-1/2">Get Listed</button>
+                        </form>
+                        <!-- mailchimp-alerts Start -->
+                        <div class="mailchimp-alerts text-centre">
+                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                            <div class="mailchimp-success text-green-400"></div><!-- mailchimp-success end -->
+                            <div class="mailchimp-error text-red-600"></div><!-- mailchimp-error end -->
+                        </div>
+                        <!-- mailchimp-alerts end -->
+                    </div>
+                    <div class="w-full hidden lg:block lg:w-auto mt-5 lg:mt-0">
+                        <div class="relative mt-10 md:mt-0 lg:absolute lg:right-0 lg:bottom-0">
+                            <img class="hero_image lg:max-w-[550px] xl:max-w-[650px] 2xl:max-w-[714px]" src="assets/images/newsletter/bg-1.png" width="866" height="879" alt="Newsletter sign-up illustration for property listings">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section> *@
+<!-- News Letter section End -->

@@ -1,0 +1,1537 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EliteRealEstate.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EliteRealEstate.uhlaej2mtk.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\OFL.txt",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\OFL.txt"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\Poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\Poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\nexa\\Nexa-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\nexa\\Nexa-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\nexa\\Nexa-Heavy.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\nexa\\Nexa-Heavy.ttf"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\plugins\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\plugins\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\nice-select.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\plugins\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Budget-Friendly.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Budget-Friendly.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Contract-signing.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Contract-signing.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Exclusive-launches.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Exclusive-launches.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Future-ready-investment.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Future-ready-investment.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Handover.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Handover.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Hero.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Hero.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Logo-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Logo-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Logo-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Logo-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Logo-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Logo-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Logo-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Logo-4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Logo-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Logo-5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Logo-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Logo-6.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Logo-7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Logo-7.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Logo-8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Logo-8.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Logo-9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Logo-9.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Luxurious-Interior-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Luxurious-Interior-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Luxurious-Interior-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Luxurious-Interior-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Luxurious-Interior-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Luxurious-Interior-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Off-plan.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Off-plan.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Prime-Location.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Prime-Location.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Project-Insights.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Project-Insights.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Schedule-visit.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Schedule-visit.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Trusted.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Trusted.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\OffPlan\\Why-choose-us.png",
+      "PackagePath": "staticwebassets\\assets\\images\\OffPlan\\Why-choose-us.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Rental\\Hero.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Rental\\Hero.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Rental\\Long-Term.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Rental\\Long-Term.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Rental\\Luxury.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Rental\\Luxury.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Rental\\Short-term.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Rental\\Short-term.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Rental\\Smart-rentals-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Rental\\Smart-rentals-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Rental\\Smart-rentals-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Rental\\Smart-rentals-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Rental\\Smart-rentals-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Rental\\Smart-rentals-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Rental\\Why-choose-us.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Rental\\Why-choose-us.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Secondary\\Hero.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Secondary\\Hero.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Secondary\\Prime-location-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Secondary\\Prime-location-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Secondary\\Prime-location-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Secondary\\Prime-location-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Secondary\\Prime-location-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Secondary\\Prime-location-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Secondary\\Property-selection.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Secondary\\Property-selection.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Secondary\\Quick-handover.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Secondary\\Quick-handover.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Secondary\\Smooth-transaction.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Secondary\\Smooth-transaction.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\Secondary\\Why-Choose-Us.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Secondary\\Why-Choose-Us.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\ABout-Us-Hero.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\ABout-Us-Hero.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\About-2nd-Image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\About-2nd-Image.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\Core-Value.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\Core-Value.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\Mission.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\Mission.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\Vision.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\Vision.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\about1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\about3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\about5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\about7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about7.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\check.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\check.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\dot-with-line.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\dot-with-line.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\star.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\star.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-details\\Frame.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-details\\Frame.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-details\\post1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-details\\post1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-details\\post2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-details\\post2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\Vector.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\Vector.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\post1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\post1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\post2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\post2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\post3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\post3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\post4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\post4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\post5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\post5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\post6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\post6.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\post7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\post7.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\post8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\post8.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog-post\\post9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-post\\post9.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog\\post1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog\\post2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\blog\\post3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brand\\brand1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brand\\brand2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brand\\brand3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brand\\brand4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brand\\brand5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand-lg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand-lg.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand6.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand7.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand8.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\brands\\brand9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\brands\\brand9.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\breadcrumb\\bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\breadcrumb\\bg-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\cities\\cities1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cities\\cities1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\cities\\cities2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cities\\cities2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\cities\\cities3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cities\\cities3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\cities\\cities4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cities\\cities4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\cities\\image1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cities\\image1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\cities\\image2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cities\\image2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\cities\\image3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cities\\image3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\cities\\image4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cities\\image4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\commentor\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\commentor\\01.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\commentor\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\commentor\\02.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\commentor\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\commentor\\03.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\contact\\Contact-Us.png",
+      "PackagePath": "staticwebassets\\assets\\images\\contact\\Contact-Us.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\contact\\image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\contact\\image.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\contact\\image2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\contact\\image2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\floor-plan\\floor1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\floor-plan\\floor1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\floor-plan\\floor2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\floor-plan\\floor2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\floor-plan\\floor3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\floor-plan\\floor3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\footer\\pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\footer\\pattern.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\01.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\02.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\03.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\04.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\05.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\06.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\large\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\large\\01.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\large\\02.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\large\\02.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\large\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\large\\03.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\large\\04.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\large\\04.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\large\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\large\\05.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\gallery\\large\\06.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\large\\06.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\cogs.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\cogs.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\hernan-lucio.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\hernan-lucio.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\hero.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\hero.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\home-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\home-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\home-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\home-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\home-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\home-3.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\home-6.1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\home-6.1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\home-6.2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\home-6.2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\home-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\home-6.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\shape1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\shape1.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\shape2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\shape2.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\shape3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\shape3.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\shape4.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\shape4.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\hero\\star.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\star.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Agent-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Agent-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Agent-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Agent-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Agent-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Agent-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Are-you-a-home-owner.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Are-you-a-home-owner.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Blog-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Blog-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Blog-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Blog-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Blog-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Blog-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Client-review-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Client-review-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Client-review.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Client-review.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Dot-Dot.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Dot-Dot.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Featured-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Featured-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Featured-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Featured-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Featured-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Featured-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Featured-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Featured-4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Featured-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Featured-5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Featured-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Featured-6.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Fev-Icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Fev-Icon.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Frame.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Frame.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Hero.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Hero.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Mask group.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Mask group.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Nav-Bar-Logo-clr.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Nav-Bar-Logo-clr.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Nav-Bar-Logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Nav-Bar-Logo.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Personalized-consultancy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Personalized-consultancy.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Popular-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Popular-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Popular-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Popular-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Popular-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Popular-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Popular-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Popular-4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Popular-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Popular-5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Risk-Free-Transaction.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Risk-Free-Transaction.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Strategic-investment.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Strategic-investment.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Vertical-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Vertical-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Vertical-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Vertical-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Vertical-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Vertical-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Vertical-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Vertical-4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Vertical-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Vertical-5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Vertical-6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Vertical-6.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Vertical-7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Vertical-7.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Vertical-8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Vertical-8.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Video-Image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Video-Image.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Video-section-Arrow.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Video-section-Arrow.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\Why-choose-us.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Why-choose-us.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\home\\indian-village-house-surrounded-by-green-grass-beatiful-cloudy-blue-sky-village-landscape 1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\indian-village-house-surrounded-by-green-grass-beatiful-cloudy-blue-sky-village-landscape 1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\area.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\area.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\bathroom.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\bathroom.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\bed.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\bed.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\camera.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\camera.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\dollar-circle.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\dollar-circle.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\doller.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\doller.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\garage.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\garage.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\healthcare.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\healthcare.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\home.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\home.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\kitchen.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\kitchen.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\location.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\location.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\location.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\location.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\mail.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\mail.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\map-marker.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\map-marker.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\map.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\map.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\medihealth.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\medihealth.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\medist.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\medist.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\phone.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\phone.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\property.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\property.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\quote.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\quote.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\search-outline.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\search-outline.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\sidebar-location.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\sidebar-location.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\star.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\star.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\trusted.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\trusted.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\video.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\video.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\interior\\slide1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\interior\\slide1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\interior\\slide2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\interior\\slide2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\interior\\slide3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\interior\\slide3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\latest-properties\\properties1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\latest-properties\\properties1.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\latest-properties\\properties2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\latest-properties\\properties2.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\latest-properties\\properties3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\latest-properties\\properties3.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\latest-properties\\properties4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\latest-properties\\properties4.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\latest-properties\\properties5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\latest-properties\\properties5.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\logo\\logo-white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-white.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\logo\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo.svg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\mega-menu\\image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\image.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\newsletter\\bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\newsletter\\bg-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-details\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-details\\01.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-details\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-details\\03.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-details\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-details\\05.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-details\\07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-details\\07.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-details\\gallery\\01.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-details\\gallery\\01.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-details\\gallery\\03.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-details\\gallery\\03.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-details\\gallery\\05.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-details\\gallery\\05.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-details\\gallery\\07.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-details\\gallery\\07.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-details\\post1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-details\\post1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-grids\\properties1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-grids\\properties1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-grids\\properties2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-grids\\properties2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-grids\\properties3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-grids\\properties3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-grids\\properties4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-grids\\properties4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-grids\\properties5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-grids\\properties5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties-grids\\properties6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties-grids\\properties6.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\propertie-slider-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\propertie-slider-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\propertie-slider-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\propertie-slider-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties-sm-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties-sm-1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties-sm-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties-sm-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties1.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties2.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties3.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties4.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties5.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties6.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties7.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties8.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\properties\\properties9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\properties\\properties9.jpg"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\service-icon\\chart.png",
+      "PackagePath": "staticwebassets\\assets\\images\\service-icon\\chart.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\service-icon\\key.png",
+      "PackagePath": "staticwebassets\\assets\\images\\service-icon\\key.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\service-icon\\note.png",
+      "PackagePath": "staticwebassets\\assets\\images\\service-icon\\note.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\service\\service1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\service\\service2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\service\\service3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\service\\service4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\fleming.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\fleming.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person10.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person11.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person12.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person13.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person5.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person6.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person7.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person8.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\team\\person9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\person9.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\dots.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\dots.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\pattern.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\person1.2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\person1.2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\person1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\person1.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\person2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\person2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\person3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\person3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\person4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\person4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\persone-pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\persone-pattern.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\shape-three.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\shape-three.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\shape-two.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\shape-two.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\shape.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\user\\avater.png",
+      "PackagePath": "staticwebassets\\assets\\images\\user\\avater.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\video\\shape-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\shape-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\video\\shape-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\shape-3.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\video\\shape-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\shape-4.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\video\\shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\shape.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\video\\star.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\star.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\video\\video-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-2.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\video\\video.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\jquery.waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.waypoints.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\map-place.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\map-place.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\mapplace.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\mapplace.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\parallax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\parallax.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\popper.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\plugins\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\vendor\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\vendor\\jquery-migrate-3.3.2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-migrate-3.3.2.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\js\\vendor\\modernizr-3.11.7.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.11.7.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EliteRealEstate.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EliteRealEstate.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EliteRealEstate.props",
+      "PackagePath": "build\\EliteRealEstate.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EliteRealEstate.props",
+      "PackagePath": "buildMultiTargeting\\EliteRealEstate.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EliteRealEstate.props",
+      "PackagePath": "buildTransitive\\EliteRealEstate.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
