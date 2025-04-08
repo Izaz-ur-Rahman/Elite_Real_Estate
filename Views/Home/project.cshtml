@@ -1,7 +1,66 @@
-﻿@section Title {
+﻿@{
+    Layout = null;
+}
+
+
+
+@section Title {
     <title>Studio Apartment for Sale in UAE | 10% ROI | No Maintenance Fees</title>
     <meta name="description" content="Own a studio with 10% guaranteed ROI in the UAE – no service or maintenance fees. Limited-time investment offer with full personal guidance from a trusted real estate consultant." />
 }
+<meta http-equiv="x-ua-compatible" content="ie=edge" /> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title Tag -->
+  
+
+    <!-- Meta Description -->
+    <meta name="description" content="Sky Elite Real Estate provides expert consulting and investment opportunities in the real estate sector. Discover off-plan, secondary, and rental properties tailored to your financial goals.">
+
+    <!-- Open Graph Meta Title (For Social Media) -->
+    <meta property="og:title" content="Sky Elite Real Estate | Expert Consulting for Property Investments">
+
+    <!-- Open Graph Meta Description (For Social Media) -->
+    <meta property="og:description" content="Sky Elite Real Estate provides expert consulting and investment opportunities in the real estate sector. Discover off-plan, secondary, and rental properties tailored to your financial goals.">
+
+    <meta name="AdsBot-Google" content="noindex follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+
+    <!-- Favicon -->
+    <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
+    <!-- Font CSS -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=karla:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+    <!-- favicon -->
+
+    <link rel="icon" type="image/x-icon" href="~/assets/images/home/Fev-Icon.png">
+
+    <!-- fav icon -->
+    <!-- Plugins CSS (All Plugins Files) -->
+
+    <link rel="stylesheet" href="~/assets/css/plugins/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="~/assets/css/plugins/magnific-popup.css" />
+
+    <link rel="stylesheet" href="~/assets/css/plugins/nice-select.css" />
+
+
+    <!-- Style CSS -->
+
+    <link rel="stylesheet" href="~/assets/css/style.css" />
+
+
+
 
 <style>
     .custom-cta-btn {
@@ -41,7 +100,148 @@
             color: black;
         }
 
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background: linear-gradient(135deg, #111 0%, #000 100%);
+        color: white;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .logo img {
+        height: 40px;
+        object-fit: contain;
+        transition: height 0.3s ease;
+    }
+
+    .header-right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .phone {
+        font-weight: bold;
+        white-space: nowrap;
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        background-color: #1FA7E1;
+        color: white;
+        padding: 0.6rem 1.2rem;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+
+        .cta-button:hover {
+            background-color: #1998cc;
+        }
+
+    /* Hide button & resize logo on small screens */
+    @@media (max-width: 600px) {
+        .cta-button{
+        display: none;
+    }
+
+    .logo img {
+        height: 28px;
+    }
+
+    .phone {
+        font-size: 0.95rem;
+    }
+
+    header {
+        padding: 0.8rem 1rem;
+    }
+
+    }
+
+    /* .cta-section {
+        text-align: center;
+        padding: 4rem 2rem;
+        background: linear-gradient(135deg, #111 0%, #000 100%);
+    }
+
+        .cta-section h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section .cta-button {
+            background-color: #1FA7E1;
+            color: white;
+            padding: 0.8rem 1.8rem;
+            border: none;
+            border-radius:10px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .cta-section .cta-button:hover {
+                background-color: #1FA7E1;
+            }
+ */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1.5rem 2rem;
+        background-color: #000;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-logo img {
+        height: 32px;
+        object-fit: contain;
+    }
+
+    .footer-copy {
+        color: #9ca3af;
+        font-size: 0.9rem;
+        text-align: right;
+    }
+
+    @@media (max-width: 600px) {
+        footer{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        text-align: left;
+    }
+
+    .footer-copy {
+        text-align: left;
+    }
+
+    }
 </style>
+<header>
+    <div class="logo">
+        <img src="~/assets/images/home/Nav-Bar-Logo.png" alt="Logo" />
+    </div>
+    <div class="header-right">
+        <a href="tel:+9710000000000" class="phone">+971 0000000000</a>
+        <a href="/contact-us" class="cta-button">Get Started Free</a>
+    </div>
+</header>
+
 <section class="hero-section bg-white">
     <div class="bg-no-repeat bg-left-bottom z-[1] relative before:absolute before:w-full before:h-full before:inset-0 before:content-[''] before:bg-[#000000] before:opacity-[50%] before:z-[-1] py-[80px] lg:py-[125px] min-h-screen"
          style="background-image: url('assets/images/StudioX/Hero-Image.png'); background-size: cover; background-position: center;">
@@ -69,10 +269,20 @@
                             [With 10% Net ROI for 10 Years]
                         </span>
 
-                        <ul class="flex gap-6 list-disc pl-6 text-white text-base font-light mb-[60px]">
-                            <li>No Service Charges</li>
-                            <li>No Maintenance Fee</li>
+                        <ul class="flex flex-col sm:flex-row gap-6 pl-0 text-base font-semibold mb-[60px]">
+                            <li class="relative bg-gradient-to-r from-[#FF6A00] to-[#FF3E3E] text-white px-8 py-4 rounded-xl shadow-lg  hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-l from-[#FF3E3E] to-[#FF6A00] transform transition-all duration-300 ease-out hover:rotate-3deg">
+                                <span class="absolute inset-0 bg-gradient-to-r from-[#FF3E3E] to-[#FF6A00] opacity-40 rounded-xl blur-sm z-[-1]"></span>
+                                <span class="text-[25px] relative z-[1]">✅ <b>No Service Charges</b></span>
+                            </li>
+                            <li class="relative bg-gradient-to-r from-[#FF6A00] to-[#FF3E3E] text-white px-8 py-4 rounded-xl shadow-lg  hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-l from-[#FF3E3E] to-[#FF6A00] transform transition-all duration-300 ease-out hover:rotate-3deg">
+                                <span class="absolute inset-0 bg-gradient-to-r from-[#FF3E3E] to-[#FF6A00] opacity-40 rounded-xl blur-sm z-[-1]"></span>
+                                <span class="text-[25px] relative z-[1]">✅ <b>No Maintenance Fee</b></span>
+                            </li>
                         </ul>
+
+
+
+
 
 
                     </div>
@@ -458,6 +668,26 @@
     </div>
 </section>
 <!-- Contact Us section End -->
+<!-- Call-to-action Section -->
+@* <div class="cta-section">
+    <h1>You're wasting money on marketing. Find out where.</h1>
+    <button class="cta-button">Get Started Free</button>
+</div>
+ *@
+<!-- Footer -->
+<footer>
+    <div class="footer-logo">
+        <img src="~/assets/images/home/Nav-Bar-Logo.png" alt="Real Estate Logo" />
+    </div>
+    <div class="footer-copy">
+        Copyright © <span id="current-year"></span> Elite RealEstate, Inc. All rights reserved.
+    </div>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</footer>
+
 <!-- Blog Section Start  -->
 @* <section class="blog-section relative pb-[80px] lg:pb-[120px]">
     <div class="container">
@@ -542,3 +772,18 @@
     </div>
 </section> *@
 <!-- News Letter section End -->
+<!-- pop up script end -->
+<!-- JS Vendor, Plugins & Activation Script Files -->
+<!-- Vendors JS -->
+<script src="~/assets/js/vendor/modernizr-3.11.7.min.js"></script>
+<script src="~/assets/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="~/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<!-- Plugins JS -->
+<script src="~/assets/js/plugins/swiper-bundle.min.js"></script>
+<script src="~/assets/js/plugins/popper.min.js"></script>
+<script src="~/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="~/assets/js/plugins/jquery.ajaxchimp.min.js"></script>
+<script src="~/assets/js/plugins/parallax.min.js"></script>
+<script src="~/assets/js/plugins/jquery.nice-select.min.js"></script>
+<!-- Activation JS -->
+<script src="~/assets/js/main.js"></script>

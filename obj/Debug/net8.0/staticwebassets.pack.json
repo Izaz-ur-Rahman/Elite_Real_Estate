@@ -273,6 +273,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\StudioX.rar"
     },
     {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\StudioX\\Contact-section.png",
+      "PackagePath": "staticwebassets\\assets\\images\\StudioX\\Contact-section.png"
+    },
+    {
       "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\StudioX\\Hero-Image.png",
       "PackagePath": "staticwebassets\\assets\\images\\StudioX\\Hero-Image.png"
     },
@@ -1223,6 +1227,22 @@
     {
       "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\testimonial\\shape.png",
       "PackagePath": "staticwebassets\\assets\\images\\testimonial\\shape.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_icons\\Check-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\updated_icons\\Check-icon.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_icons\\High-returns.png",
+      "PackagePath": "staticwebassets\\assets\\images\\updated_icons\\High-returns.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_icons\\Reliable-Investment.png",
+      "PackagePath": "staticwebassets\\assets\\images\\updated_icons\\Reliable-Investment.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_icons\\Strategic-location.png",
+      "PackagePath": "staticwebassets\\assets\\images\\updated_icons\\Strategic-location.png"
     },
     {
       "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\user\\avater.png",
