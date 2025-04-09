@@ -308,6 +308,11 @@ wwwroot\assets\images\updated_icons\Check-icon.png
 wwwroot\assets\images\updated_icons\High-returns.png
 wwwroot\assets\images\updated_icons\Reliable-Investment.png
 wwwroot\assets\images\updated_icons\Strategic-location.png
+wwwroot\assets\images\updated_logo\dugasta_logo.png
+wwwroot\assets\images\updated_logo\dugasta_logo1.png
+wwwroot\assets\images\updated_logo\Main-logo.svg
+wwwroot\assets\images\updated_logo\Main-logo_u.svg
+wwwroot\assets\images\updated_logo\Main-logo0.png
 wwwroot\assets\images\user\avater.png
 wwwroot\assets\images\video\shape.png
 wwwroot\assets\images\video\shape-2.png

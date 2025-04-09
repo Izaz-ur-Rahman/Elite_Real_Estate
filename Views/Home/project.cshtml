@@ -313,34 +313,41 @@
                  @*    <div class="inline-block hero_btn" style="border-radius:10px !important;">
                         <a style="background:#1FA7E1;border-radius:10px;" href="#" class="before:rounded-md before:block before:absolute before:left-auto before:right-0 before:inset-y-0 before:-z-[1] before:bg-white before:w-0  before:transition-all leading-none px-[20px] py-[15px] capitalize font-medium text-white text-[14px] xl:text-[16px] relative after:block after:absolute after:inset-0 after:-z-[2] after:bg-secondary after:rounded-md after:transition-all block" onclick="openPopup1()">Get Expert Advice</a>
                     </div> *@
-                    <div class="inline-block text-center">
-                        <!-- CTA Button -->
+                    <!-- Wrapper -->
+                    <div>
+                        <!-- Static Button -->
                         <div class="hero_btn">
                             <a href="#" class="custom-cta-btn" onclick="openPopup('project')">Get Expert Advice</a>
                         </div>
 
                         <!-- Animated Tagline BELOW the button -->
-                        <div class="animated-tagline mt-4">
-                            <span id="typewriter" class="shine-text">
-                                <!-- Typed text will appear here -->
-                            </span>
+                        <div class="animated-tagline-wrapper">
+                            <div class="animated-tagline mt-4">
+                                <span id="typewriter" class="shine-text"></span>
+                            </div>
                         </div>
                     </div>
 
                     <style>
+                        .animated-tagline-wrapper {
+                            display: flex;
+                            justify-content: flex-start;
+                            margin-top: 1rem;
+                        }
+
                         .animated-tagline {
                             font-size: 18px;
                             font-weight: 600;
-                            color: #1FA7E1;
+                            color:white;
                             opacity: 0;
                             animation: fadeSlideIn 1.2s ease-out forwards;
                             animation-delay: 0.5s;
                             position: relative;
-                            display: inline-block;
-                            overflow: hidden;
-                            min-height: 28px;
-                            margin-top: 1rem;
+                            min-height: 36px; /* Increased from 28px */
+                            overflow: visible; /* Important fix */
+                            line-height: 1.6; /* Extra spacing for bounce */
                         }
+
 
                         .shine-text {
                             display: inline-block;
@@ -349,9 +356,7 @@
                         }
 
                         .highlight {
-                            color: #ED8936;
-                            font-weight: bold;
-                            text-shadow: 0 0 8px rgba(237, 137, 54, 0.7);
+                          
                         }
 
                         .shine-text::before {
@@ -360,7 +365,7 @@
                             top: 0;
                             left: -75%;
                             height: 100%;
-                            width: 50%;
+                            width: 70%;
                             background: linear-gradient( 120deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 100% );
                             transform: skewX(-20deg);
                             animation: shine 2.5s infinite ease-in-out;
@@ -410,17 +415,24 @@
                     </style>
 
                     <script>
-                        const text = "Scroll Less, Move Fast – <span class='highlight'>Claim It First</span>";
+                        const rawText = "Scroll Less, Move Fast – Claim It First";
+                        const highlightStart = 29; // index of "Claim It First"
                         const target = document.getElementById("typewriter");
 
                         let index = 0;
                         function typeWriter() {
-                          if (index < text.length) {
-                            target.innerHTML += text.charAt(index);
+                          if (index < rawText.length) {
+                            const currentChar = document.createTextNode(rawText.charAt(index));
+                            target.appendChild(currentChar);
                             index++;
                             setTimeout(typeWriter, 40);
                           } else {
-                            target.innerHTML = text; // Fix span tags at end
+                            // Wrap the highlight portion after typing is done
+                            const fullText = target.textContent;
+                            const before = fullText.substring(0, highlightStart);
+                            const highlight = fullText.substring(highlightStart);
+
+                            target.innerHTML = `${before}<span class="highlight">${highlight}</span>`;
                           }
                         }
 
