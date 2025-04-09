@@ -237,7 +237,7 @@
         <img src="~/assets/images/home/Nav-Bar-Logo.png" alt="Logo" />
     </div>
     <div class="header-right">
-        <a href="tel:+9710000000000" class="phone">+971 0000000000</a>
+        <a href="tel:+971 58 827 3634" class="phone">+971 58 827 3634</a>
         <a href="/contact-us" class="cta-button">Get Started Free</a>
     </div>
 </header>
@@ -251,7 +251,7 @@
                     <div class="slider-content">
                         <!-- Subtitle -->
                         <div class="relative mb-5 sub_title">
-                            <span class="text-base text-white block">Smart Investment</span>
+                            <span class="text-base text-white block">Smart and Secure Real Estate Investment</span>
                         </div>
 
                         <!-- Title -->
@@ -308,13 +308,128 @@
                             <span>Cover Parking</span>
                         </li>
                     </ul>
+                    
                     <!-- CTA Button -->
                  @*    <div class="inline-block hero_btn" style="border-radius:10px !important;">
                         <a style="background:#1FA7E1;border-radius:10px;" href="#" class="before:rounded-md before:block before:absolute before:left-auto before:right-0 before:inset-y-0 before:-z-[1] before:bg-white before:w-0  before:transition-all leading-none px-[20px] py-[15px] capitalize font-medium text-white text-[14px] xl:text-[16px] relative after:block after:absolute after:inset-0 after:-z-[2] after:bg-secondary after:rounded-md after:transition-all block" onclick="openPopup1()">Get Expert Advice</a>
                     </div> *@
-                    <div class="inline-block hero_btn">
-                        <a href="#" class="custom-cta-btn" onclick="openPopup('project')">Get Expert Advice</a>
+                    <div class="inline-block text-center">
+                        <!-- CTA Button -->
+                        <div class="hero_btn">
+                            <a href="#" class="custom-cta-btn" onclick="openPopup('project')">Get Expert Advice</a>
+                        </div>
+
+                        <!-- Animated Tagline BELOW the button -->
+                        <div class="animated-tagline mt-4">
+                            <span id="typewriter" class="shine-text">
+                                <!-- Typed text will appear here -->
+                            </span>
+                        </div>
                     </div>
+
+                    <style>
+                        .animated-tagline {
+                            font-size: 18px;
+                            font-weight: 600;
+                            color: #1FA7E1;
+                            opacity: 0;
+                            animation: fadeSlideIn 1.2s ease-out forwards;
+                            animation-delay: 0.5s;
+                            position: relative;
+                            display: inline-block;
+                            overflow: hidden;
+                            min-height: 28px;
+                            margin-top: 1rem;
+                        }
+
+                        .shine-text {
+                            display: inline-block;
+                            position: relative;
+                            animation: pulseBounce 2s infinite ease-in-out;
+                        }
+
+                        .highlight {
+                            color: #ED8936;
+                            font-weight: bold;
+                            text-shadow: 0 0 8px rgba(237, 137, 54, 0.7);
+                        }
+
+                        .shine-text::before {
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: -75%;
+                            height: 100%;
+                            width: 50%;
+                            background: linear-gradient( 120deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 100% );
+                            transform: skewX(-20deg);
+                            animation: shine 2.5s infinite ease-in-out;
+                            z-index: 1;
+                        }
+
+                        @@keyframes fadeSlideIn {
+                            0%
+
+                        {
+                            opacity: 0;
+                            transform: translateY(15px);
+                        }
+
+                        100% {
+                            opacity: 1;
+                            transform: translateY(0);
+                        }
+
+                        }
+
+                        @@keyframes pulseBounce {
+                            0%, 100%
+
+                        {
+                            transform: scale(1);
+                        }
+
+                        50% {
+                            transform: scale(1.05) translateY(-4px);
+                        }
+
+                        }
+
+                        @@keyframes shine {
+                            0%
+
+                        {
+                            left: -75%;
+                        }
+
+                        100% {
+                            left: 125%;
+                        }
+
+                        }
+                    </style>
+
+                    <script>
+                        const text = "Scroll Less, Move Fast – <span class='highlight'>Claim It First</span>";
+                        const target = document.getElementById("typewriter");
+
+                        let index = 0;
+                        function typeWriter() {
+                          if (index < text.length) {
+                            target.innerHTML += text.charAt(index);
+                            index++;
+                            setTimeout(typeWriter, 40);
+                          } else {
+                            target.innerHTML = text; // Fix span tags at end
+                          }
+                        }
+
+                        window.addEventListener("DOMContentLoaded", () => {
+                          setTimeout(typeWriter, 700);
+                        });
+                    </script>
+
+
                 </div>
             </div>
         </div>
@@ -602,71 +717,66 @@
 <!-- Properties Grids Start-->
 
 <!-- Contact Us section start -->
-<section class="contact-us-section pb-[80px] lg:pb-[120px] pt-[80px] pb-[120px] lg:py-[120px]">
+<section class="contact-us-section pb-[80px] lg:pb-[120px] pt-[80px] lg:pt-[120px]">
     <div class="container">
-        <div class="grid grid-cols-12 gap-x-[30px] mb-[-30px] items-end">
-            <div class="col-span-12 lg:col-span-5 mb-[30px] text-center">
-                <div class="lg:mr-[20px] xl:mr-[120px]">
-                    <div class="relative rounded-[6px_6px_0px_0px]">
-                    @*     <div class="scene absolute top-[80px] right-[-70px] z-20" data-relative-input="true">
-                            <img data-depth="0.3" src="assets/images/about/star.png" width="85" height="64" loading="lazy" alt="Decorative star shape graphic">
-                        </div> *@
-                        <a href="#" class="block relative before:absolute before:content-[''] before:inset-x-0 before:bottom-0 before:w-full before:h-[calc(100%_-_60px)] before:z-[-1] before:rounded-[6px_6px_0px_0px]">
-                            <img src="assets/images/StudioX/Contact-section.png" class="w-auto h-auto block mx-auto" loading="lazy" alt="Albert S. Smith" width="301" height="474">
-                        </a>
-                    </div>
+        <div class="flex flex-col lg:flex-row gap-[30px] items-end">
 
-                  
-
-
+            <!-- Image Section -->
+            <div class="w-full lg:w-[40%] text-center">
+                <div class="relative rounded-t-[6px] max-w-[400px] mx-auto">
+                    <a href="#" class="relative block before:absolute before:inset-x-0 before:bottom-0 before:w-full before:h-[calc(100%_-_60px)] before:z-[-1] before:rounded-t-[6px]">
+                        <img src="assets/images/StudioX/Contact-section.png" class="w-full h-auto mx-auto" loading="lazy" alt="Albert S. Smith" width="301" height="474">
+                    </a>
                 </div>
             </div>
-            <div class="col-span-12 lg:col-span-7 mb-[30px]">
+
+            <!-- Form Section -->
+            <div class="w-full lg:w-[60%]">
                 <span class="text-secondary text-tiny capitalize inline-block mb-[15px]">Connect with Our Agent</span>
                 <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-[15px] font-medium">
-                    Get Personalized Assistance Today<span class="text-secondary">!</span>
+                    Found It? Move Fast: Let’s Talk Before It’s Taken<span class="text-secondary">!</span>
                 </h2>
-
                 <p class="max-w-[460px]">
-                    Talk to a specialist for personalized investment insights, exclusive deals, and expert guidance on maximizing your returns.
+                    Opportunities like this don’t wait — neither should you.Schedule a chat with our property pro – tell us what you need
                 </p>
 
-                <div class="mt-[50px]">
+                <div class="mt-[40px]">
                     <form action="#" class="grid grid-cols-12 gap-x-[20px] gap-y-[30px]">
 
-                        <div class="col-span-12 md:col-span-6">
-                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="text" placeholder="First Name">
-                        </div>
-
-                        <div class="col-span-12 md:col-span-6">
-                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="text" placeholder="Last Name">
-                        </div>
-
-                        <div class="col-span-12 md:col-span-6">
-                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="text" placeholder="Phone number">
-                        </div>
-
-                        <div class="col-span-12 md:col-span-6">
-                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="email" placeholder="Email Address">
-                        </div>
-
+                        <!-- Full Name -->
                         <div class="col-span-12">
-                            <textarea class="h-[196px] font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] resize-none" name="textarea" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[10px] p-[15px] focus:border-secondary focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] transition-all duration-200 ease-in-out" type="text" placeholder="Full Name">
                         </div>
 
-                        <div class="col-span-12" style="border-radius:20px !important;">
-                            <button type="submit"  class="before:rounded-md before:block before:absolute before:left-auto before:right-0 before:inset-y-0 before:-z-[1] before:bg-secondary before:w-0 hover:before:w-full hover:before:left-0 hover:before:right-auto before:transition-all leading-none px-[30px] py-[15px] capitalize font-medium text-white block text-[14px] xl:text-[16px] relative after:block after:absolute after:inset-0 after:-z-[2] after:bg-primary after:rounded-md after:transition-all" style="background:#1FA7E1;">Contact us</button>
+                        <!-- Phone -->
+                        <div class="col-span-12 md:col-span-6">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[10px] p-[15px] focus:border-secondary focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] transition-all duration-200 ease-in-out" type="text" placeholder="Phone Number">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="col-span-12 md:col-span-6">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[10px] p-[15px] focus:border-secondary focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] transition-all duration-200 ease-in-out" type="email" placeholder="Email Address">
+                        </div>
+
+                        <!-- Message -->
+                        <div class="col-span-12">
+                            <textarea class="h-[196px] font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[10px] p-[15px] focus:border-secondary focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] resize-none transition-all duration-200 ease-in-out" name="textarea" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+
+                        <!-- Button -->
+                        <div class="col-span-12">
+                            <button type="submit" class="relative overflow-hidden text-white font-medium text-[14px] xl:text-[16px] px-[30px] py-[15px] rounded-md bg-primary hover:bg-secondary transition-all duration-300 ease-in-out">
+                                Contact Us
+                            </button>
                         </div>
 
                     </form>
-
-
-
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <!-- Contact Us section End -->
 <!-- Call-to-action Section -->
 @* <div class="cta-section">
