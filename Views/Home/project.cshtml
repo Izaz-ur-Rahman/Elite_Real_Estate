@@ -169,34 +169,7 @@
 
     }
 
-    /* .cta-section {
-        text-align: center;
-        padding: 4rem 2rem;
-        background: linear-gradient(135deg, #111 0%, #000 100%);
-    }
-
-        .cta-section h1 {
-            font-size: 2rem;
-            font-weight: 500;
-            margin-bottom: 1.5rem;
-        }
-
-        .cta-section .cta-button {
-            background-color: #1FA7E1;
-            color: white;
-            padding: 0.8rem 1.8rem;
-            border: none;
-            border-radius:10px;
-            font-size: 1rem;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-            .cta-section .cta-button:hover {
-                background-color: #1FA7E1;
-            }
- */
+   
     footer {
         display: flex;
         justify-content: space-between;
@@ -230,6 +203,80 @@
         text-align: left;
     }
 
+    }
+
+    .animated-tagline-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+
+    .animated-tagline {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        opacity: 0;
+        animation: fadeSlideIn 1.2s ease-out forwards;
+        animation-delay: 0.5s;
+        position: relative;
+        min-height: 36px; /* Increased from 28px */
+        overflow: visible; /* Important fix */
+        line-height: 1.6; /* Extra spacing for bounce */
+    }
+
+
+    .shine-text {
+        display: inline-block;
+        position: relative;
+        animation: pulseBounce 2s infinite ease-in-out;
+    }
+
+    .highlight {
+    }
+
+    .shine-text::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -75%;
+        height: 100%;
+        width: 70%;
+        background: linear-gradient( 120deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 100% );
+        transform: skewX(-20deg);
+        animation: shine 2.5s infinite ease-in-out;
+        z-index: 1;
+    }
+
+    @@keyframes fadeSlideIn {
+        0% {
+            opacity: 0;
+            transform: translateY(15px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @@keyframes pulseBounce {
+        0%, 100% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.05) translateY(-4px);
+        }
+    }
+
+    @@keyframes shine {
+        0% {
+            left: -75%;
+        }
+
+        100% {
+            left: 125%;
+        }
     }
 </style>
 <header>
@@ -272,11 +319,15 @@
                         <ul class="flex flex-col sm:flex-row gap-6 pl-0 text-base font-semibold mb-[60px]">
                             <li class="relative bg-gradient-to-r from-[#FF6A00] to-[#FF3E3E] text-white px-8 py-4 rounded-xl shadow-lg  hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-l from-[#FF3E3E] to-[#FF6A00] transform transition-all duration-300 ease-out hover:rotate-3deg">
                                 <span class="absolute inset-0 bg-gradient-to-r from-[#FF3E3E] to-[#FF6A00] opacity-40 rounded-xl blur-sm z-[-1]"></span>
-                                <span class="text-[25px] relative z-[1]">✅ <b>No Service Charges</b></span>
+                                <span class="text-[22px] relative z-[1]">✅ <b>No Service Charges</b></span>
                             </li>
                             <li class="relative bg-gradient-to-r from-[#FF6A00] to-[#FF3E3E] text-white px-8 py-4 rounded-xl shadow-lg  hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-l from-[#FF3E3E] to-[#FF6A00] transform transition-all duration-300 ease-out hover:rotate-3deg">
                                 <span class="absolute inset-0 bg-gradient-to-r from-[#FF3E3E] to-[#FF6A00] opacity-40 rounded-xl blur-sm z-[-1]"></span>
-                                <span class="text-[25px] relative z-[1]">✅ <b>No Maintenance Fee</b></span>
+                                <span class="text-[22px] relative z-[1]">✅ <b>No Maintenance Fee</b></span>
+                            </li>
+                            <li class="relative bg-gradient-to-r from-[#FF6A00] to-[#FF3E3E] text-white px-8 py-4 rounded-xl shadow-lg  hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-l from-[#FF3E3E] to-[#FF6A00] transform transition-all duration-300 ease-out hover:rotate-3deg">
+                                <span class="absolute inset-0 bg-gradient-to-r from-[#FF3E3E] to-[#FF6A00] opacity-40 rounded-xl blur-sm z-[-1]"></span>
+                                <span class="text-[22px] relative z-[1]">✅ <b>4% DLD waiver</b></span>
                             </li>
                         </ul>
 
@@ -328,91 +379,7 @@
                         </div>
                     </div>
 
-                    <style>
-                        .animated-tagline-wrapper {
-                            display: flex;
-                            justify-content: flex-start;
-                            margin-top: 1rem;
-                        }
-
-                        .animated-tagline {
-                            font-size: 18px;
-                            font-weight: 600;
-                            color:white;
-                            opacity: 0;
-                            animation: fadeSlideIn 1.2s ease-out forwards;
-                            animation-delay: 0.5s;
-                            position: relative;
-                            min-height: 36px; /* Increased from 28px */
-                            overflow: visible; /* Important fix */
-                            line-height: 1.6; /* Extra spacing for bounce */
-                        }
-
-
-                        .shine-text {
-                            display: inline-block;
-                            position: relative;
-                            animation: pulseBounce 2s infinite ease-in-out;
-                        }
-
-                        .highlight {
-                          
-                        }
-
-                        .shine-text::before {
-                            content: '';
-                            position: absolute;
-                            top: 0;
-                            left: -75%;
-                            height: 100%;
-                            width: 70%;
-                            background: linear-gradient( 120deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 100% );
-                            transform: skewX(-20deg);
-                            animation: shine 2.5s infinite ease-in-out;
-                            z-index: 1;
-                        }
-
-                        @@keyframes fadeSlideIn {
-                            0%
-
-                        {
-                            opacity: 0;
-                            transform: translateY(15px);
-                        }
-
-                        100% {
-                            opacity: 1;
-                            transform: translateY(0);
-                        }
-
-                        }
-
-                        @@keyframes pulseBounce {
-                            0%, 100%
-
-                        {
-                            transform: scale(1);
-                        }
-
-                        50% {
-                            transform: scale(1.05) translateY(-4px);
-                        }
-
-                        }
-
-                        @@keyframes shine {
-                            0%
-
-                        {
-                            left: -75%;
-                        }
-
-                        100% {
-                            left: 125%;
-                        }
-
-                        }
-                    </style>
+             
 
                     <script>
                         const rawText = "Scroll Less, Move Fast – Claim It First";
@@ -712,15 +679,15 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-[30px] mb-[-30px]">
             <div class="text-center">
                 <img src="assets/images/StudioX/Layout-Design-Image-1.png" width="370" height="484" alt="Ground floor plan layout">
-                <p>Ground floor</p>
+                <p>Interior</p>
             </div>
             <div class="text-center">
                 <img src="assets/images/StudioX/Layout-Design-Image-2.png" width="361" height="491" alt="Single flat layout design">
-                <p>Single flat</p>
+                <p>Kitchen </p>
             </div>
             <div class="text-center">
                 <img src="assets/images/StudioX/Layout-Design-Image-3.png" width="370" height="484" alt="First floor plan layout">
-                <p>1st Floor</p>
+                <p>Building</p>
             </div>
         </div>
     </div>
@@ -737,7 +704,7 @@
             <div class="w-full lg:w-[40%] text-center">
                 <div class="relative rounded-t-[6px] max-w-[400px] mx-auto">
                     <a href="#" class="relative block before:absolute before:inset-x-0 before:bottom-0 before:w-full before:h-[calc(100%_-_60px)] before:z-[-1] before:rounded-t-[6px]">
-                        <img src="assets/images/StudioX/Contact-section.png" class="w-full h-auto mx-auto" loading="lazy" alt="Albert S. Smith" width="301" height="474">
+                        <img src="assets/images/StudioX/agent.jpg" class="w-full h-auto mx-auto" loading="lazy" alt="Albert S. Smith" width="301" height="474">
                     </a>
                 </div>
             </div>
@@ -789,13 +756,6 @@
     </div>
 </section>
 
-<!-- Contact Us section End -->
-<!-- Call-to-action Section -->
-@* <div class="cta-section">
-    <h1>You're wasting money on marketing. Find out where.</h1>
-    <button class="cta-button">Get Started Free</button>
-</div>
- *@
 <!-- Footer -->
 <footer>
     <div class="footer-logo">
@@ -810,91 +770,6 @@
     </script>
 </footer>
 
-<!-- Blog Section Start  -->
-@* <section class="blog-section relative pb-[80px] lg:pb-[120px]">
-    <div class="container">
-        <div class="">
-            <div class="">
-                <div class="mb-[60px] text-center">
-                    <span class="text-secondary text-tiny inline-block mb-2">Our Blog</span>
-                    <h2 class="font-lora text-primary text-[24px] sm:text-[30px] xl:text-xl capitalize font-medium">
-                        Check our blog post's<span class="text-secondary">.</span>
-                    </h2>
-                </div>
-            </div>
-            <div class="">
-                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-[30px] mb-[-30px]">
-                    <div class="mb-[30px]">
-                        <a href="blog-details.html" class="block overflow-hidden rounded-[6px] mb-[30px]">
-                            <img class="w-full h-full" src="assets/images/home/Popular-3.png" width="370" height="270" loading="lazy" alt="Real estate advice on market conditions from an expert agent">
-                        </a>
-                        <div>
-                            <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">James Alber on 22 December, 21</span>
-                            <h3><a href="blog-details.html" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">Tip’s about Real Estate Recent Conditions from Agent.</a></h3>
-                            <p class="font-light text-[#494949] text-[16px] leading-[1.75]">Properties are most budget friendly so you have are opportunity to find are the best the best...</p>
-                        </div>
-                    </div>
-                    <div class="mb-[30px]">
-                        <a href="blog-details.html" class="block overflow-hidden rounded-[6px] mb-[30px]">
-                            <img class="w-full h-full" src="assets/images/blog/post2.png" width="370" height="270" loading="lazy" alt="Modern real estate insights focusing on build quality">
-                        </a>
-                        <div>
-                            <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">Shohel Gyes on 21 December, 21</span>
-                            <h3><a href="blog-details.html" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">Importance of Build quality of modern Real Estate.</a></h3>
-                            <p class="font-light text-[#494949] text-[16px] leading-[1.75]">Properties are most budget friendly so you have are opportunity to find are the best the best...</p>
-                        </div>
-                    </div>
-                    <div class="mb-[30px]">
-                        <a href="blog-details.html" class="block overflow-hidden rounded-[6px] mb-[30px]">
-                            <img class="w-full h-full" src="assets/images/blog/post3.png" width="370" height="270" loading="lazy" alt="Construction standards and quality in today’s real estate">
-                        </a>
-                        <div>
-                            <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px] relative before:absolute before:left-0 before:top-1/2 -translate-y-1/2">Shohel Gyes on 21 December, 21</span>
-                            <h3><a href="blog-details.html" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">Importance of Build quality of modern Real Estate.</a></h3>
-                            <p class="font-light text-[#494949] text-[16px] leading-[1.75]">Properties are most budget friendly so you have are opportunity to find are the best the best...</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Blog Section End  -->
- *@<!-- News Letter section start -->@* 
-<section class="py-[80px] lg:p-[90px] bg-primary relative">
-    <div class="container">
-        <div class="grid grid-cols-1">
-            <div class="col-span">
-                <div class="flex flex-wrap items-center justify-between">
-                    <div class="w-full lg:w-auto">
-                        <h3 class="font-lora text-white text-[24px] sm:text-[30px] xl:text-[36px] leading-[1.277] mb-[10px]">Own a Property?</h3>
-                        <p class="text-secondary leading-[1.5] tracking-[0.03em] mb-10">Share your email and get it listed.</p>
-                        <form id="mc-form" action="#" class="relative w-full" >
-                            <input style="background:#283E7A;" id="mc-email" class="font-light text-white leading-[1.75] opacity-100 border border-secondary w-full lg:w-[395px] xl:w-[495px] h-[60px] rounded-[10px] py-[15px] pl-[15px] pr-[15px] sm:pr-[135px] focus:border-white focus:outline-none border-opacity-60 placeholder:text-[#E2E2E2] bg-transparent" type="text" placeholder="Enter your email here...">
-                            <button id="mc-submit" type="submit" class="text-white font-medium text-[16px] leading-none tracking-[0.02em] bg-secondary py-[17px] px-[20px] mt-5 sm:mt-0 rounded-[10px] hover:bg-white hover:text-primary transition-all sm:absolute sm:right-[4px] sm:top-1/2 sm:-translate-y-1/2">Get Listed</button>
-                        </form>
-                        <!-- mailchimp-alerts Start -->
-                        <div class="mailchimp-alerts text-centre">
-                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                            <div class="mailchimp-success text-green-400"></div><!-- mailchimp-success end -->
-                            <div class="mailchimp-error text-red-600"></div><!-- mailchimp-error end -->
-                        </div>
-                        <!-- mailchimp-alerts end -->
-                    </div>
-                    <div class="w-full hidden lg:block lg:w-auto mt-5 lg:mt-0">
-                        <div class="relative mt-10 md:mt-0 lg:absolute lg:right-0 lg:bottom-0">
-                            <img class="hero_image lg:max-w-[550px] xl:max-w-[650px] 2xl:max-w-[714px]" src="assets/images/newsletter/bg-1.png" width="866" height="879" alt="Newsletter sign-up illustration for property listings">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section> *@
-<!-- News Letter section End -->
-<!-- pop up script end -->
 <!-- JS Vendor, Plugins & Activation Script Files -->
 <!-- Vendors JS -->
 <script src="~/assets/js/vendor/modernizr-3.11.7.min.js"></script>

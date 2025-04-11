@@ -616,3 +616,24 @@
       });
   });
 })(jQuery);
+
+// slider js code for our partner logos
+document.addEventListener("DOMContentLoaded", () => {
+    const slider = document.querySelector(".logo-track");
+    let speed = 0.5;
+    let position = 0;
+
+    function animate() {
+        position -= speed;
+        slider.style.transform = `translateX(${position}px)`;
+
+        // Reset to beginning if we've scrolled past the duplicate
+        if (Math.abs(position) >= slider.scrollWidth / 2) {
+            position = 0;
+        }
+
+        requestAnimationFrame(animate);
+    }
+
+    animate(); // Start the animation
+});

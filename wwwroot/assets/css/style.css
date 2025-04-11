@@ -2154,7 +2154,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .fill-current {
-  fill: currentColor;
+  fill: white;
 }
 
 .stroke-secondary {
@@ -6327,3 +6327,31 @@ p{
   color: #1FA7E1 !important;
 }
 /* my css */
+/* slider css for our partners logos*/
+.logo-slider {
+    height: auto;
+    position: relative;
+}
+
+.logo-track {
+    animation: scroll-left 30s linear infinite;
+}
+
+
+
+@@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.logo-item {
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-right: 40px; /* adds spacing between logos */
+}

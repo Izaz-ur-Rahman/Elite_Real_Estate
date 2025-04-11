@@ -28,7 +28,7 @@ namespace EliteRealEstate.Controllers
             return View();
         }
 
-        
+        [Route("contact-us")]
         public IActionResult ContactUs()
         {
             return View();

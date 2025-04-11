@@ -45,12 +45,11 @@
                     </div>
                     <div class="grid grid-cols-12 gap-x-[20px] gap-y-[30px]">
 
-                        <div class="col-span-12 md:col-span-6">
-                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-primary border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="text" placeholder="First Name" name="FirstName">
-                        </div>
-
-                        <div class="col-span-12 md:col-span-6">
-                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-primary border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] " type="text" placeholder="Last Name" name="LastName">
+                        <div class="col-span-12">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-primary border-opacity-60 rounded-[8px] p-[15px] focus:border-secondary focus:border-opacity-60 focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)]"
+                                   type="text"
+                                   placeholder="Full Name"
+                                   name="FullName">
                         </div>
 
                         <div class="col-span-12 md:col-span-6">
@@ -94,8 +93,9 @@
                     </div>
                 </div>
                 <div class="col-span-12 mb-[30px] lg:mb-0  order-2 lg:order-none">
-                    <button type="submit" class="before:rounded-md before:block before:absolute before:left-auto before:right-0 before:inset-y-0 before:-z-[1] before:bg-secondary before:w-0 hover:before:w-full hover:before:left-0 hover:before:right-auto before:transition-all leading-none px-[30px] py-[15px] capitalize font-medium text-white text-[14px] xl:text-[16px] relative after:block after:absolute after:inset-0 after:-z-[2] after:bg-primary after:rounded-md after:transition-all mb-[30px] lg:mb-0">Contact us</button>
-                  @*   <p class="form-messege mt-3"></p> *@
+                    <button type="submit" class="relative overflow-hidden text-white font-medium text-[14px] xl:text-[16px] px-[30px] py-[15px] rounded-md bg-primary hover:bg-secondary transition-all duration-300 ease-in-out">
+                        Contact Us
+                    </button>                  @*   <p class="form-messege mt-3"></p> *@
                 </div>
             </div>
         </form>

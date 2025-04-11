@@ -269,6 +269,7 @@ wwwroot\assets\images\service-icon\chart.png
 wwwroot\assets\images\service-icon\key.png
 wwwroot\assets\images\service-icon\note.png
 wwwroot\assets\images\StudioX.rar
+wwwroot\assets\images\StudioX\agent.jpg
 wwwroot\assets\images\StudioX\Contact-section.png
 wwwroot\assets\images\StudioX\Hero-Image.png
 wwwroot\assets\images\StudioX\Layout-Design-Image-1.png
@@ -308,11 +309,7 @@ wwwroot\assets\images\updated_icons\Check-icon.png
 wwwroot\assets\images\updated_icons\High-returns.png
 wwwroot\assets\images\updated_icons\Reliable-Investment.png
 wwwroot\assets\images\updated_icons\Strategic-location.png
-wwwroot\assets\images\updated_logo\dugasta_logo.png
 wwwroot\assets\images\updated_logo\dugasta_logo1.png
-wwwroot\assets\images\updated_logo\Main-logo.svg
-wwwroot\assets\images\updated_logo\Main-logo_u.svg
-wwwroot\assets\images\updated_logo\Main-logo0.png
 wwwroot\assets\images\user\avater.png
 wwwroot\assets\images\video\shape.png
 wwwroot\assets\images\video\shape-2.png

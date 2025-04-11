@@ -313,6 +313,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\StudioX\\Why-Invest-with-Us.png"
     },
     {
+      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\StudioX\\agent.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\StudioX\\agent.jpg"
+    },
+    {
       "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\about\\ABout-Us-Hero.png",
       "PackagePath": "staticwebassets\\assets\\images\\about\\ABout-Us-Hero.png"
     },
@@ -1243,22 +1247,6 @@
     {
       "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_icons\\Strategic-location.png",
       "PackagePath": "staticwebassets\\assets\\images\\updated_icons\\Strategic-location.png"
-    },
-    {
-      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_logo\\Main-logo.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\updated_logo\\Main-logo.svg"
-    },
-    {
-      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_logo\\Main-logo0.png",
-      "PackagePath": "staticwebassets\\assets\\images\\updated_logo\\Main-logo0.png"
-    },
-    {
-      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_logo\\Main-logo_u.svg",
-      "PackagePath": "staticwebassets\\assets\\images\\updated_logo\\Main-logo_u.svg"
-    },
-    {
-      "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_logo\\dugasta_logo.png",
-      "PackagePath": "staticwebassets\\assets\\images\\updated_logo\\dugasta_logo.png"
     },
     {
       "Id": "D:\\skill_starting\\job\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\updated_logo\\dugasta_logo1.png",
