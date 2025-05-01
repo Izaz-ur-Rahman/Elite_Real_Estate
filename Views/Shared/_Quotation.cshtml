@@ -1,0 +1,385 @@
+﻿<style>
+    body.no-scroll {
+        overflow: hidden;
+    }
+
+    .swal2-container {
+        z-index: 2147483647 !important; /* Maximum safe z-index */
+    }
+
+    .swal2-popup {
+        z-index: 2147483647 !important;
+    }
+
+    .custom-ok-btn {
+        background-color: #1FA7EA !important;
+        color: white !important;
+        border: none !important;
+    }
+
+        .custom-ok-btn:hover {
+            background-color: #1FA7EA !important;
+            color: black !important;
+        }
+
+
+    .thank-you-popup {
+        background: white;
+        border-radius: 10px;
+        display: none;
+        flex-direction: column;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 400px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 9999;
+    }
+
+    .popup {
+      
+        border-radius: 10px;
+        display: none;
+        flex-direction: row;
+        width: 50%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        position: fixed;
+        top: 20px; /* 👈 Pushes popup to top of the screen */
+        left: 50%;
+        transform: translateX(-50%); /* 👈 Only horizontally centers it */
+        justify-content: space-between;
+        z-index: 9998;
+    }
+
+
+    .form-container {
+        padding: 3px;
+        width: 50%;
+    }
+
+        .form-container h2 {
+            margin-bottom: 10px;
+        }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border-radius: 5px;
+        background-color: #F0F0F0;
+    }
+
+    .thank-you-popup img {
+        margin: auto;
+        width: 80%;
+    }
+
+    @@media (max-width: 800px) {
+        .popup
+
+    {
+        width: 90%;
+        flex-direction: column-reverse;
+
+    }
+
+            .popup img {
+                display: none; /* ✅ Hide image on small screens */
+            }
+    .form-container {
+        width: 98%;
+    }
+
+    .thank-you-popup {
+        width: 90%;
+    }
+
+    }
+    /*loader css*/
+    #property-loader {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        background: #ffffff;
+        padding: 20px 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        #property-loader .house {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            animation: bounce 1s infinite;
+        }
+
+        #property-loader .roof {
+            width: 0;
+            height: 0;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-bottom: 25px solid #1FA7EA;
+            position: absolute;
+            top: 0;
+            left: 75px !important;
+        }
+
+        #property-loader .walls {
+            width: 60px;
+            height: 35px;
+            background: #1FA7EA;
+            position: absolute;
+            top: 25px;
+            left: 75px !important;
+        }
+
+        #property-loader .door {
+            width: 15px;
+            height: 20px;
+            background: #ffffff;
+            position: absolute;
+            bottom: 5px;
+            left: 97.5px !important;
+            border-radius: 2px;
+        }
+    @@media (max-width: 767px) {
+        #property-loader .roof
+
+    {
+            left: 40px !important;
+       }
+
+    #property-loader .walls {
+            left: 40px !important;
+    }
+
+    #property-loader .door {
+            left: 63.5px !important;
+    }
+
+    }
+        #property-loader p {
+            margin-top: 16px;
+            font-size: 16px;
+            color: #1FA7EA;
+            font-weight: bold;
+            animation: fadeIn 1s ease-in-out infinite alternate;
+        }
+
+    @@keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0.4;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+</style>
+
+<!-- Popup form -->
+<div class="popup" id="popup-default">
+    <button class="close-btn" onclick="closePopup()">&times;</button>
+    <img src="~/assets/images/home/Mask group.png" alt="House">
+    <div class="form-container">
+        <form id="form2" asp-controller="Home" asp-action="Quotation" method="post">
+            <h2>Let's Connect!!</h2>
+            <input type="text" name="FullName" placeholder="Full Name">
+            <input type="email" name="Email" placeholder="Email Address">
+            <input type="tel" name="PhoneNumber" placeholder="Phone Number">
+            <select name="Category">
+                <option>Select Category</option>
+                <option value="Buy">Buy</option>
+                <option value="Rent">Rent</option>
+                <option value="Sell">Sell</option>
+            </select>
+            <h5 class="text-dark-blu">Budget Range</h5>
+            <div class="price-range">
+                <label><input type="radio" name="Budget" value="$700K"> $700K</label>
+                <label><input type="radio" name="Budget" value="$900K"> $900K</label>
+                <label><input type="radio" name="Budget" value="$1.2M"> $1.2M</label>
+                <label><input type="radio" name="Budget" value="$1.5M"> $1.5M</label>
+            </div>
+            <textarea name="Message" placeholder="Type your detailed message here..."></textarea>
+            <button type="submit" class="text-white font-medium text-[16px] leading-none tracking-[0.02em] bg-secondary py-[17px] px-[20px] mt-5 sm:mt-0 rounded-[10px] hover:bg-white hover:text-primary transition-all sm:right-[4px] sm:top-1/2" style="width: 100%;">Submit</button>
+        </form>
+    </div>
+</div>
+
+<!-- Thank you popup -->
+<div class="thank-you-popup">
+    <img src="~/assets/images/home/Frame.png" alt="">
+    <h2>Thank You!</h2>
+    <p>Please check your email inbox or spam folder to see our response.</p>
+    <div class="great-day">Have a great day!</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Custom Real Estate Loader -->
+<div id="property-loader">
+    <div class="house">
+        <div class="roof"></div>
+        <div class="walls"></div>
+        <div class="door"></div>
+    </div>
+    <p>Processing your request...</p>
+</div>
+
+
+
+
+
+
+<!-- jQuery and SweetAlert2 -->
+<<!-- jQuery and SweetAlert2 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Animate.css for entry/exit animations -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+<!-- Custom styling -->
+<style>
+    .custom-popup {
+        border-radius: 1rem !important;
+        padding: 1.5rem !important;
+        background: #ffffff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .custom-ok-btn {
+        padding: 10px 25px !important;
+        font-size: 16px !important;
+        border-radius: 8px !important;
+        font-weight: 600;
+        background-color: #1FA7EA !important;
+        color: #fff !important;
+    }
+
+    /* Speed up the popup appearance */
+    .swal2-popup {
+        animation-duration: 0.3s !important; /* Speed up the fade-in animation */
+    }
+</style>
+
+<!-- jQuery + SweetAlert AJAX Form -->
+<script>
+    $(document).ready(function () {
+        $("#form2").submit(function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Show the Thank You popup immediately
+                        $("#property-loader").fadeIn(200);
+
+            $.ajax({
+                url: "Home/Quotation",
+                type: "POST",
+                data: $("#form2").serialize(),
+                success: function (response) {
+                                        $("#property-loader").fadeOut(200); // Hide loader
+
+                    // Close the "Submitting..." popup and show the success message
+                    Swal.close();
+
+                    if (response.success) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: '🎉 Thank You!',
+                            html: `<div style="font-size: 16px; line-height: 1.6;">
+                                     Your message has been successfully sent.<br>
+                                     We'll get back to you as soon as possible.
+                                   </div>`,
+                            showClass: {
+                                popup: 'animate__animated animate__fadeInDown'
+                            },
+                            hideClass: {
+                                popup: 'animate__animated animate__fadeOutUp'
+                            },
+                            backdrop: true,
+                            confirmButtonColor: '#1FA7EA',
+                            confirmButtonText: 'Great!',
+                            customClass: {
+                                popup: 'custom-popup',
+                                confirmButton: 'custom-ok-btn'
+                            }
+                        }).then(() => {
+                            $("#popup-default").hide(); // Hide the form after success
+                            $("#landForm")[0].reset(); // Optionally reset the form
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: response.message,
+                            confirmButtonColor: '#1FA7EA',
+                            customClass: {
+                                popup: 'custom-popup',
+                                confirmButton: 'custom-ok-btn'
+                            }
+                        });
+                    }
+                },
+                error: function () {
+                                        $("#property-loader").fadeOut(200); // Hide loader on error
+
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Something went wrong!',
+                        confirmButtonColor: '#1FA7EA',
+                        customClass: {
+                            popup: 'custom-popup',
+                            confirmButton: 'custom-ok-btn'
+                        }
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+       
+
+    function openPopup(type = 'default') {
+        document.querySelectorAll('.popup').forEach(p => p.style.display = 'none');
+        const popup = document.getElementById(`popup-${type}`);
+        if (popup) {
+            popup.style.display = 'flex';
+            $("body").addClass("no-scroll"); // Disable scrolling
+        } else {
+            console.warn(`Popup with ID popup-${type} not found`);
+        }
+    }
+
+    function closePopup() {
+        document.querySelectorAll('.popup').forEach(p => p.style.display = 'none');
+        $("body").removeClass("no-scroll"); // Enable scrolling again
+    }
+
+</script>

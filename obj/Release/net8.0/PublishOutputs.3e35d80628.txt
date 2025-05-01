@@ -1,0 +1,8 @@
+D:\Projects\RaideIT\EliteRealEstate\obj\Release\net8.0\PubTmp\Out\EliteRealEstate.exe
+D:\Projects\RaideIT\EliteRealEstate\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Projects\RaideIT\EliteRealEstate\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Projects\RaideIT\EliteRealEstate\obj\Release\net8.0\PubTmp\Out\EliteRealEstate.dll
+D:\Projects\RaideIT\EliteRealEstate\obj\Release\net8.0\PubTmp\Out\EliteRealEstate.deps.json
+D:\Projects\RaideIT\EliteRealEstate\obj\Release\net8.0\PubTmp\Out\EliteRealEstate.runtimeconfig.json
+D:\Projects\RaideIT\EliteRealEstate\obj\Release\net8.0\PubTmp\Out\EliteRealEstate.pdb
+D:\Projects\RaideIT\EliteRealEstate\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll

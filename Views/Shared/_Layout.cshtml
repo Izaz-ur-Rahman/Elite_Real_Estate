@@ -1,0 +1,545 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    @* <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" /> *@
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title Tag -->
+    <title>Sky Elite Real Estate | Expert Consulting for Property Investments</title>
+    @RenderSection("Title", required: false)
+
+    <!-- Meta Description -->
+    <meta name="description" content="Sky Elite Real Estate provides expert consulting and investment opportunities in the real estate sector. Discover off-plan, secondary, and rental properties tailored to your financial goals.">
+
+    <!-- Open Graph Meta Title (For Social Media) -->
+    <meta property="og:title" content="Sky Elite Real Estate | Expert Consulting for Property Investments">
+
+    <!-- Open Graph Meta Description (For Social Media) -->
+    <meta property="og:description" content="Sky Elite Real Estate provides expert consulting and investment opportunities in the real estate sector. Discover off-plan, secondary, and rental properties tailored to your financial goals.">
+
+    <meta name="AdsBot-Google" content="noindex follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+     <meta name="robots" content="noindex, nofollow">
+
+    <!-- Favicon -->
+    <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
+    <!-- Font CSS -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=karla:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+    <!-- favicon -->
+
+    <link rel="icon" type="image/x-icon" href="~/assets/images/home/Fev-Icon.png">
+
+    <!-- fav icon -->
+    <!-- Plugins CSS (All Plugins Files) -->
+
+    <link rel="stylesheet" href="~/assets/css/plugins/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="~/assets/css/plugins/magnific-popup.css" />
+
+    <link rel="stylesheet" href="~/assets/css/plugins/nice-select.css" />
+
+
+    <!-- Style CSS -->
+
+    <link rel="stylesheet" href="~/assets/css/style.css" />
+
+
+
+
+    <style>
+
+            
+                 .thank-you-popup {
+                    background: white;
+                    border-radius: 10px;
+                    display: flex;
+                    width: 30%;
+                    flex-direction: column;
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+                    padding: 20px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none;
+                    z-index: 99999;
+                    justify-content: space-between;
+                }
+                .popup{
+                    background: white;
+                    border-radius: 10px;
+                    display: flex;
+                    width: 50%;
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+                    padding: 20px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none;
+                    z-index: 99999;
+                    justify-content: space-between;
+                }
+
+                .popup img {
+                    width: 45%;
+                    border-radius: 10px;
+                }
+                .form-container {
+                    padding: 3px;
+                    width: 50%;
+                }
+                .form-container h2 {
+                    margin-bottom: 10px;
+                }
+                input, select, textarea {
+                    width: 100%;
+                    padding: 10px;
+                    margin: 8px 0;
+                    border-radius: 5px;
+                    background-color: #F0F0F0;
+                }
+                .price-range {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+                .price-range label {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                }
+              
+                .thank-you-popup {
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #1fa7ea;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            width: 40px;
+            height: 40px;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+        }
+        .great-day {
+            width: 155px;
+            height: 45px;
+            background-color: #0B579C;
+            color: white;
+            margin: auto;
+            padding: -5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+        @@media (max-width:800px){
+            .popup{
+                    background: white;
+                    border-radius: 10px;
+                    display: flex;
+                    width: 90%;
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+                    padding: 20px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none;
+                    z-index: 99999;
+                    justify-content: space-between;
+                    flex-direction: column-reverse;
+                }
+                .form-container {
+                    padding: 3px;
+                    width: 98%;
+                }
+                .popup img {
+                    width: 95%;
+                    border-radius: 10px;
+                }
+                .thank-you-popup {
+
+                    width: 85%;
+
+                }
+        }
+
+        .hamburger-icon {
+            width: 28px;
+            height: 28px;
+            fill: #016450; /* Initial green */
+            transition: fill 0.3s ease;
+        }
+
+        .hamburger-scrolled {
+            fill: black !important;
+        }
+    </style>
+
+</head>
+
+
+
+
+<body class="font-karla text-body text-tiny">
+    <div class="overflow-hidden">
+        <!-- Header start -->
+
+        <header id="sticky-header" class="absolute left-0 top-[15px] lg:top-[30px] xl:top-[40px] w-full z-10">
+            <div class="container">
+                <div class="grid grid-cols-12">
+                    <div class="col-span-12">
+                        <div class="flex flex-wrap items-center justify-between">
+                            <a href="/" class="block" style="width: 150px;">
+                                <img class="w-full h-full white-logo" src="~/assets/images/home/Nav-Bar-Logo.png" loading="lazy" width="99" height="46" alt="brand logo">
+                                <img class="w-full h-full hidden dark-logo" src="~/assets/images/home/Nav-Bar-Logo-clr.png" loading="lazy" width="99" height="46" alt="brand logo">
+                            </a>
+                            <nav class="flex flex-wrap items-center">
+                                <ul class="hidden lg:flex flex-wrap items-center font-lora text-[16px] xl:text-[18px] leading-none text-black">
+                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                        <a href="/" class="sticky-dark transition-all text-white hover:text-secondary">Home</a>
+
+                                    </li>
+                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                        <a href="#" class="sticky-dark transition-all text-white hover:text-secondary">Properties</a>
+
+                                        <ul class="list-none bg-white drop-shadow-[0px_6px_10px_rgba(0,0,0,0.2)] rounded-[12px] flex flex-wrap flex-col w-[220px] absolute top-[120%] left-1/2 -translate-x-1/2 transition-all
+            group-hover:top-[100%] invisible group-hover:visible opacity-0 group-hover:opacity-100
+
+            ">
+                                            <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                <a href="off-plan" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-secondary hover:text-white text-center my-[-1px] rounded-t-[12px]">Off-Plan</a>
+                                            </li>
+
+                                            <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                <a href="rental" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-secondary hover:text-white text-center my-[-1px] rounded-b-[12px]">Rental </a>
+                                            </li>
+
+                                            <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                <a href="secondary" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-secondary hover:text-white text-center my-[-1px] rounded-b-[12px]">Secondary </a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                   
+                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                        <a href="about-us" class="sticky-dark transition-all text-white hover:text-secondary">About Us</a>
+                                    </li>
+                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                        <a href="#" class="sticky-dark transition-all text-white hover:text-secondary">Resources</a>
+                                        <ul class="list-none bg-white drop-shadow-[0px_6px_10px_rgba(0,0,0,0.2)] rounded-[12px] flex flex-wrap flex-col w-[220px] absolute top-[120%] left-1/2 -translate-x-1/2 transition-all
+            group-hover:top-[100%] invisible group-hover:visible opacity-0 group-hover:opacity-100
+">
+                                            <li class="border-b border-dashed border-primary border-opacity-40 last:border-b-0 hover:border-solid transition-all">
+                                                <a href="blogs" class="font-lora leading-[1.571] text-[14px] text-primary p-[10px] capitalize block transition-all hover:bg-secondary hover:text-white text-center my-[-1px] rounded-b-[12px]">
+                                                    Blog
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="mr-7 xl:mr-[40px] relative group py-[20px]">
+
+                                        <a href="contact-us" class="sticky-dark transition-all text-white hover:text-secondary">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <ul class="flex flex-wrap items-center">
+                                    <li class="ml-2 sm:ml-5 lg:hidden">
+                                        <a href="#offcanvas-mobile-menu" class="offcanvas-toggle flex text-[#016450] hover:text-secondary">
+                                            <svg id="hamburger-icon" width="24" height="24" class="fill-current text-[#016450]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+ 
+
+        @RenderBody()
+            
+       <!-- offcanvas-overlay start -->
+        <div class="offcanvas-overlay hidden fixed inset-0 bg-black opacity-50 z-50"></div>
+        <!-- offcanvas-overlay end -->
+        <!-- offcanvas-mobile-menu start -->
+        <div id="offcanvas-mobile-menu" class="offcanvas left-0 transform -translate-x-full fixed font-normal text-sm top-0 z-50 h-screen xs:w-[300px] lg:w-[380px] transition-all ease-in-out duration-300 bg-white">
+
+            <div class="py-12 pr-5 h-[100vh] overflow-y-auto">
+                <!-- close button start -->
+                <button class="offcanvas-close text-primary text-[25px] w-10 h-10 absolute right-0 top-0 z-[1]" aria-label="offcanvas">x</button>
+                <!-- close button end -->
+                <!-- offcanvas-menu start -->
+
+                <nav class="offcanvas-menu mr-[20px]">
+                    <ul>
+                        <li class="relative block border-b-primary border-b first:border-t first:border-t-primary">
+                            <a href="/" class="block capitalize font-normal text-black hover:text-secondary text-base my-2 py-1 px-5">Home</a>
+
+                        </li>
+                        <li class="relative block border-b-primary border-b">
+                            <a href="#" class="block capitalize font-normal text-black hover:text-secondary text-base my-2 py-1 px-5">Properties</a>
+                            <ul class="offcanvas-submenu static top-auto hidden w-full visible opacity-100 capitalize">
+                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="off-plan">Off-Plan </a></li>
+
+                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="rental">Rental</a></li>
+
+                                <li><a class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary" href="secondary">Secondary</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="relative block border-b-primary border-b">
+                            <a href="about-us" class="block capitalize font-normal text-black hover:text-secondary text-base my-2 py-1 px-5">About us</a>
+                        </li>
+                        <li class="relative block border-b-primary border-b">
+                            <a href="#" class="relative block capitalize text-black hover:text-secondary text-base my-2 py-1 px-5">Resources</a>
+
+                            <ul class="offcanvas-submenu static top-auto hidden w-full visible opacity-100 capitalize">
+                                <li>
+                                    <a href="blogs" class="text-sm py-2 px-[30px] text-black font-light block transition-all hover:text-secondary">
+                                        Blog                      
+                                    </a>
+                                </li>
+                             
+
+                            </ul>
+                        </li>
+
+
+
+
+                        <li class="relative block border-b-primary border-b"><a href="contact-us" class="relative block capitalize text-black hover:text-secondary text-base my-2 py-1 px-5">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- offcanvas-menu end -->
+
+                <div class="px-5 flex flex-wrap mt-3 sm:hidden">
+                </div>
+
+
+
+            </div>
+        </div>
+        <!-- offcanvas-mobile-menu end -->
+        <!-- Header end -->
+      
+      
+
+        <!-- News Letter section End -->
+        <!-- Footer Start -->
+        <footer  class="footer bg-[#EEEEEE] pt-[80px] lg:pt-[120px] pb-30 md:pb-[80px] lg:pb-[50px] font-normal bg-no-repeat" style="background-image: url('~/assets/images/footer/pattern.png');">
+            <div class="container">
+                <div class="grid grid-cols-12 gap-x-[30px] mb-[-30px]">
+                    <div class="col-span-12 sm:col-span-6 lg:col-span-4 mb-[30px]">
+                        <a href="index.html" class="block mb-[25px]">
+                            <img src="~/assets/images/home/Nav-Bar-Logo-clr.png" width="99" height="46" loading=lazy alt="footer logo" style="width: 150px;">
+                        </a>
+                        <p class="mb-[5px] xl:mb-[40px] ">Sky Elite Real Estate helps investors navigate the complex property market by providing expert consulting and strategic investment opportunities, so they can confidently build wealth and secure their financial future without the risk of uninformed decisions. </p>
+                    
+
+                    </div>
+                    <div class="col-span-12 sm:col-span-6 lg:col-span-3 mb-[30px]">
+                        <h3 class="font-lora font-normal text-[22px] leading-[1.222] text-primary mb-[20px] lg:mb-[30px]">
+                            Links<span class="text-lit-blu">.</span>
+                        </h3>
+                        <ul class="text-[16px] leading-none mb-[-20px]">
+                            <li class="mb-[20px]">
+                                <a class="inline-block transition-all hover:text-secondary" href="/">
+                                    HOME
+                                </a>
+                            </li>
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="about-us">ABOUT US</a></li>
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="contact-us">CONTACT US</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-span-12 sm:col-span-6 lg:col-span-3 mb-[30px]">
+                        <h3 class="font-lora font-normal text-[22px] leading-[1.222] text-primary mb-[20px] lg:mb-[30px]">
+                            Properties<span class="text-lit-blu">.</span>
+                        </h3>
+                        <ul class="text-[16px] leading-none mb-[-20px]">
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="off-plan">OFF-PLAN</a></li>
+                            <li class="mb-[20px]"><a class="inline-block transition-all hover:text-secondary" href="rental">RENTAL</a></li>
+                            <li class="mb-[20px]">
+                                <a class="inline-block transition-all hover:text-secondary" href="secondary">SECONDARY</a>
+                            </li>
+                           
+
+                        </ul>
+                    </div>
+                    <div class="col-span-12 sm:col-span-6 lg:col-span-2 mb-[30px]">
+                        <h3 class="font-lora font-normal text-[22px] leading-[1.222] text-primary mb-[20px] lg:mb-[30px]">
+                            Address<span class="text-lit-blu">.</span>
+                        </h3>
+                        <p>Armada tower JLT</p>
+                        <ul class="inline-flex items-center justify-center mt-[20px]">
+                            <li class="first:ml-0 ml-[15px]">
+                                <a href="https://www.facebook.com/share/1691BwLkWL/?mibextid=qi2Omg" target="_blank" aria-label="svg" class="w-[22px] h-[22px] transition-all rounded-full bg-primary flex items-center justify-center hover:drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] text-white hover:bg-secondary">
+                                    <svg width="7" height="10" viewBox="0 0 7 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.36 4.20156V3.12156C4.36 2.65356 4.468 2.40156 5.224 2.40156H6.16V0.601562H4.72C2.92 0.601562 2.2 1.78956 2.2 3.12156V4.20156H0.760002V6.00156H2.2V11.4016H4.36V6.00156H5.944L6.16 4.20156H4.36Z" fill="currentColor"></path>
+                                    </svg>
+
+                                </a>
+                            </li>
+                    <li class="ml-[15px]">
+    <a href="https://www.linkedin.com/company/elitereal-estate/" target="_blank" aria-label="LinkedIn" class="w-[22px] h-[22px] transition-all rounded-full bg-primary flex items-center justify-center hover:drop-shadow-[0px_4px_10px_rgba(0,0,0,0.25)] text-white hover:bg-secondary">
+        <svg width="10" height="8" viewBox="0 0 448 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.65 0 53.9A53.79 53.79 0 01107.58 0c0 29.75-24.09 53.9-53.79 53.9zM447.9 448h-92.4V302.4c0-34.7-.7-79.3-48.3-79.3-48.3 0-55.7 37.7-55.7 76.6V448h-92.6V148.9h88.9v40.8h1.3c12.4-23.4 42.5-48.3 87.4-48.3 93.5 0 110.7 61.5 110.7 141.3V448z"/>
+        </svg>
+    </a>
+</li>
+
+                        </ul>
+                       
+
+                    </div>
+                </div>
+                    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+                        <p class="mb-2 md:mb-0">© 2025 Sky Elite Real Estate. All rights reserved.</p>
+                        <div class="flex items-center">
+                        <p>
+                            <a href="/privacy-policy" class="hover:underline mr-4">Privacy Policy</a>
+                        </p>
+                            <span>|</span>
+                        <p>
+                            <a href="/term-and-condition" class="hover:underline ml-2">Terms & Conditions</a>
+                        </p>
+                        </div>
+                    </div>
+
+
+
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <a id="scrollUp" class="w-12 h-12 rounded-full bg-primary text-white fixed right-5 bottom-16 flex flex-wrap items-center justify-center transition-all duration-300 z-10" href="#" aria-label="scroll up">
+            <svg width="25" height="25" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path d="M6.101 261.899L25.9 281.698c4.686 4.686 12.284 4.686 16.971 0L198 126.568V468c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12V126.568l155.13 155.13c4.686 4.686 12.284 4.686 16.971 0l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L232.485 35.515c-4.686-4.686-12.284-4.686-16.971 0L6.101 244.929c-4.687 4.686-4.687 12.284 0 16.97z" />
+            </svg>
+        </a>
+
+    </div>
+
+
+    <!-- pop up start -->
+
+    <partial name="_Quotation"></partial>
+
+    <!-- pop up end -->
+    <!-- pop up script start -->
+
+    <script>
+                   function openPopup(type = 'default') {
+            // Hide all popups
+            document.querySelectorAll('.popup').forEach(p => p.style.display = 'none');
+                     console.log("Form opened!"); // Log form submission
+                     console.log(document.getElementById('popup-default'));
+
+            // Get the right popup
+            const popup = document.getElementById(`popup-${type}`);
+            if (popup) {
+                popup.style.display = 'flex';
+                document.body.classList.add('popup-active');
+            } else {
+                console.warn(`Popup with ID popup-${type} not found`);
+            }
+        }
+
+        function closePopup() {
+            document.querySelectorAll('.popup').forEach(p => p.style.display = 'none');
+            document.body.classList.remove('popup-active');
+        }
+
+        // Add event listener for close buttons
+        document.querySelectorAll(".close-btn").forEach(btn => {
+            btn.addEventListener("click", closePopup);
+        });
+
+        function showThankYou() {
+            closePopup();
+            const thankYou = document.querySelector('.thank-you-popup');
+            if (thankYou) {
+                thankYou.style.display = 'flex';
+                setTimeout(() => {
+                    thankYou.style.display = 'none';
+                }, 2000);
+            }
+        }
+
+    </script>
+
+    <script>
+        document.getElementById("sticky-header").classList.add("bg-color", "shadow-md");
+
+                function closePopup() {
+            document.querySelector('.popup').style.display = 'none';
+            document.body.classList.remove('popup-active');
+        }
+    </script>
+
+    <script>
+        window.addEventListener('scroll', function () {
+          const icon = document.getElementById('hamburger-icon');
+          if (window.scrollY > 10) {
+            icon.classList.add('hamburger-scrolled');
+          } else {
+            icon.classList.remove('hamburger-scrolled');
+          }
+        });
+    </script>
+
+    <!-- pop up script end -->
+    <!-- JS Vendor, Plugins & Activation Script Files -->
+    <!-- Vendors JS -->
+    <script src="~/assets/js/vendor/modernizr-3.11.7.min.js"></script>
+    <script src="~/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="~/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="~/assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="~/assets/js/plugins/popper.min.js"></script>
+    <script src="~/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="~/assets/js/plugins/jquery.ajaxchimp.min.js"></script>
+    <script src="~/assets/js/plugins/parallax.min.js"></script>
+    <script src="~/assets/js/plugins/jquery.nice-select.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <!-- Activation JS -->
+    <script src="~/assets/js/main.js"></script>
+
+</body>
+
+</html>

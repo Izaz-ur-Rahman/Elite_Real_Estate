@@ -1,0 +1,213 @@
+﻿@model EliteRealEstate.Models.BlogPostModel
+<meta name="robots" content="max-image-preview:large">
+@{
+    var externalAppUrl = ViewBag.ExternalAppUrl as string;
+    var user = ViewBag.UserData as EliteRealEstate.Models.UserModal;
+    var profile = ViewBag.ProfileData as EliteRealEstate.Models.UserProfile;
+}
+
+<style>
+    .top-5 {
+        top: 5.25rem;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    img {
+        image-rendering: auto;
+    }
+
+    .mbl_width {
+        width: 40%;
+    }
+
+    @@media (max-width:992px)  {
+        .mbl_width {
+            width: 100% !important;
+        }
+    }
+
+  
+
+    #scrollable-content {
+        min-height: 600px;
+    }
+</style>
+
+<section class="relative bg-[#FFF6F0] h-[350px] lg:h-[513px] flex items-center">
+    <div class="absolute inset-0 bg-no-repeat bg-center bg-cover before:absolute before:inset-0 before:bg-black before:opacity-70"
+         style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('@externalAppUrl/EliteFiles/blogfiles/@Model.CoverImage'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    </div>
+
+    <img src="assets/images/breadcrumb/bg-1.png" alt="Descriptive hero image for the blog section" class="hidden" width="1200" height="675">
+
+    <div class="container relative z-10">
+        <div class="text-center text-white">
+            <div class="mb-5">
+                <span class="text-base block"></span>
+            </div>
+            <h1 class="font-lora text-[36px] sm:text-[50px] md:text-[68px] lg:text-[50px] leading-tight xl:text-2xl font-medium"></h1>
+        </div>
+    </div>
+</section>
+
+<section class="popular-properties py-[80px] lg:py-[120px]">
+    <div class="container">
+        <div class="flex flex-col lg:flex-row gap-[30px] xl:gap-[50px]">
+
+            <!-- Left Content -->
+            <div class="w-full lg:basis-[70%]">
+                <div id="scrollable-content" class="pr-4">
+                    <div class="flex items-center space-x-3 gap-7">
+                        <img src="@externalAppUrl/EliteFiles/ProfileImages/@user.Profileimage" alt="Author Image" class="w-12 h-12 rounded-full">
+                        <div>
+                            <p class="text-gray-400 text-sm">Written By</p>
+                            <p class="text-black font-semibold">@user.Name</p>
+                            <p class="text-black">@(Model.PublishingDate?.ToString("MMMM d, yyyy"))</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-[35px]">
+                        <h2 class="font-lora leading-tight text-[22px] md:text-[28px] lg:text-[32px] text-primary mb-[10px] font-medium">@Model.Title</h2>
+                        <p class="text-justify">
+                            @Html.Raw(Model.BlogDetails ?? "<p>Blog details not available.</p>")
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <div class="w-full lg:basis-[30%] relative mbl_width">
+                <aside id="sticky-sidebar" class="bg-white rounded-[8px] transition-all duration-300">
+
+                    <div class="mb-[40px] bg-white rounded-[8px] text-cent">
+                        <img src="@externalAppUrl/EliteFiles/ProfileImages/@user.Profileimage" style="border-radius:50%;" alt="Author Profile" class="w-[60px] h-[60px] rounded mb-4">
+                        <h3 class="text-primary text-[22px] font-lora font-semibold">@user.Name</h3>
+                        <p class="text-body text-sm leading-[1.75] mt-2">@profile.Position</p>
+                        <h3 class="text-primary text-[22px] font-lora font-semibold">Bio</h3>
+                        <p class="text-body text-sm mt-2">@profile.Bio</p>
+
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+                        <h3 class="text-primary text-[22px] font-lora font-semibold">Social Links</h3>
+
+                        <div class="flex mt-4 space-x-4 gap-2">
+                            @if (profile.Facebook != null)
+                            {
+                                <a href="@profile.Facebook" class="bg-primary text-white px-3 py-1 text-sm border-primary rounded-md hover:bg-secondary hover:text-white transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            }
+                            @if (profile.Twitter != null)
+                            {
+                                <a href="@profile.Twitter" class="bg-primary text-white px-3 py-1 text-sm border-primary rounded-md hover:bg-secondary hover:text-white transition">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            }
+                            @if (profile.LinkedIn != null)
+                            {
+                                <a href="@profile.LinkedIn" class="bg-primary text-white px-3 py-1 text-sm border-primary rounded-md hover:bg-secondary hover:text-white transition">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="mb-[40px]">
+                        <h3 class="text-primary leading-none text-[24px] font-lora mb-[30px] font-medium">Tags<span class="text-secondary">.</span></h3>
+                        <div class="flex flex-wrap gap-2">
+                            @for (var i = 0; i < Model.Tags.Split(',').Length; i++)
+                            {
+                                <a href="#" class="bg-gray-200 px-3 py-1 text-sm rounded-md transition custom-hover">@Model.Tags.Split(',')[i]</a>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="mb-[40px]">
+                        <h3 class="text-primary leading-none text-[24px] font-lora mb-[30px] font-medium">Contact Me<span class="text-secondary">.</span></h3>
+                        <form action="#" class="flex flex-col">
+                            <input type="text" placeholder="Your Name" class="mb-3 border border-primary p-2 rounded-md focus:outline-none focus:border-secondary">
+                            <input type="email" placeholder="Your Email" class="mb-3 border border-primary p-2 rounded-md focus:outline-none focus:border-secondary">
+                            <textarea placeholder="Your Message" class="mb-3 border border-primary p-2 rounded-md focus:outline-none focus:border-secondary"></textarea>
+                            <button type="submit" class="bg-primary text-white px-4 py-2 rounded-md hover:bg-secondary transition">Send Message</button>
+                        </form>
+                    </div>
+
+                </aside>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const sidebar = document.getElementById("sticky-sidebar");
+        const scrollableContent = document.getElementById("scrollable-content");
+        const sidebarContainer = sidebar.parentElement;
+
+        let isFixed = false;
+        let isAbsolute = false;
+
+        function resetSidebar() {
+            sidebar.className = sidebar.className.replace(/\b(fixed|absolute|relative|top-5|bottom-0)\b/g, '').trim();
+            sidebar.classList.add("relative");
+            sidebar.style.width = "";
+            isFixed = false;
+            isAbsolute = false;
+        }
+
+        function updateSidebarPosition() {
+            if (window.innerWidth < 1024) {
+                resetSidebar();
+                return;
+            }
+
+            const contentTop = scrollableContent.getBoundingClientRect().top;
+            const containerBottom = sidebarContainer.getBoundingClientRect().bottom;
+            const sidebarHeight = sidebar.offsetHeight;
+
+            if (scrollableContent.offsetHeight < sidebarHeight) {
+                resetSidebar();
+                return;
+            }
+
+            if (contentTop < 0 && containerBottom > sidebarHeight + 20) {
+                if (!isFixed) {
+                    sidebar.className = sidebar.className.replace(/\b(relative|absolute|bottom-0)\b/g, '').trim();
+                    sidebar.classList.add("fixed", "top-5");
+                    sidebar.style.width = `${sidebarContainer.offsetWidth}px`;
+                    isFixed = true;
+                    isAbsolute = false;
+                }
+            } else if (containerBottom <= sidebarHeight + 20) {
+                if (!isAbsolute) {
+                    sidebar.className = sidebar.className.replace(/\b(fixed|relative|top-5)\b/g, '').trim();
+                    sidebar.classList.add("absolute", "bottom-0");
+                    sidebar.style.width = `${sidebarContainer.offsetWidth}px`;
+                    isFixed = false;
+                    isAbsolute = true;
+                }
+            } else {
+                if (isFixed || isAbsolute) {
+                    sidebar.className = sidebar.className.replace(/\b(fixed|absolute|top-5|bottom-0)\b/g, '').trim();
+                    sidebar.classList.add("relative");
+                    sidebar.style.width = "";
+                    isFixed = false;
+                    isAbsolute = false;
+                }
+            }
+        }
+
+        window.addEventListener("scroll", updateSidebarPosition, { passive: true });
+        window.addEventListener("resize", function () {
+            resetSidebar();
+            updateSidebarPosition();
+        });
+
+        updateSidebarPosition();
+    });
+
+</script>

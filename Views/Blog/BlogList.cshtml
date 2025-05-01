@@ -1,0 +1,87 @@
+﻿@model List<EliteRealEstate.Models.BlogDetail>
+@{
+    ViewData["Title"] = "Blog List";
+    var externalAppUrl = ViewBag.ExternalAppUrl as string;
+}
+
+<style>
+    .clamp-3-lines {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+</style>
+
+<section class="bg-no-repeat bg-center bg-cover bg-[#FFF6F0] h-[350px] lg:h-[513px] flex flex-wrap items-center relative before:absolute before:inset-0 before:content-[''] before:bg-[#000000] before:opacity-[70%]" style="background-image: url('assets/images/blog/Blog-Hero.png');">
+    <div class="container">
+        <div class="grid grid-cols-12">
+            <div class="col-span-12">
+                <div class="max-w-[700px]  mx-auto text-center text-white relative z-[1]">
+                    <div class="mb-5"><span class="text-base block">Our Blog</span></div>
+                    <h1 class="font-lora text-[32px] sm:text-[50px] md:text-[68px] lg:text-[50px] leading-tight xl:text-2xl font-medium">
+                        Latest Blog Post
+                    </h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero section end -->
+
+<!-- Blog Section Start  -->
+<section class="blog-section py-[80px] lg:py-[120px]">
+    <div class="container">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[40px]">
+            
+            @foreach (var blog in Model)
+            {
+                <div class="post-item">
+                    <a href="~/blog/@blog.Slug" class="block overflow-hidden rounded-[6px] mb-[35px]">
+                        <img class="w-full h-full" src="@externalAppUrl/EliteFiles/blogfiles/@blog.CoverImage" width="370" height="270" loading="lazy" alt="The Home Buying Process: A Comprehensive Guide.">
+                    </a>
+                    <div>
+                        <span class="block leading-none font-normal text-[14px] text-secondary mb-[10px]">@blog.UserName on @(blog.PublishingDate?.ToString("MMMM d, yyyy"))</span>
+                        <h3><a href="~/blog/@blog.Slug" class="font-lora text-[22px] xl:text-[24px] leading-[1.285] text-primary block mb-[10px] hover:text-secondary transition-all font-medium">@blog.Title</a></h3>
+                        @functions {
+                        public static string StripHtml(string input)
+                        {
+                            if (string.IsNullOrWhiteSpace(input)) return string.Empty;
+                            string noHtml = System.Text.RegularExpressions.Regex.Replace(input, "<.*?>", string.Empty);
+                            return System.Net.WebUtility.HtmlDecode(noHtml).Trim();
+                        }
+
+                        public static string Truncate(string input, int maxLength)
+                        {
+                            if (string.IsNullOrEmpty(input)) return string.Empty;
+                            return input.Length <= maxLength ? input : input.Substring(0, maxLength).Trim() + "...";
+                        }
+                    }
+
+                   
+
+                    <a href="~/blog/@blog.Slug">
+                        <p class="font-light text-[#494949] text-[16px] leading-[1.75] mb-[15px] hover:text-secondary transition-all">
+                            @Truncate(StripHtml(blog.BlogDetails), 150)
+                        </p>
+                    </a>
+
+
+                        <a href="~/blog/@blog.Slug" class="inline-block bg-primary text-white text-[14px] px-5 py-2 rounded-[6px] hover:bg-secondary transition-all">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            } 
+                   
+                   
+                </div>
+            </div>
+        </section>
+        <!-- Blog Section End  -->
+
+       
+

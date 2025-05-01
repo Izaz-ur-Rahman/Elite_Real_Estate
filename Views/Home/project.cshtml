@@ -1,0 +1,1195 @@
+﻿@model ContactUs;
+
+@{
+    Layout = null;
+}
+
+
+@section Title {
+    <title>Studio Apartment for Sale in UAE | 10% ROI | No Maintenance Fees</title>
+    <meta name="description" content="Own a studio with 10% guaranteed ROI in the UAE – no service or maintenance fees. Limited-time investment offer with full personal guidance from a trusted real estate consultant." />
+}
+<meta http-equiv="x-ua-compatible" content="ie=edge" /> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow">
+    <!-- Title Tag -->
+  
+    <!-- Meta Description -->
+    <meta name="description" content="Sky Elite Real Estate provides expert consulting and investment opportunities in the real estate sector. Discover off-plan, secondary, and rental properties tailored to your financial goals.">
+
+    <!-- Open Graph Meta Title (For Social Media) -->
+    <meta property="og:title" content="Sky Elite Real Estate | Expert Consulting for Property Investments">
+
+    <!-- Open Graph Meta Description (For Social Media) -->
+    <meta property="og:description" content="Sky Elite Real Estate provides expert consulting and investment opportunities in the real estate sector. Discover off-plan, secondary, and rental properties tailored to your financial goals.">
+
+    <meta name="AdsBot-Google" content="noindex follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Favicon -->
+    <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
+    <!-- Font CSS -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=karla:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+    <!-- favicon -->
+
+    <link rel="icon" type="image/x-icon" href="~/assets/images/home/Fev-Icon.png">
+
+    <!-- fav icon -->
+    <!-- Plugins CSS (All Plugins Files) -->
+
+    <link rel="stylesheet" href="~/assets/css/plugins/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="~/assets/css/plugins/magnific-popup.css" />
+
+    <link rel="stylesheet" href="~/assets/css/plugins/nice-select.css" />
+
+    <!-- Style CSS -->
+
+    <link rel="stylesheet" href="~/assets/css/style.css" />
+
+
+
+<style>
+
+    .custom-cta-btn {
+        position: relative;
+        display: inline-block;
+        padding: 15px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        text-transform: capitalize;
+        background-color: #1FA7E1; /* Initial blue background */
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+        .custom-cta-btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            background-color: white;
+            transition: all 0.3s ease;
+            z-index: -1;
+            border-radius: 10px;
+        }
+
+        .custom-cta-btn:hover::before {
+            width: 100%;
+            left: 0;
+            right: auto;
+        }
+
+        .custom-cta-btn:hover {
+            color: black;
+        }
+
+    .custom_img {
+        background-image: url('assets/images/StudioX/Hero-Image.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background: linear-gradient(135deg, #111 0%, #000 100%);
+        color: white;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .logo img {
+        height: 40px;
+        object-fit: contain;
+        transition: height 0.3s ease;
+    }
+
+    .header-right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .phone {
+        font-weight: bold;
+        white-space: nowrap;
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        background-color: #1FA7E1;
+        color: white;
+        padding: 0.6rem 1.2rem;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+
+        .cta-button:hover {
+            background-color: #1998cc;
+        }
+
+    /* Hide button & resize logo on small screens */
+    @@media (max-width: 600px) {
+        .cta-button {
+            display: none;
+        }
+
+        .logo img {
+            height: 28px;
+        }
+
+        .phone {
+            font-size: 0.95rem;
+        }
+
+        header {
+            padding: 0.8rem 1rem;
+        }
+    }
+
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1.5rem 2rem;
+        background-color: #000;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-logo img {
+        height: 32px;
+        object-fit: contain;
+    }
+
+    .footer-copy {
+        color: #9ca3af;
+        font-size: 0.9rem;
+        text-align: right;
+    }
+
+    @@media (max-width: 600px) {
+        footer {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+            text-align: left;
+        }
+
+        .footer-copy {
+            text-align: left;
+        }
+    }
+
+    .animated-tagline-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1rem;
+    }
+
+    .animated-tagline {
+        min-height: 36px; /* Already added, good */
+        height: 36px; /* Add this too */
+        display: flex;
+        align-items: center;
+        color: #ffff;
+    }
+
+    .hero-section {
+        overflow-x: hidden; /* Prevent sideways scroll */
+    }
+
+
+
+    .shine-text {
+        display: inline-block;
+        position: relative;
+        animation: pulseBounce 2s infinite ease-in-out;
+    }
+
+    .highlight {
+    }
+
+    .shine-text::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -75%;
+        height: 100%;
+        width: 70%;
+        background: linear-gradient( 120deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 100% );
+        transform: skewX(-20deg);
+        animation: shine 2.5s infinite ease-in-out;
+        z-index: 1;
+    }
+
+    @@keyframes fadeSlideIn {
+        0% {
+            opacity: 0;
+            transform: translateY(15px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @@keyframes pulseBounce {
+        0%, 100% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.05) translateY(-4px);
+        }
+    }
+
+    @@keyframes shine {
+        0% {
+            left: -75%;
+        }
+
+        100% {
+            left: 125%;
+        }
+    }
+
+    @@media (max-width: 768px) {
+        .animated-tagline-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 3rem;
+        }
+
+        .custom_img {
+            background-image: url('assets/images/StudioX/Hero-Image.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .about-section .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+            .about-section .grid > div:first-child {
+                order: 2;
+            }
+
+            .about-section .grid > div:last-child {
+                order: 1;
+            }
+    }
+
+    @@media (max-width: 1024px) {
+        .grid-cols-12 > div:first-child {
+            order: 2;
+        }
+
+        .grid-cols-12 > div:last-child {
+            order: 1;
+        }
+    }
+
+
+    @@media (max-width: 1024px) {
+        .flex.flex-col.lg\:flex-row {
+            flex-direction: column;
+        }
+
+        .w-full.lg\:w-\[40\%\] {
+            order: 2;
+        }
+
+        .w-full.lg\:w-\[60\%\] {
+            order: 1;
+        }
+    }
+
+    @@media (max-width: 1024px) {
+        .grid.grid-cols-12.items-center {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .col-span-12.lg\:col-span-4 {
+            order: 1;
+        }
+
+        .col-span-12.lg\:col-span-8 {
+            order: 2;
+        }
+    }
+
+    #property-loader {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2147483647 !important;
+        background: #ffffff;
+        padding: 20px 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+        display: flex;
+    }
+
+        #property-loader .house {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            animation: bounce 1s infinite;
+            display: flex; /* Center the .house content */
+            justify-content: center;
+            align-items: center; /* Center the icon inside the container */
+        }
+
+        #property-loader .roof {
+            width: 0;
+            height: 0;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-bottom: 25px solid #1FA7EA;
+            position: absolute;
+            top: 0;
+            left: 75px !important
+        }
+
+        #property-loader .walls {
+            width: 60px;
+            height: 35px;
+            background: #1FA7EA;
+            position: absolute;
+            top: 25px;
+            left: 75px !important;
+        }
+
+        #property-loader .door {
+            width: 15px;
+            height: 20px;
+            background: #ffffff;
+            position: absolute;
+            bottom: 5px;
+            left: 97.5px !important;
+            border-radius: 2px;
+        }
+        @@media (max-width: 767px) {
+        #property-loader .roof
+
+    {
+            left: 40px !important;
+       }
+
+    #property-loader .walls {
+            left: 40px !important;
+    }
+
+    #property-loader .door {
+            left: 63.5px !important;
+    }
+
+    }
+    
+        #property-loader p {
+            margin-top: 16px;
+            font-size: 16px;
+            color: #1FA7EA;
+            font-weight: bold;
+            animation: fadeIn 1s ease-in-out infinite alternate;
+        }
+
+    @@keyframes bounce {
+        0%, 100%
+
+    {
+        transform: translateY(0); /* Icon stays centered */
+    }
+
+    50% {
+        transform: translateY(-10px); /* Icon bounces up and down */
+    }
+
+    }
+
+    @@keyframes fadeIn {
+        from
+
+    {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    }
+</style>
+<header>
+    <div class="logo">
+        <img src="~/assets/images/home/Nav-Bar-Logo.png" alt="Logo" />
+    </div>
+    <div class="header-right">
+        <a href="tel:+971 58 827 3634" class="phone">+971 58 827 3634</a>
+        <a href="/contact-us" class="cta-button">Get Started Free</a>
+    </div>
+</header>
+
+<section class="hero-section bg-white">
+    <div class="custom_img bg-no-repeat bg-left-bottom z-[1] relative before:absolute before:w-full before:h-full before:inset-0 before:content-[''] before:bg-[#000000] before:opacity-[50%] before:z-[-1] py-[80px] lg:py-[125px] min-h-screen flex items-center"
+         style="background-image: url('/assets/images/StudioX/Hero-Image.png'); background-size: cover; background-position: center;">
+        <div class="container w-full">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12">
+                    <div class="slider-content flex flex-col justify-between min-h-[80vh]">
+                        <!-- Top Section -->
+                        <div>
+                            <!-- Subtitle -->
+                            <div class="relative mb-5 sub_title">
+                                <span class="text-base text-white block">Smart and Secure Real Estate Investment</span>
+                            </div>
+
+                            <!-- Title -->
+                            <h1 class="font-lora text-white text-[36px] sm:text-[50px] md:text-[68px] lg:text-[50px] leading-tight xl:text-2xl title">
+                                <span>StudioX Apartments</span>
+                            </h1>
+
+                            <!-- Location -->
+                            <p class="text-base text-white font-light underline text">
+                                Dubai Industrial City, Developed by Dugasta Properties
+                            </p>
+
+                            <!-- ROI Box -->
+                            <span class="text-white inline-block font-lora text-[28px] px-[20px] py-[12px] leading-none border-b-2 border-secondary bg-primary mt-[40px] mb-[20px] hero_btn text-center">
+                                [With 10% Net ROI for 10 Years]
+                            </span>
+
+                            <!-- Benefits -->
+                            <ul class="flex flex-col sm:flex-row gap-6 pl-0 text-base font-semibold mb-[60px]">
+                                <li class="relative bg-gradient-to-r from-[#FF6A00] to-[#FF3E3E] text-white px-8 py-4 rounded-xl shadow-lg hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-l transform transition-all duration-300 ease-out">
+                                    <span class="absolute inset-0 bg-gradient-to-r from-[#FF3E3E] to-[#FF6A00] opacity-40 rounded-xl blur-sm z-[-1]"></span>
+                                    <span class="text-[22px] relative z-[1]">✅ <b>No Service Charges</b></span>
+                                </li>
+                                <li class="relative bg-gradient-to-r from-[#FF6A00] to-[#FF3E3E] text-white px-8 py-4 rounded-xl shadow-lg hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-l transform transition-all duration-300 ease-out">
+                                    <span class="absolute inset-0 bg-gradient-to-r from-[#FF3E3E] to-[#FF6A00] opacity-40 rounded-xl blur-sm z-[-1]"></span>
+                                    <span class="text-[22px] relative z-[1]">✅ <b>No Maintenance Fee</b></span>
+                                </li>
+                                <li class="relative bg-gradient-to-r from-[#FF6A00] to-[#FF3E3E] text-white px-8 py-4 rounded-xl shadow-lg hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-l transform transition-all duration-300 ease-out">
+                                    <span class="absolute inset-0 bg-gradient-to-r from-[#FF3E3E] to-[#FF6A00] opacity-40 rounded-xl blur-sm z-[-1]"></span>
+                                    <span class="text-[22px] relative z-[1]">✅ <b>4% DLD waiver</b></span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Icons Section -->
+                        <!-- Icons Section -->
+                        <div>
+                            <div class="lg:w-[80%]">
+                                <ul class="flex flex-wrap items-center sm:justify-start text-white mt-[-20px] mb-[10px] lg:mb-[60px]">
+                                    <li class="px-4 sm:border-r sm:border-[#E0E0E0] my-[20px] text-center">
+                                        <img class="mb-[15px]" src="~/assets/images/icon/home.png" width="33" height="33" alt="Home size icon showing square footage">
+                                        <span>400 Sq.ft</span>
+                                    </li>
+                                    <li class="px-4 sm:border-r sm:border-[#E0E0E0] my-[20px] text-center">
+                                        <img class="mb-[15px]" src="~/assets/images/icon/bathroom.png" width="32" height="33" alt="Bathroom icon">
+                                        <span>Bathroom</span>
+                                    </li>
+                                    <li class="px-4 sm:border-r sm:border-[#E0E0E0] my-[20px] text-center">
+                                        <img class="mb-[15px]" src="~/assets/images/icon/kitchen.png" width="31" height="31" alt="Kitchen icon">
+                                        <span>1 Kitchen</span>
+                                    </li>
+                                    <li class="px-4 my-[20px] text-center">
+                                        <img class="mb-[15px]" src="~/assets/images/icon/garage.png" width="32" height="32" alt="Garage icon">
+                                        <span>Cover Parking</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!-- CTA Button + Animated Text -->
+                            <div class="hero_btn ">
+                                <a href="#" class="custom-cta-btn" onclick="openPopup('project')">Ask a Specialist</a>
+                            </div>
+                            <div class="animated-tagline-wrapper text-center mt-4">
+                                <div class="animated-tagline">
+                                    <span id="typewriter" class="shine-text text-white text-lg font-semibold"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        const rawText = "Scroll Less, Move Fast – Claim It First";
+                        const highlightStart = 29;
+                        const target = document.getElementById("typewriter");
+                        let index = 0;
+
+                        function typeWriter() {
+                          if (index < rawText.length) {
+                            const currentChar = document.createTextNode(rawText.charAt(index));
+                            target.appendChild(currentChar);
+                            index++;
+                            setTimeout(typeWriter, 40);
+                          } else {
+                            const fullText = target.textContent;
+                            const before = fullText.substring(0, highlightStart);
+                            const highlight = fullText.substring(highlightStart);
+                            target.innerHTML = `${before}<span class="highlight text-yellow-400">${highlight}</span>`;
+                          }
+                        }
+
+                        window.addEventListener("DOMContentLoaded", () => {
+                          setTimeout(typeWriter, 700);
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+
+<!-- Hero section end -->
+<!-- About Us Sectin Start -->
+<section class="about-section py-[80px] lg:py-[120px]">
+    <div class="container">
+        <div class="grid grid-cols-12 gap-x-[30px] mb-[-30px]">
+            <div class="col-span-12 lg:col-span-6 relative mb-[30px]">
+                @*  <div class="scene absolute top-0 right-[5%] xl:right-[10%]" data-relative-input="true">
+                    <img data-depth="0.2" src="~/assets/images/about/dot-with-line.png" width="48" height="158" alt="Decorative dotted line graphic">
+                </div>
+
+                <div class="scene absolute bottom-[10%] lg:bottom-[25%] xl:bottom-[15%] left-[10%]" data-relative-input="true">
+                    <img data-depth="0.3" src="~/assets/images/about/star.png" width="85" height="64" loading="lazy" alt="image">
+                </div> *@
+
+
+                <div class="scene" data-relative-input="true">
+                    <img class="block mx-auto" data-depth="0.1" src="~/assets/images/StudioX/Why-Invest-with-Us.png" alt="Why invest with us img" loading="lazy" width="520" height="467" >
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-6 mb-[30px]">
+                <span class="text-secondary text-tiny inline-block mb-2">Why Choose StudioX?</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl max-w-[500px] mb-3 font-medium">
+                    Smart Investments Backed by Industry Leaders<span class="text-secondary">.</span>
+                </h2>
+
+                <p class="max-w-[480px]">
+                    Enjoy stable returns, modern living spaces, and easy ownership plans that fit your needs.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 py-[30px]">
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col ">
+                        <img src="~/assets/images/updated_icons/High-returns.png" alt="Dollar icon" class="w-12 h-12 mb-4">
+                        <h3 class="text-l font-lora text-blue-800 mb-2"> Guaranteed Income</h3>
+                        <p class="text-sm text-gray-600">
+                            Get consistent rental income with a 10% return every year for 10 years.
+
+                        </p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col ">
+                        <img src="~/assets/images/updated_icons/Strategic-location.png" alt="Location icon" class="w-12 h-12 mb-4">
+                        <h3 class="text-l font-lora text-blue-800 mb-2">Excellent Location</h3>
+                        <p class="text-sm text-gray-600">Located in Dubai Industrial City — close to the new Al Maktoum International Airport and key business hubs.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col ">
+                        <img src="~/assets/images/updated_icons/Reliable-Investment.png" alt="safe investment icon" class="w-12 h-12 mb-4">
+                        <h3 class="text-l font-lora text-blue-800 mb-2"> Secure Investment</h3>
+                        <p class="text-sm text-gray-600">
+                            Your money is held in a regulated escrow account, released only after each step of the project is completed.
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Us Sectin End -->
+<!-- Service sction start -->
+<section class="service-section">
+
+    <div class="container">
+        <div class="grid grid-cols-12 text-center">
+            <div class="col-span-12 text-center mb-[55px]">
+                <div class="max-w-[460px] mx-auto">
+                    <span class="text-secondary text-tiny inline-block mb-2">How we Work</span>
+                    <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-3 font-medium">
+                        It’s a very simple process<span class="text-secondary">.</span>
+                    </h2>
+
+                    <p>
+                        We make investing in real estate easy and stress-free.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid gap-x-[50px] grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mb-[-30px] xl:px-[35px]">
+            <div class="relative p-[20px] xl:p-[30px] mb-[30px] bg-[#E8F1FF] hover:bg-[#FFF6F0] transition-all drop-shadow-[0px_10px_20px_rgba(0,0,0,0.15)] rounded-[10px] skew-left">
+                <div class="flex flex-wrap justify-between">
+                    <span class="font-lora text-[28px] leading-none text-secondary mb-[10px] block">01.</span>
+                    <img class="self-start mb-[-20px] md:mb-[0] lg:mb-[-20px]" src="~/assets/images/service-icon/chart.png" alt="Chart icon representing consultation step" width="50" height="50" loading='lazy' />
+                </div>
+                <h3 class="font-lora text-base text-primary mb-[5px]">Book a Consultation</h3>
+                <p class="font-light text-[14px] max-w-[250px]">
+                    Our team connects with you to understand your goals and recommend the best options.
+
+                </p>
+            </div>
+            <div class="relative p-[20px] xl:p-[30px] mb-[30px] hover:bg-[#FFF6F0] bg-[#FFF6F0] transition-all drop-shadow-[0px_10px_20px_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex flex-wrap justify-between">
+                    <span class="font-lora text-[28px] leading-none text-secondary mb-[10px] block">02.</span>
+                    <img class="self-start mb-[-20px] md:mb-[0] lg:mb-[-20px]" src="~/assets/images/service-icon/note.png" alt="note icon " width="50" height="50" loading='lazy' />
+                </div>
+                <h3 class="font-lora text-base text-primary mb-[5px]">Sign Contract</h3>
+                <p class="font-light text-[14px] max-w-[250px]">
+                    We guide you through the paperwork and explain the payment plans clearly.
+
+                </p>
+            </div>
+            <div class="relative p-[20px] xl:p-[30px] mb-[30px] bg-[#E8F1FF] hover:bg-[#FFF6F0] transition-all drop-shadow-[0px_10px_20px_rgba(0,0,0,0.15)] rounded-[10px] skew-right">
+                <div class="flex flex-wrap justify-between">
+                    <span class="font-lora text-[28px] leading-none text-secondary mb-[10px] block">03.</span>
+                    <img class="self-start mb-[-20px] md:mb-[0] lg:mb-[-20px]" src="~/assets/images/service-icon/key.png" alt="key icon" width="50" height="54" loading='lazy' />
+                </div>
+                <h3 class="font-lora text-base text-primary mb-[5px]">Receive Your Property</h3>
+                <p class="font-light text-[14px] max-w-[250px]">
+                    Once completed, your apartment is handed over — fully managed and ready to earn.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Service sction end -->
+<!-- interior carousel Start -->
+
+
+<section class="pt-[80px] lg:pt-[120px] interior-carousel">
+    <div class="container">
+        <div class="grid grid-cols-12">
+            <div class="col-span-12 lg:col-span-8 rounded-[10px] overflow-hidden order-1 lg:order-2">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+                            <img src="~/assets/images/StudioX/Premium-Features-1st-Image.png" alt="Modern studio apartment with elegant finishing" width="330" height="360">
+                        </div>
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+                            <img src="~/assets/images/StudioX/Premium-Features-2nd-Image.png" alt="Luxury studio interior with contemporary design" width="240" height="360">
+                        </div>
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+                            <img src="~/assets/images/StudioX/Premium-Features-3rd-Image.png" alt="High-end apartment living room with decor" width="147" height="360">
+                        </div>
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+                            <img src="~/assets/images/StudioX/Premium-Features-2nd-Image.png" alt="Luxury studio interior with contemporary design" width="240" height="360">
+                        </div>
+                        <div class="swiper-slide rounded-[10px] overflow-hidden w-auto">
+                            <img src="~/assets/images/StudioX/Premium-Features-1st-Image.png" alt="Modern studio apartment with elegant finishing" width="330" height="360">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-4 pb-[30px] relative lg:pr-[30px] xl:pr-[45px] lg:mb-0 mb-12 order-2 lg:order-1">
+                <span class="text-secondary text-tiny inline-block mb-2">Premium Features</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-3 font-medium">
+                    Sophisticated Design & Superior Finishes
+                    <span class="text-secondary">.</span>
+                </h2>
+                <p class="mb-10">
+                    Discover a collection of stylish studio apartments crafted with attention to detail and modern aesthetics. Enjoy exclusive offers, flexible payment options, and a hassle-free ownership experience.
+                </p>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev w-[36px] h-[36px] rounded-full bg-primary text-white hover:bg-secondary top-auto bottom-0 left-0">
+                </div>
+                <div class="swiper-button-next w-[36px] h-[36px] rounded-full bg-primary text-white hover:bg-secondary top-auto bottom-0 left-[56px]">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- interior carousel end -->
+<!-- About section start -->
+<section class="pt-[80px] lg:pt-[120px]">
+    <div class="container">
+        <div class="grid grid-cols-12 mb-[-30px] items-center">
+            <div class="col-span-12 lg:col-span-6 mb-[30px]">
+                <div class="relative">
+                    <img src="~/assets/images/StudioX/Whats-Included.png" width="685" height="575" alt="Exterior view of luxury residential property">
+                </div>
+            </div>
+            <div class="col-span-12 lg:col-span-6 xl:pl-[60px] mb-[30px]">
+                <span class="text-secondary text-tiny inline-block mb-2">What’s Included</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-3 font-medium">
+                    Exclusive Facilities & Modern Comforts<span class="text-secondary">.</span>
+                </h2>
+                <p>
+                    Each unit comes with top-class facilities designed for comfortable living and long-term value:
+
+                </p>
+
+                <div>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-[40px] mt-[40px]" style="">
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>7 Studio Variations</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>5-Star Interiors</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Central Cooling</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>24/7 Surveillance</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>3-Level Parking</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>High-Speed Connectivity</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>10 Dining Options Nearby</span>
+                        </li>
+
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>6 Prestigious Schools</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>State-of-the-Art Gym</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Built-in Kitchen Appliances</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>5 Private Balconies</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Infinity Pool</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Seamless Wi-Fi Access</span>
+                        </li>
+                        <li class="flex flex-wrap items-center mb-[25px]">
+                            <img class="mr-[15px]" src="~/assets/images/updated_icons/Check-icon.png" loading="lazy" alt="Checkmark icon" width="20" height="20" />
+                            <span>Advanced Security System</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- About section end -->
+<!--Floor Plan start -->
+<section class="Floor-plan pt-[80px] lg:pt-[120px]">
+    <div class="container">
+
+        <div class="grid gap-x-[30px]">
+            <div class="col-span-12 relative pb-[45px] text-center max-w-[480px] mx-auto">
+                <span class="text-secondary text-tiny inline-block mb-2">Choose Your Layout</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-3 font-medium">
+                    Explore our range of well-designed studio apartments
+                    <span class="text-secondary">.</span>
+                </h2>
+                <p>
+                    Each space blends thoughtful layouts with modern comforts, creating a home that feels both inspiring and effortless
+                </p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-[30px] mb-[-30px]">
+            <div class="text-center">
+                <img class="mx-auto w-full max-w-[370px] h-auto" src="~/assets/images/StudioX/Layout-Design-Image-1.png" width="370" height="484" alt="Ground floor plan layout">
+                <p>Interior</p>
+            </div>
+            <div class="text-center">
+                <img class="mx-auto w-full max-w-[361px] h-auto" src="~/assets/images/StudioX/Layout-Design-Image-2.png" width="361" height="491" alt="Single flat layout design">
+                <p>Kitchen</p>
+            </div>
+            <div class="text-center">
+                <img class="mx-auto w-full max-w-[370px] h-auto" src="~/assets/images/StudioX/Layout-Design-Image-3.png" width="370" height="484" alt="First floor plan layout">
+                <p>Building</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--Floor Plan end -->
+<!-- Properties Grids Start-->
+<!-- Contact Us section start -->
+<section class="contact-us-section pb-[80px] lg:pb-[120px] pt-[80px] lg:pt-[120px]">
+    <div class="container">
+        <div class="flex flex-col lg:flex-row gap-[30px] items-stretch">
+
+            <!-- Image Section -->
+            <div class="w-full lg:w-[40%] text-center image-container lg:h-full">
+                <div class="relative rounded-t-[6px] max-w-[400px] mx-auto h-full">
+                    <a href="#" class="relative block h-full">
+                        <img src="~/assets/images/StudioX/agent.jpg" class="w-full h-full object-cover rounded-t-[6px]" loading="lazy" alt="shahbaz img">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Form Section -->
+            <div class="w-full lg:w-[60%] form-containr lg:h-full flex flex-col justify-between">
+                <span class="text-secondary text-tiny capitalize inline-block mb-[15px]">Have a Chat with a Property Pro</span>
+                <h2 class="font-lora text-primary text-[24px] sm:text-[30px] leading-[1.277] xl:text-xl capitalize mb-[15px] font-medium">
+                    Found It? Move Fast: Let’s Talk Before It’s Taken<span class="text-secondary">!</span>
+                </h2>
+                <p class="max-w-[460px]">
+                    Opportunities like this don’t wait — neither should you. Schedule a chat with our property pro – tell us what you need.
+                </p>
+
+                <div class="mt-[40px] form-containe">
+                    <form  id="contact" class="flex flex-wrap justify-between gap-y-[30px]">
+
+                        <!-- Full Name -->
+                        <div class="w-full md:w-full">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[10px] p-[15px] focus:border-secondary focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] transition-all duration-200 ease-in-out" type="text" name="FirstName" placeholder="Full Name">
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="w-full md:w-[48%]">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[10px] p-[15px] focus:border-secondary focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] transition-all duration-200 ease-in-out" type="text" name="PhoneNumber" placeholder="Phone Number">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="w-full md:w-[48%]">
+                            <input class="font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[10px] p-[15px] focus:border-secondary focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] transition-all duration-200 ease-in-out" type="email" name="Email" placeholder="Email Address">
+                        </div>
+
+                        <!-- Message -->
+                        <div class="w-full">
+                            <textarea class="h-[196px] font-light w-full leading-[1.75] placeholder:opacity-100 placeholder:text-body border border-[#1B2D40] border-opacity-60 rounded-[10px] p-[15px] focus:border-secondary focus:outline-none focus:drop-shadow-[0px_6px_15px_rgba(0,0,0,0.1)] resize-none transition-all duration-200 ease-in-out" name="Message" id="textarea" placeholder="Message"></textarea>
+                        </div>
+
+                        <!-- Button -->
+                        <div class="w-full">
+                            <button type="submit" class="relative overflow-hidden text-white font-medium text-[14px] xl:text-[16px] px-[30px] py-[15px] rounded-md bg-primary hover:bg-secondary transition-all duration-300 ease-in-out">
+                                Contact Us
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-logo">
+        <img src="~/assets/images/home/Nav-Bar-Logo.png" alt="Real Estate Logo" />
+    </div>
+    <div class="footer-copy">
+        Copyright © <span id="current-year"></span> Elite RealEstate, Inc. All rights reserved.
+    </div>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</footer>
+
+<!-- pop up start -->
+
+<partial name="_LandingPageQuot"></partial>
+
+@* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#contact").submit(function (event) {
+            event.preventDefault(); // Prevent form from refreshing page
+
+            // Show "Submitting..." popup immediately after form submission
+            Swal.fire({
+                icon: 'info',
+                title: 'Submitting...',
+                html: `<div style="font-size: 16px; line-height: 1.6;">
+                         Please wait, we are processing your request.
+                       </div>`,
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                },
+                hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                },
+                backdrop: true,
+                showConfirmButton: false,
+                allowOutsideClick: false,  // Disable outside click to close popup
+                customClass: {
+                    popup: 'custom-popup'
+                }
+            });
+
+            $.ajax({
+                url: '@Url.Action("project", "Home")',
+                type: "POST",
+                data: $("#contact").serialize(),
+                success: function (response) {
+                    // Close the "Submitting..." popup and show success/error message
+                    Swal.close();
+
+                    if (response.success) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: '🎉 Thank You!',
+                            html: `<div style="font-size: 16px; line-height: 1.6;">
+                                     Your message has been successfully sent.<br>
+                                     We'll get back to you as soon as possible.
+                                   </div>`,
+                            backdrop: true,
+                            confirmButtonColor: '#1FA7EA',
+                            confirmButtonText: 'Great!',
+                            customClass: {
+                                confirmButton: 'custom-ok-btn'
+                            }
+                        }).then(() => {
+                            // Reset the form after success
+                            $("#contact")[0].reset();
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: response.message,
+                            backdrop: true,
+                            confirmButtonColor: '#1FA7EA',
+                            customClass: {
+                                confirmButton: 'custom-ok-btn'
+                            }
+                        });
+                    }
+                },
+                error: function () {
+                    // Show error popup if something goes wrong
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Something went wrong!',
+                        confirmButtonColor: '#1FA7EA',
+                        backdrop: true,
+                        customClass: {
+                            confirmButton: 'custom-ok-btn'
+                        }
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+ *@
+<!-- You can place this CSS inside a <style> tag in your <head> -->
+<!-- jQuery & SweetAlert2 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Custom Real Estate Loader -->
+<div id="property-loader">
+    <div class="house">
+        <div class="roof"></div>
+        <div class="walls"></div>
+        <div class="door"></div>
+    </div>
+    <p>Processing your request...</p>
+</div>
+
+
+
+
+
+<!-- Script -->
+<script>
+    $(document).ready(function () {
+        $("#contact").submit(function (event) {
+            event.preventDefault(); // Prevent page refresh
+
+            // Show custom house loader
+            $("#property-loader").fadeIn(200);
+
+            $.ajax({
+                url: '@Url.Action("project", "Home")', // Replace with your actual URL/action
+                type: "POST",
+                data: $("#contact").serialize(),
+                success: function (response) {
+                    $("#property-loader").fadeOut(200); // Hide loader
+
+                    if (response.success) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: '🎉 Thank You!',
+                            html: `<div style="font-size: 16px; line-height: 1.6;">
+                                     Your message has been successfully sent.<br>
+                                     We'll get back to you as soon as possible.
+                                   </div>`,
+                            backdrop: true,
+                            confirmButtonColor: '#1FA7EA',
+                            confirmButtonText: 'Great!',
+                            customClass: {
+                                confirmButton: 'custom-ok-btn'
+                            }
+                        }).then(() => {
+                            $("#contact")[0].reset(); // Reset form
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: response.message || 'Something went wrong!',
+                            confirmButtonColor: '#1FA7EA',
+                            customClass: {
+                                confirmButton: 'custom-ok-btn'
+                            }
+                        });
+                    }
+                },
+                error: function () {
+                    $("#property-loader").fadeOut(200); // Hide loader on error
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Something went wrong!',
+                        confirmButtonColor: '#1FA7EA',
+                        customClass: {
+                            confirmButton: 'custom-ok-btn'
+                        }
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+ <!-- JS Vendor, Plugins & Activation Script Files -->
+<!-- Vendors JS -->
+<script src="~/assets/js/vendor/modernizr-3.11.7.min.js"></script>
+<script src="~/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<!-- Plugins JS -->
+<script src="~/assets/js/plugins/swiper-bundle.min.js"></script>
+<script src="~/assets/js/plugins/popper.min.js"></script>
+<script src="~/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="~/assets/js/plugins/jquery.ajaxchimp.min.js"></script>
+<script src="~/assets/js/plugins/parallax.min.js"></script>
+<script src="~/assets/js/plugins/jquery.nice-select.min.js"></script>
+<!-- Activation JS -->
+<script src="~/assets/js/main.js"></script>
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+<script>
+    const rawText = "Scroll Less, Move Fast – Claim It First";
+    const highlightStart = 29; // index of "Claim It First"
+    const target = document.getElementById("typewriter");
+
+    let index = 0;
+    function typeWriter() {
+      if (index < rawText.length) {
+        const currentChar = document.createTextNode(rawText.charAt(index));
+        target.appendChild(currentChar);
+        index++;
+        setTimeout(typeWriter, 40);
+      } else {
+        // Wrap the highlight portion after typing is done
+        const fullText = target.textContent;
+        const before = fullText.substring(0, highlightStart);
+        const highlight = fullText.substring(highlightStart);
+
+        target.innerHTML = `${before}<span class="highlight">${highlight}</span>`;
+      }
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+      setTimeout(typeWriter, 700);
+    });
+</script>
+
+<!-- pop up script start -->
+
+<script>
+    function openPopup() {
+        document.querySelector('.popup').style.display = 'flex';
+        document.body.classList.add('popup-active');
+    }
+    function closePopup() {
+        document.querySelector('.popup').style.display = 'none';
+        document.body.classList.remove('popup-active');
+    }
+
+    document.getElementById("closePopup").addEventListener("click", closePopup);
+
+    function showThankYou() {
+        closePopup();
+        document.querySelector('.thank-you-popup').style.display = 'flex';
+        setTimeout(() => {
+            document.querySelector('.thank-you-popup').style.display = 'none';
+        }, 2000);
+        popup.addEventListener("click", closePopup);
+    }
+</script>
+
+<script>
+            function closePopup() {
+        document.querySelector('.popup').style.display = 'none';
+        document.body.classList.remove('popup-active');
+    }
+</script>
