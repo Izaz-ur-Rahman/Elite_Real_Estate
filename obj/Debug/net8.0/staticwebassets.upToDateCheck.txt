@@ -288,6 +288,7 @@ wwwroot\assets\images\StudioX\Premium-Features-3rd-Image.png
 wwwroot\assets\images\StudioX\shahbaz.png
 wwwroot\assets\images\StudioX\Whats-Included.png
 wwwroot\assets\images\StudioX\Why-Invest-with-Us.png
+wwwroot\assets\images\team\AgentPic.jpg
 wwwroot\assets\images\team\fleming.png
 wwwroot\assets\images\team\person1.png
 wwwroot\assets\images\team\person10.png

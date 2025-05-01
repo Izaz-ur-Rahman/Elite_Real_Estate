@@ -1,6 +1,6 @@
 ﻿<style>
     .swal2-container {
-        z-index: 2147483647 !important; /* Maximum safe z-index */
+        z-index: 2147483647 !important;
     }
 
     .swal2-popup {
@@ -118,7 +118,6 @@
         border-radius: 10px;
     }
 
-    /* ✅ Mobile Styling */
     @@media (max-width: 800px) {
         .popup
 
@@ -126,7 +125,6 @@
         width: 90%;
         flex-direction: column-reverse;
         align-items: center;
-                            
     }
 
     .form-container {
@@ -134,7 +132,7 @@
     }
 
     .popup img {
-        display: none; /* ✅ Hide image on small screens */
+        display: none;
     }
 
     .thank-you-popup {
@@ -143,7 +141,7 @@
 
     }
 
-/* loader css here*/
+    /* Loader Styles */
     #property-loader {
         position: fixed;
         top: 50%;
@@ -151,68 +149,24 @@
         transform: translate(-50%, -50%);
         z-index: 2147483647 !important;
         background: #ffffff;
-        padding: 20px 30px;
+        padding: 30px 40px;
         border-radius: 12px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
         display: none;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: center; /* ✅ centers horizontally */
+        justify-content: center; /* ✅ centers vertically */
+        text-align: center;
     }
 
-        #property-loader .house {
-            position: relative;
+        #property-loader img.custom-loader-icon {
             width: 60px;
             height: 60px;
             animation: bounce 1s infinite;
-        }
-
-        #property-loader .roof {
-            width: 0;
-            height: 0;
-            border-left: 30px solid transparent;
-            border-right: 30px solid transparent;
-            border-bottom: 25px solid #1FA7EA;
-            position: absolute;
-            top: 0;
-            left: 75px !important;
-        }
-
-    @@media (max-width: 767px) {
-        #property-loader .roof {
-            left: 40px !important;
-        }
-
-        #property-loader .walls {
-            left: 40px !important;
-        }
-
-        #property-loader .door {
-            left: 63.5px !important;
-        }
-    }
-
-    #property-loader .walls {
-            width: 60px;
-            height: 35px;
-            background: #1FA7EA;
-            position: absolute;
-            top: 25px;
-            left: 75px !important;
-        }
-
-        #property-loader .door {
-            width: 15px;
-            height: 20px;
-            background: #ffffff;
-            position: absolute;
-            bottom: 5px;
-            left: 97.5px !important;
-            border-radius: 2px;
+            margin-bottom: 16px; /* ✅ spacing between icon and text */
         }
 
         #property-loader p {
-            margin-top: 16px;
             font-size: 16px;
             color: #1FA7EA;
             font-weight: bold;
@@ -220,30 +174,36 @@
         }
 
     @@keyframes bounce {
-        0%, 100% {
-            transform: translateY(0);
-        }
+        0%, 100%
 
-        50% {
-            transform: translateY(-10px);
-        }
+    {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
     }
 
     @@keyframes fadeIn {
-        from {
-            opacity: 0.4;
-        }
+        from
 
-        to {
-            opacity: 1;
-        }
+    {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+
     }
 </style>
 
+<!-- Form Popup -->
 <div class="popup" id="entire_popup">
     <button class="close-btn" onclick="closePopup()">&times;</button>
-
-    <img src="~/assets/images/home/Mask group.png" alt="House">
+    <img src="/assets/images/home/Mask group.png" alt="House">
 
     <div class="form-container">
         <form id="landForm" method="post">
@@ -270,40 +230,38 @@
     </div>
 </div>
 
-<!-- Success Popup Placeholder -->
+<!-- Success Popup -->
 <div class="thank-you-popup" id="thankYouPopup">
     <h2>Thank you!</h2>
     <p>Your message has been received. Have a great day!</p>
 </div>
+
+<!-- Loader -->
+<div id="property-loader">
+    <img src="/assets/images/icon/HOME_32PX.png" alt="Loader Icon" class="custom-loader-icon">
+    <p>Submitting...</p>
+</div>
+
+<!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<!-- Custom Real Estate Loader -->
-<div id="property-loader" style="display:none;">
-    <div class="house">
-        <div class="roof"></div>
-        <div class="walls"></div>
-        <div class="door"></div>
-    </div>
-    <p>Processing your request...</p>
-</div>
-
-
 <script>
+    function closePopup() {
+        document.getElementById('entire_popup').style.display = 'none';
+    }
+
     $(document).ready(function () {
         $("#landForm").submit(function (event) {
             event.preventDefault();
 
-            // Show the custom house loader before the AJAX request
-            $("#property-loader").fadeIn(300); // Show the loader immediately with fadeIn
+            $("#property-loader").fadeIn(300);
 
-            // Trigger the AJAX request after showing the loader
             $.ajax({
-                url: '@Url.Action("LandingPageQuotation", "Home")', // Replace with your actual URL
+                url: '@Url.Action("LandingPageQuotation", "Home")',
                 type: "POST",
                 data: $("#landForm").serialize(),
                 success: function (response) {
-                    // Hide the loader after the response is received
                     $("#property-loader").fadeOut(300);
 
                     if (response.success) {
@@ -321,9 +279,8 @@
                                 confirmButton: 'custom-ok-btn'
                             }
                         }).then(() => {
-                            // Reset the form after success
                             $("#landForm")[0].reset();
-                            $("#entire_popup").hide(); // Hide the form after success
+                            $("#entire_popup").hide();
                         });
                     } else {
                         Swal.fire({
@@ -339,7 +296,6 @@
                     }
                 },
                 error: function () {
-                    // Hide loader and show error popup if something goes wrong
                     $("#property-loader").fadeOut(300);
                     Swal.fire({
                         icon: 'error',

@@ -72,3 +72,4 @@ D:\skill_starting\job\elite_real_estate_mehmood\EliteRealEstate\EliteRealEstate\
 D:\skill_starting\job\elite_real_estate_mehmood\EliteRealEstate\EliteRealEstate\obj\Debug\net8.0\EliteRealEstate.pdb
 D:\skill_starting\job\elite_real_estate_mehmood\EliteRealEstate\EliteRealEstate\obj\Debug\net8.0\EliteRealEstate.genruntimeconfig.cache
 D:\skill_starting\job\elite_real_estate_mehmood\EliteRealEstate\EliteRealEstate\obj\Debug\net8.0\ref\EliteRealEstate.dll
+D:\skill_starting\job\elite_real_estate_mehmood\EliteRealEstate\EliteRealEstate\obj\Debug\net8.0\EliteRealEstate.sourcelink.json
