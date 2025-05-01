@@ -148,30 +148,34 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 2147483647 !important;
-        background: #ffffff;
+        background: #fff;
         padding: 30px 40px;
-        border-radius: 12px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
         display: none;
+    }
+
+    .loader-content {
+        display: flex;
         flex-direction: column;
-        align-items: center; /* ✅ centers horizontally */
-        justify-content: center; /* ✅ centers vertically */
+        align-items: center; /* Centers icon and text horizontally */
+        justify-content: center; /* Optional, for vertical alignment within parent */
         text-align: center;
     }
 
-        #property-loader img.custom-loader-icon {
-            width: 60px;
-            height: 60px;
-            animation: bounce 1s infinite;
-            margin-bottom: 16px; /* ✅ spacing between icon and text */
-        }
+    .loader-icon {
+        width: 50px;
+        height: 40px;
+        margin-bottom: 12px;
+        animation: bounce 1s infinite;
+    }
 
-        #property-loader p {
+     /*    #property-loader p {
             font-size: 16px;
             color: #1FA7EA;
             font-weight: bold;
             animation: fadeIn 1s ease-in-out infinite alternate;
-        }
+        } */
 
     @@keyframes bounce {
         0%, 100%
@@ -237,10 +241,16 @@
 </div>
 
 <!-- Loader -->
+<!-- Loader -->
+<!-- Loader -->
 <div id="property-loader">
-    <img src="/assets/images/icon/HOME_32PX.png" alt="Loader Icon" class="custom-loader-icon">
-    <p>Submitting...</p>
+    <div class="loader-content">
+        <img src="/assets/images/icon/HOME_32PX.png" alt="Loading..." class="loader-icon">
+        <p>Submitting...</p>
+    </div>
 </div>
+
+
 
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
