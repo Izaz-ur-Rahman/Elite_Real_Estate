@@ -444,8 +444,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>48pen1dtt5</Fingerprint>
-      <Integrity>NKKU5KgmlE0nFYe9I4lLjwNmjd1FveI+IF2wPZPQKys=</Integrity>
+      <Fingerprint>7sxkhvo17v</Fingerprint>
+      <Integrity>+cpoczYZXejbtPXvvCOkeXt3/B2cZNLqXYke1LEOPH4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\style.css'))</OriginalItemSpec>
@@ -480,8 +480,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vkplv9vsk9</Fingerprint>
-      <Integrity>v6cDmttNDA8erWT723YasSpJxEOkMv/iFaXOMqcO7Is=</Integrity>
+      <Fingerprint>7kk1r3310z</Fingerprint>
+      <Integrity>V3Xc4KqZbRAnaPG0ILx3WhB1+yyk0KHDHYTJmatJRx4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\About-2nd-Image.png'))</OriginalItemSpec>
@@ -498,8 +498,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3wkigghtm3</Fingerprint>
-      <Integrity>Q9qAINLbjeMGYLw020kIySGnbKRvvTzYlmHjuWTZWRo=</Integrity>
+      <Fingerprint>7zpp1t5vw6</Fingerprint>
+      <Integrity>w5StBT91TMA05MpXUhs9qvXa2FcEkhFiUNnQwfzsc0A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\ABout-Us-Hero.png'))</OriginalItemSpec>
@@ -516,8 +516,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tb9r3rlnd2</Fingerprint>
-      <Integrity>+aa4PG5ws69v6PEYRupflknzg7L4N27KP9NNtET6iYQ=</Integrity>
+      <Fingerprint>1kfbdmrwtv</Fingerprint>
+      <Integrity>f+eYmoKPkvvufNJ+QuaFw2jT/dX+ghZaUjK+wN5758Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\about1.png'))</OriginalItemSpec>
@@ -534,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wcjc5c6gum</Fingerprint>
-      <Integrity>AN5ynobVvT+7JzHUt+Efch9l1JzenwaSpTtg1huPZJw=</Integrity>
+      <Fingerprint>ccumyzo7ds</Fingerprint>
+      <Integrity>HFH2AXZ26ywyuHY9FNTyJjX6oEkhqYonP56sqLR41Wg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\about3.png'))</OriginalItemSpec>
@@ -552,8 +552,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kag7pjgqhi</Fingerprint>
-      <Integrity>xEwDNB06ZsjPkOx8S9R0iZozkq2Yb5lHxLo59t/4TIg=</Integrity>
+      <Fingerprint>i6f59ttg8p</Fingerprint>
+      <Integrity>GumDjSU6x2Vh9RIsx7+D9V6rDZU5XheejVDTTO+JBYE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\about5.png'))</OriginalItemSpec>
@@ -570,8 +570,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w45h15oclt</Fingerprint>
-      <Integrity>QIkYfLbsgo1KnRiULDqiYLzea7RfZXoNMj3QEXYDlmQ=</Integrity>
+      <Fingerprint>9e4nnlgtk4</Fingerprint>
+      <Integrity>AaE/DAkJaxA/MsnhbedXRkdkum6k0l6kTUUPmEPwUtM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\about7.png'))</OriginalItemSpec>
@@ -588,8 +588,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dbkahlb40g</Fingerprint>
-      <Integrity>p6W2LzbxSjnG2TGCLG3qh12Mqb/jf+ZqOWZ+80VUEqI=</Integrity>
+      <Fingerprint>jp3hhz23lj</Fingerprint>
+      <Integrity>BypuxZqa+GdyHi2+beZSZ8vOzienSz88Dj/DNVkVf6I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\check.png'))</OriginalItemSpec>
@@ -606,8 +606,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>37mzh2m8wx</Fingerprint>
-      <Integrity>4UuMdOcEIG3ddgb4VkgJzeB/dN29K+LxVKeAghz1wVA=</Integrity>
+      <Fingerprint>vnj57000y4</Fingerprint>
+      <Integrity>Nab2mLYaiVyAgQC7QOuGoXhPjbvJMe9y62lFf2HTJVI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\Core-Value.png'))</OriginalItemSpec>
@@ -624,8 +624,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kumf1q736r</Fingerprint>
-      <Integrity>lGUgURds0/mlwyPx74Eou9auTzVDhF+3Vv6WRcjpu2Y=</Integrity>
+      <Fingerprint>j7k69hjfn5</Fingerprint>
+      <Integrity>MddQxnguOneuvf5JXoJaXXT8jD0x5fdVeb/GZnDJkjk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\dot-with-line.png'))</OriginalItemSpec>
@@ -642,8 +642,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cmfx0hp5kr</Fingerprint>
-      <Integrity>VIG8Jqg4dPR7foDBpWExTlagnwmWPwtRatERoFsPetI=</Integrity>
+      <Fingerprint>m106jm8ida</Fingerprint>
+      <Integrity>ulADW+nQs/pqv8bnYJ6eM0gQYlGtMysQEoOxmqF5DIU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\Mission.png'))</OriginalItemSpec>
@@ -660,8 +660,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5lvk590i6k</Fingerprint>
-      <Integrity>6UWlptGk/DoSMluYDc9SQ9nDCl345YbpQ3O4NcuSkhE=</Integrity>
+      <Fingerprint>v8j8riub1t</Fingerprint>
+      <Integrity>kclwAhjGrJjabTyk9cmYbi0XPcmdDOxTGUHSXtI95kU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\star.png'))</OriginalItemSpec>
@@ -678,8 +678,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hgijymp7ey</Fingerprint>
-      <Integrity>z1HOvUwYur+0puuNTS9kCfsoI/4U1ARDGiLTDFBRdL4=</Integrity>
+      <Fingerprint>y5wypksucg</Fingerprint>
+      <Integrity>VqB7mFqdvmYJdiUBasgZwAUnK/CYcMjnDw4cgm6bmEY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\about\Vision.png'))</OriginalItemSpec>
@@ -2154,8 +2154,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ncv0ffebod</Fingerprint>
-      <Integrity>SbbTsoBd0Sfm8mo/h9gyBUAF0At+zJF5XaFqVHV9lV4=</Integrity>
+      <Fingerprint>56a80mvofo</Fingerprint>
+      <Integrity>fe2HGUyK6lVOsscfWxwhUSk7Uhp8sLSH1NOMqnrz1kQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Agent-1.png'))</OriginalItemSpec>
@@ -2172,8 +2172,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i3w3w8qro7</Fingerprint>
-      <Integrity>wppXkUwfg1KgHuhEo8FZc0jJ5Wm+ta/j/V9FMEJHIZE=</Integrity>
+      <Fingerprint>jpg4gd6fpe</Fingerprint>
+      <Integrity>l7HIH3vJLEc1HUJTAbAev0mXumf+/SnukncdRbDH33I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Agent-2.png'))</OriginalItemSpec>
@@ -2190,8 +2190,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9xa5tzt87b</Fingerprint>
-      <Integrity>jT+Z31LUyn4l5/oY6sxChfYRgZpNJhkCDpJDFeMcnFM=</Integrity>
+      <Fingerprint>sfatlmuj0h</Fingerprint>
+      <Integrity>GMfPYRWIfIlzUawjST2VfKmUS19+5GuKRVgU0v5JKgU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Agent-3.png'))</OriginalItemSpec>
@@ -2208,8 +2208,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0grrr8zxie</Fingerprint>
-      <Integrity>sE6Mzq3uI0QO8cCBZjflEb+8xQKcYLylYTNWrJd6sTg=</Integrity>
+      <Fingerprint>lqjxcdu9fe</Fingerprint>
+      <Integrity>0x0PUVKH96rksEvdFVfZbUgnb1SEPmN1ajl8BxRiV8A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Are-you-a-home-owner.png'))</OriginalItemSpec>
@@ -2226,8 +2226,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9tzbm99nsq</Fingerprint>
-      <Integrity>DXQPD+gHYrZdCxMN6bU/KCMn75111IgCBF9JFXv/GKM=</Integrity>
+      <Fingerprint>ipmdcbi5bp</Fingerprint>
+      <Integrity>ylMI6hG2ZCn3q2ImYqWa7XboTTcKECZYOkkR12jxg9I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Blog-1.png'))</OriginalItemSpec>
@@ -2244,8 +2244,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3nmayoanow</Fingerprint>
-      <Integrity>4UzboR7QvOuuu98k/DQDk0PbLd+rvLYoXcLpCyp+kT4=</Integrity>
+      <Fingerprint>s312pdejfq</Fingerprint>
+      <Integrity>GB8VVrQvqG4P/hFs6AsRZrlm3z32+F9ZEahDNQsE71s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Blog-2.png'))</OriginalItemSpec>
@@ -2262,8 +2262,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2r69rjvxuq</Fingerprint>
-      <Integrity>buGTNSI6nLZ4sDeaLAasQUoUwaDb3ZctuC//2kDq5os=</Integrity>
+      <Fingerprint>xhi6sdlgvu</Fingerprint>
+      <Integrity>2xwc2U/XMnbENBE3vNkIIHY8Y/CAVhyFpEfDWrx2yZc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Blog-3.png'))</OriginalItemSpec>
@@ -2280,8 +2280,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3kbyvtu8dw</Fingerprint>
-      <Integrity>A2LqtSD9tBVs3cRiNV+Vbvw2y7K/6R63jS9wTDuPupM=</Integrity>
+      <Fingerprint>sgvjxl9oze</Fingerprint>
+      <Integrity>DOuTbkOaBD4ayxMeKw6kN3sGnecyE7tT2dqaNgb76j0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Client-review.png'))</OriginalItemSpec>
@@ -2298,8 +2298,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2on4we8778</Fingerprint>
-      <Integrity>LlcQx89vvs6kyNYiUk5dJRuiu3Z7f985eM63C7KyPXA=</Integrity>
+      <Fingerprint>dnuebphf7r</Fingerprint>
+      <Integrity>V65oqvb+bCnZBCXzKP0TWpcFa7EeZwvI1Bi7BxDOrvA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Client-review-2.png'))</OriginalItemSpec>
@@ -2316,8 +2316,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wzaluu1m93</Fingerprint>
-      <Integrity>7ND8IkEwdGlmCKlqdzcQjbyPHJs5LHB6RM9DB+D9pKk=</Integrity>
+      <Fingerprint>6xkn7g2n2r</Fingerprint>
+      <Integrity>qlBidfiP/Lx+n8M8YEAjcexiXvxEzlB7NLdWTdD2bK4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Dot-Dot.png'))</OriginalItemSpec>
@@ -2334,8 +2334,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gj2fptb8fc</Fingerprint>
-      <Integrity>ZEj5zOa8ubOTYsPwI4ClntMYs0RsRgd/bdI4cS+PS0A=</Integrity>
+      <Fingerprint>wavaofpwyq</Fingerprint>
+      <Integrity>CP9WLw0j2Nf5ipux5E+/J7AhtDbVuXVXO+n54dGYgog=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Featured-1.png'))</OriginalItemSpec>
@@ -2352,8 +2352,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7xu9fv0ksv</Fingerprint>
-      <Integrity>NbC5OUqGuQ6UwroX9i0iHobuRSzJW7bYtRTyQaf0uRc=</Integrity>
+      <Fingerprint>1yb461zs5k</Fingerprint>
+      <Integrity>ea9KEdV9EVZGrHP/qUuf5nrZe/gvF8XHHnQSgtBDPrA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Featured-2.png'))</OriginalItemSpec>
@@ -2370,8 +2370,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>crksym89tn</Fingerprint>
-      <Integrity>GJJHWPdL+Skl0Q/+EBg6t0SADtwyYLkX5hrdsK4KLUc=</Integrity>
+      <Fingerprint>kfulxiaocg</Fingerprint>
+      <Integrity>UHblb/w4lskgxFFso44jvtjSyhF/YJ75aK5A94l8tTA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Featured-3.png'))</OriginalItemSpec>
@@ -2388,8 +2388,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5f2bwuqsnu</Fingerprint>
-      <Integrity>Admw56h5FgVjLV3669rSMLwZXe7cbMU6dflFT/+SXDU=</Integrity>
+      <Fingerprint>vs52qu37jc</Fingerprint>
+      <Integrity>3wt/N/cQUTYPPBtYzWf0t9rGA0OWNFGnTaLna3zpCxk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Featured-4.png'))</OriginalItemSpec>
@@ -2406,8 +2406,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ts9zqq6vf8</Fingerprint>
-      <Integrity>o8Gk12YK54f0/jusFM4EVteo4Jf3KBknKUAr9IECH6c=</Integrity>
+      <Fingerprint>6js6kjchnd</Fingerprint>
+      <Integrity>8pWRYUQxP4chEgcZIUasLBNrtyNWADzb5lssSztWAIo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Featured-5.png'))</OriginalItemSpec>
@@ -2424,8 +2424,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m61b89rrp0</Fingerprint>
-      <Integrity>QukKc1HevKru9sZvgUaYYCljmF3hszbOs9F1flVa6NI=</Integrity>
+      <Fingerprint>01rtfw445c</Fingerprint>
+      <Integrity>7KLb7W4/C8GuSW6sE2xxrYliUzN5IPIvOQr3zIEnjQE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Featured-6.png'))</OriginalItemSpec>
@@ -2442,8 +2442,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>z25pm6u4w5</Fingerprint>
-      <Integrity>BYwZfKuGjgzdewnYGtRhFV5/noG++meR322mFm0Lbk4=</Integrity>
+      <Fingerprint>3ev3r5znld</Fingerprint>
+      <Integrity>VR8EMR3jMOa9UZDC60/7PpFanGpw/SJm/cpYccpZ7Do=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Fev-Icon.png'))</OriginalItemSpec>
@@ -2460,8 +2460,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5mparlfq56</Fingerprint>
-      <Integrity>LX881O69r+5NGHOvo3ip23qt3IMacHKzRHvOlsY+MM8=</Integrity>
+      <Fingerprint>zs8l7p0vq0</Fingerprint>
+      <Integrity>LbV/3EmPfSeE6R0+tiN/KP6zyPhxAqVqE+5VVcaon0Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Frame.png'))</OriginalItemSpec>
@@ -2478,8 +2478,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1ar5479a9j</Fingerprint>
-      <Integrity>p9bvZV/eTsyHF1dqENFo/V8GxlfmDpbqcSKT4Hea+NQ=</Integrity>
+      <Fingerprint>eekam2tvxl</Fingerprint>
+      <Integrity>OswrqouoqUmyNMJZhiCq/z9Q8SSpaaBUpnaTM69PHps=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\Hero.png'))</OriginalItemSpec>
@@ -2496,8 +2496,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m0ztvf82mi</Fingerprint>
-      <Integrity>eo69K5rTsnr5ZkGpBcUN72JMj3qOsqJ/gJ3sE8+D9qw=</Integrity>
+      <Fingerprint>ojx3ds8fox</Fingerprint>
+      <Integrity>bNYbNKIz8IuXJUCI3lU5cEM/0leRmqacR+uXRtkzVm0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\home\indian-village-house-surrounded-by-green-grass-beatiful-cloudy-blue-sky-village-landscape 1.png'))</OriginalItemSpec>
@@ -2928,8 +2928,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mprzxv0yi3</Fingerprint>
-      <Integrity>CpQjCMQMCHc+bcCzpk4TkITiC435ddCbV6NYnMYpITM=</Integrity>
+      <Fingerprint>lfit2gofeb</Fingerprint>
+      <Integrity>bzt0u2jxcSO7Ii0oDQg/RxF6ejtJ47NEFvQypy9VlEw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\bathroom.png'))</OriginalItemSpec>
@@ -2946,8 +2946,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6mqthuw9rs</Fingerprint>
-      <Integrity>Aqs6AFJFsG3GEzFctE3KFpL1fAv7qpMw3I/3XUHlBbM=</Integrity>
+      <Fingerprint>mphby71sdi</Fingerprint>
+      <Integrity>ahxtI6AUwHU4COL1S4R05Z/viPdrByLgCvx/ZzXTLVc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\bed.png'))</OriginalItemSpec>
@@ -2964,8 +2964,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vnweo0dhsw</Fingerprint>
-      <Integrity>28QDmNQLcwpkBSD2Xblnx5bh7C/G7zZAmrH25d6786k=</Integrity>
+      <Fingerprint>fraw4c63lv</Fingerprint>
+      <Integrity>e1Lz1Zb0tRpJv0GVyb5IGuuEVpN/fQ6QwkuwJNWAC+Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\camera.png'))</OriginalItemSpec>
@@ -3000,8 +3000,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o010owzb4n</Fingerprint>
-      <Integrity>KI13Zk/CynUa4RTZaU1NxGNKDKZPDHinhBhFLeOJ7ow=</Integrity>
+      <Fingerprint>kx1ko43d7f</Fingerprint>
+      <Integrity>yF4pYVxNJtAx/HaitSkZ8f+OyY2zOq33LvYogUHEN7s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\doller.png'))</OriginalItemSpec>
@@ -3018,8 +3018,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c39u3q85by</Fingerprint>
-      <Integrity>iNRZzbGBiJMLUWrIOXU9+m/IWxFc8wkF3NMWibVBduE=</Integrity>
+      <Fingerprint>i2vz6b1csi</Fingerprint>
+      <Integrity>CmpGPa2t3tMzi1XE1QnEC4JCUBrJ67ma1mZ+UiFfEFU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\garage.png'))</OriginalItemSpec>
@@ -3036,8 +3036,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e2rvinogd2</Fingerprint>
-      <Integrity>Otdkfv8LfuXcjemcG2L6rz12rWvANhYeoOQVIieBShM=</Integrity>
+      <Fingerprint>fdiasxey9h</Fingerprint>
+      <Integrity>fWQnFQ3EKbTw7mBkQSpqxwyyRQC45hfqQCsGuDnBvbk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\healthcare.png'))</OriginalItemSpec>
@@ -3054,8 +3054,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>iqvhiinv90</Fingerprint>
-      <Integrity>FjtpDIXFNzTUQ4OEavhYQDuy7gAFym8wW2OaOQCAu+g=</Integrity>
+      <Fingerprint>t7amgjrrka</Fingerprint>
+      <Integrity>OYlXzx7jJIdhol+NooOC9A1BfmEhgXNevkHQs9wNljI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\home.png'))</OriginalItemSpec>
@@ -3072,8 +3072,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4d970vzsdi</Fingerprint>
-      <Integrity>KDcyC/JbulE9XJOB3/1wGVKjcWXDVp7WD5o/09l0Wlg=</Integrity>
+      <Fingerprint>eqn8j4deg5</Fingerprint>
+      <Integrity>Jv3mU7+S0590Yto3UH1/g0c96zvMRd4zQ1G1UjRqAK4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\HOME_32PX.png'))</OriginalItemSpec>
@@ -3090,8 +3090,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h8dcvf99xk</Fingerprint>
-      <Integrity>Abm7b7kZZFlzf8+IxxRBUlbfPaUt0o5kxe116YF0eKI=</Integrity>
+      <Fingerprint>f5590ktffe</Fingerprint>
+      <Integrity>U+LszI0xdxN4Gc5M4fYmrQ1YTIc9dxq7heXhnAF73+Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\home_64px.png'))</OriginalItemSpec>
@@ -3108,8 +3108,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6gyx73cmyo</Fingerprint>
-      <Integrity>pr9rPJjhYgF3iW90uLdphkn92j8RyX7P26SVKbODzeg=</Integrity>
+      <Fingerprint>8jbkn638g0</Fingerprint>
+      <Integrity>ZPa6Zv5urFkMUelWlMAxxfJD7PX9/h+BrWFXokOqaXc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\kitchen.png'))</OriginalItemSpec>
@@ -3126,8 +3126,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x26xmd444w</Fingerprint>
-      <Integrity>CQc/syVxEu5KOakXDfxqQv0VBlUuNUk1F7cy0qCssLM=</Integrity>
+      <Fingerprint>4tzrulf3em</Fingerprint>
+      <Integrity>CPAmHDSUerwpht9DJvrb9B5ZPeDApBilCSIemJP3x0o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\location.png'))</OriginalItemSpec>
@@ -3162,8 +3162,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>268quzca0x</Fingerprint>
-      <Integrity>JsrgTxqsgrPaBC2W/fGqiEd5mjXvKfh8DoV+lL3derM=</Integrity>
+      <Fingerprint>5qdiuqdp9y</Fingerprint>
+      <Integrity>/av7cvpDzzZUyHwPs6Uv0Z7vh0hs69NTuLebLqLduDs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\mail.png'))</OriginalItemSpec>
@@ -3180,8 +3180,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>z09x8unsfg</Fingerprint>
-      <Integrity>81vsAZZP3uxVsjzdNo998WVqpOZolS3E7dr0V3HfBq8=</Integrity>
+      <Fingerprint>ttskmn60qh</Fingerprint>
+      <Integrity>8cBvzI4GZY5+B/WdS5YKlhI6PiBaoi9hjuhEhEBHmSI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\map.png'))</OriginalItemSpec>
@@ -3198,8 +3198,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7fq483du2m</Fingerprint>
-      <Integrity>PV1W7stRtxOeux7GJoOo3oSGPioznvi3lwEFi4q0qH8=</Integrity>
+      <Fingerprint>2gr2vlc37g</Fingerprint>
+      <Integrity>cmrCGPtjdx19LCxlzWTB6CJDvphLUGUlt0l3DBogniw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\map-marker.png'))</OriginalItemSpec>
@@ -3216,8 +3216,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ow186ohp07</Fingerprint>
-      <Integrity>WM4ArQWy5pyBSgFvVPT+P0GIxi0F0SERCdGIUA0Y1oQ=</Integrity>
+      <Fingerprint>zgjgypgdkw</Fingerprint>
+      <Integrity>bZMUnA3oUtz9Z+sAEpLdOPo/fzuOYBjJPlJEw8FU/Tw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\medihealth.png'))</OriginalItemSpec>
@@ -3234,8 +3234,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ll3ye6ot4u</Fingerprint>
-      <Integrity>uazxzUc6XttghG5dPelyGwHEepwIOzFBXkkbVFs+WqA=</Integrity>
+      <Fingerprint>dvwx78weif</Fingerprint>
+      <Integrity>qStYsomNMcFu2+XzZrWn+QA+8hd/BWZ1mm+zYybiarA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\medist.png'))</OriginalItemSpec>
@@ -3252,8 +3252,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m8do46mvaf</Fingerprint>
-      <Integrity>+iqdPN8b8Aidw9jP+MEqvmmmKm1tZf8EASKuOoT+AFk=</Integrity>
+      <Fingerprint>7xs50wcnqu</Fingerprint>
+      <Integrity>qyHXaMV3dM4u5KpfmspuxK1JOfeZxjqNydPLXXdnxS4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\phone.png'))</OriginalItemSpec>
@@ -3288,8 +3288,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d50qk6gkfy</Fingerprint>
-      <Integrity>vxAojRybuAvpEoUZ5yH6AducFjlROxACY29TMWrtU40=</Integrity>
+      <Fingerprint>pfvapmk9c2</Fingerprint>
+      <Integrity>pQ70SLqvcRIEieHGhoqobUJGrcDEjQCzJ7iMHNWviUs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\quote.png'))</OriginalItemSpec>
@@ -3324,8 +3324,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>axytis1jhs</Fingerprint>
-      <Integrity>8pfkUio3S4z+yPIiGVxHL4I6GSBqINajKIQjTFVpQCg=</Integrity>
+      <Fingerprint>acvrfq4upt</Fingerprint>
+      <Integrity>aq5tPWUlFU0jAUaNLnwW1yUFjxQ2x2x/WlbtELb3fR4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\sidebar-location.png'))</OriginalItemSpec>
@@ -3342,8 +3342,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>60oxw3m4n5</Fingerprint>
-      <Integrity>OpyU8jYM04HapKzV/2sWfQsluJ8LkuH76KIJoBYzyRs=</Integrity>
+      <Fingerprint>makjewqy8p</Fingerprint>
+      <Integrity>fltxfx4NMeciUibjk4BFDrB1m5m/PdL/QRSMPGMlVl0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\icon\star.png'))</OriginalItemSpec>
@@ -3630,8 +3630,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5elvcz60zn</Fingerprint>
-      <Integrity>DdZH6un2MEIa7izk2GFpSm+tMrWRRccihnFjU1oREPw=</Integrity>
+      <Fingerprint>xo20qg8205</Fingerprint>
+      <Integrity>X1gSwvidpHLYa/SRMgpwwuSQKyaQCG8wCaw088VrDI0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Budget-Friendly.png'))</OriginalItemSpec>
@@ -3648,8 +3648,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bnpril0n3r</Fingerprint>
-      <Integrity>ab/oAD0ICU+OPcgIBJx9Q6shu55/kiUSEFxE8QDLC1I=</Integrity>
+      <Fingerprint>1277zd2ei1</Fingerprint>
+      <Integrity>h+kDRQ8oz3yk+1oxJdF2dBNjHr8zv8jSO7sQxmmrCHo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Contract-signing.png'))</OriginalItemSpec>
@@ -3666,8 +3666,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rz3na2a5b3</Fingerprint>
-      <Integrity>CRplaqprJ8D9Ryd3PgEktOimbDTffOMGZyl+MVGfa0c=</Integrity>
+      <Fingerprint>5chtrop2pk</Fingerprint>
+      <Integrity>BWh2UQ/haPgCGaqcRkkDr/oUa+aGqJpoFLyq68nJMaQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Exclusive-launches.png'))</OriginalItemSpec>
@@ -3684,8 +3684,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ei743z4fmc</Fingerprint>
-      <Integrity>+rFT22+YB4CizY4u1eD/NM+D4Feos5tCdAGj1j22GIU=</Integrity>
+      <Fingerprint>2adsufiedl</Fingerprint>
+      <Integrity>xrOTABPDS+GkxX3dQc0xJOPOy0NRifoWUU5IK7XQqo0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Future-ready-investment.png'))</OriginalItemSpec>
@@ -3702,8 +3702,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2vcdy4t2b6</Fingerprint>
-      <Integrity>XsSvK1EzVO5Io+jBhYh+LqvqlvaubqMIojp8VG2ATyQ=</Integrity>
+      <Fingerprint>y93b5d2jw1</Fingerprint>
+      <Integrity>Vj4jv07XU0kzCMPXRgWuH2/51BYQ1DcErHzSg2EkBRg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Handover.png'))</OriginalItemSpec>
@@ -3720,8 +3720,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gex7tc02j2</Fingerprint>
-      <Integrity>2BFkVfFb1C1KT6Rrrj8I3n6OTp+gfaejMyZV9BDsYC0=</Integrity>
+      <Fingerprint>3famy7wjn4</Fingerprint>
+      <Integrity>wYNW9QWdoj6dt9W0t1kcTmBRyDPS5ex5w9nufyZuq4o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Hero.png'))</OriginalItemSpec>
@@ -3738,8 +3738,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n5boilrkes</Fingerprint>
-      <Integrity>hTtwCjEi20KOBdg03WFNaW+WG7AFWDmwvRsWtAWqhng=</Integrity>
+      <Fingerprint>vdjno4us27</Fingerprint>
+      <Integrity>40kzMZWGaDl4WjenHAwvdKpJjfTjARtrS4lXKEo/6oE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Logo-1.png'))</OriginalItemSpec>
@@ -3756,8 +3756,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yfawdy9mch</Fingerprint>
-      <Integrity>3gEv0lLReLoBesp6rXXNYMeba7CFY18ZOIBnGjPCZxc=</Integrity>
+      <Fingerprint>t2t6awrry9</Fingerprint>
+      <Integrity>S+04ONquisy8/SgVaHuyru3HlzIG/FABpN7tyC95sRk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Logo-2.png'))</OriginalItemSpec>
@@ -3774,8 +3774,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>49r2mfgc5n</Fingerprint>
-      <Integrity>iJct/a6hzhunmTXs3xdw6zQ915dPgKpezuYsYqxLE70=</Integrity>
+      <Fingerprint>pgzi68wlp6</Fingerprint>
+      <Integrity>91VV/YOkIv34XZCbom1CTQiBW0ccF88eiFlh3FUiA80=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Logo-3.png'))</OriginalItemSpec>
@@ -3792,8 +3792,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d8gztm2vri</Fingerprint>
-      <Integrity>7XFVe/xRGw5EqORCYc+iJhB1s9TmVTH/H6pnlgNli2Q=</Integrity>
+      <Fingerprint>x1jzxa297p</Fingerprint>
+      <Integrity>yyvFN7zr/TL0oOQP7OcsMS2pBxwJTLxUgPghU4jJGBY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Logo-4.png'))</OriginalItemSpec>
@@ -3810,8 +3810,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8iz4mjznyw</Fingerprint>
-      <Integrity>QIF1nwWAz0fZBix6uIEuq7Slg9994V1RYB8FMODHgxA=</Integrity>
+      <Fingerprint>w1rzur2cbu</Fingerprint>
+      <Integrity>TEI6rAmRlvSEbAWpyFoQW6BxunqvZfD8CIhGBcmJVbU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Logo-5.png'))</OriginalItemSpec>
@@ -3828,8 +3828,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ut6i6nyl5m</Fingerprint>
-      <Integrity>7io8UHEGafOAZS5VGWp+wEWVmhRBWXOsCjrIdagPgbw=</Integrity>
+      <Fingerprint>sl0kf3reyk</Fingerprint>
+      <Integrity>8DRxSPhUo0T6CJxI2NDrI7Pu86fp02sDSCIY5CFN9Ag=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Logo-6.png'))</OriginalItemSpec>
@@ -3846,8 +3846,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>b5c9jlxwmk</Fingerprint>
-      <Integrity>vxyM9Malf/dUC1O/W28KvxtkzwuOz4vOhpYYkS++fTo=</Integrity>
+      <Fingerprint>7qc3ieladh</Fingerprint>
+      <Integrity>0YJ/c4uN90C7kRkTWPuleTEauBsUQurFf4X5WaEwVW4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Logo-7.png'))</OriginalItemSpec>
@@ -3864,8 +3864,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kb4dxnacb8</Fingerprint>
-      <Integrity>IHToqhyzcxwycAG+HdS3on9nf98Rg77CwuAU9aSl6ew=</Integrity>
+      <Fingerprint>v5k3rc7xhm</Fingerprint>
+      <Integrity>0+N+rTQy9CoNMQYDqfTkS/R0Kc5kEvOwuP1mf7qdhEQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Logo-8.png'))</OriginalItemSpec>
@@ -3882,8 +3882,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>krgnwflenw</Fingerprint>
-      <Integrity>oEAvrmKzseQMiKk8QU+c4ZbB0DIj8JEiLcVOtc71sNo=</Integrity>
+      <Fingerprint>zd9kcefubp</Fingerprint>
+      <Integrity>h2ATmFPczLs3DtLBAW5E/0hLmvZBXgjOk0t6FBLvML0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Logo-9.png'))</OriginalItemSpec>
@@ -3900,8 +3900,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2snkcgfhb2</Fingerprint>
-      <Integrity>nk7MJmPwJyHlpftcmJ3W3YizH/4NE5oFSLgAUIH5bNI=</Integrity>
+      <Fingerprint>p7zp4s878z</Fingerprint>
+      <Integrity>e80cvDQiCYLsiMB2giBW2C1dD2G1k7PFTC0gwSZ9HTY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Luxurious-Interior-1.png'))</OriginalItemSpec>
@@ -3918,8 +3918,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x88dqyl38i</Fingerprint>
-      <Integrity>AZ3ETZ6LvYUM4h6MRoybj0fKG7MyJLqR7wc3apl8x34=</Integrity>
+      <Fingerprint>7dncguuj4e</Fingerprint>
+      <Integrity>tRavQ3qySt2s1+pujrrM94cCd1ejPP5zuGMQOTAtjYM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Luxurious-Interior-2.png'))</OriginalItemSpec>
@@ -3936,8 +3936,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qf4gbeke63</Fingerprint>
-      <Integrity>iuKe/HzkvJqaC2EPx4gbXyFpOJREIutgt+HVzDJD2fw=</Integrity>
+      <Fingerprint>mp4bve7ocl</Fingerprint>
+      <Integrity>mtP2YR9ueel5b8m5hZhDsSmDFavU3IBVC4JYnn5Fa/Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Luxurious-Interior-3.png'))</OriginalItemSpec>
@@ -3954,8 +3954,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pwgvtntxje</Fingerprint>
-      <Integrity>WXCY/6K8FkBq0lzOaMpx4hKb7XsKlq3hPJo8GNTOncA=</Integrity>
+      <Fingerprint>45rcze3jst</Fingerprint>
+      <Integrity>mAAlEaJBdUzQYRKKqlQc1OALmNZaYyKzrBgU7Uki2r8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Off-plan.png'))</OriginalItemSpec>
@@ -3972,8 +3972,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pk9v4znkya</Fingerprint>
-      <Integrity>OaJiBOfL2wYaIt3mLtRZCdQpg0rMMeyFh/DTDD7Uiw0=</Integrity>
+      <Fingerprint>gz8cz5xli8</Fingerprint>
+      <Integrity>hMBy34YtylXcY4/aZsKbmp83olt8DVTD+DAPHTftExw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\OffPlan\Prime-Location.png'))</OriginalItemSpec>
@@ -4584,8 +4584,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r2ovijftpm</Fingerprint>
-      <Integrity>ozku+OQXVVs6pzXFr83wMjODJJ2w7kP4cK/B8C4s2QQ=</Integrity>
+      <Fingerprint>c8mvromv8u</Fingerprint>
+      <Integrity>TP0eEu3NMEYyYDkxVwzXL/khNC+qKdURyiNF2PF9Vkg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Rental\Hero.png'))</OriginalItemSpec>
@@ -4602,8 +4602,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3g1eoxhd72</Fingerprint>
-      <Integrity>LXWHzGObw0a+xqBuWGrOT76blQ2JiijQFbTsVNBoBbo=</Integrity>
+      <Fingerprint>uzlqtbhksf</Fingerprint>
+      <Integrity>JrWbhCeKoiLKdYxaLIAVjbcL9eA9K6Iu222YYFVCOb4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Rental\Long-Term.png'))</OriginalItemSpec>
@@ -4620,8 +4620,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bsxbv4ag6h</Fingerprint>
-      <Integrity>yy5SK+czmig0VBqMnT1q90GJ8wmGkhrrtiB/4Bj5CkI=</Integrity>
+      <Fingerprint>dnpoh9ovqr</Fingerprint>
+      <Integrity>J7NRUJSKklrIGSUwUtDeCMcJQCS/txcF3ycj+mdAcSk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Rental\Luxury.png'))</OriginalItemSpec>
@@ -4638,8 +4638,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8d59wrcbqb</Fingerprint>
-      <Integrity>lJCuCr2GojaCmDwE57o7kFXx8wvzYnrFCr6u+REBsmI=</Integrity>
+      <Fingerprint>y5hswpy9lq</Fingerprint>
+      <Integrity>GjaQ2m8noWOouLAhdJmh8fL925raN289tbwMS1RqiXw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Rental\Short-term.png'))</OriginalItemSpec>
@@ -4656,8 +4656,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2jdxuc2spv</Fingerprint>
-      <Integrity>Qo/lLQS79NboMi9opFppAcbuHc3RqBhUCFR7h2U0hmw=</Integrity>
+      <Fingerprint>o56peo268o</Fingerprint>
+      <Integrity>lEb8kxThNeKuWvZ2NBqczjwk8gHNscvyJWpP3aKfu9w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Rental\Smart-rentals-1.png'))</OriginalItemSpec>
@@ -4674,8 +4674,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m0lspz208y</Fingerprint>
-      <Integrity>Zp6nEmR6VhYwSjxthZkCO2WzC19Lpg9ET7Lcgn8UtUs=</Integrity>
+      <Fingerprint>v09xgrkbcu</Fingerprint>
+      <Integrity>EfggRDTc1MqbWaojJBWVNE9mC1pKWapdokeJJorGey8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Rental\Smart-rentals-2.png'))</OriginalItemSpec>
@@ -4692,8 +4692,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gurdea985r</Fingerprint>
-      <Integrity>yGvKFzrhaie0CLHhzjqB2ja37XwecrFLl+zl6mLmVzQ=</Integrity>
+      <Fingerprint>ujhvy63aby</Fingerprint>
+      <Integrity>Zqtz3ES4sdDu6uAr5fiaSQlXutgIa591WSC3P893/XM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Rental\Smart-rentals-3.png'))</OriginalItemSpec>
@@ -4710,8 +4710,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ojs629ijio</Fingerprint>
-      <Integrity>BLyHemjyMz827r463LMHtfFDk2ffhvNOEKIoINs7OQ4=</Integrity>
+      <Fingerprint>r0znqjpb0k</Fingerprint>
+      <Integrity>9RhFWMiu5XqnzaPY1U0njVA9Xg6HLFyXiknpCGkAnCE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Rental\Why-choose-us.png'))</OriginalItemSpec>
@@ -4728,8 +4728,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6y3js3uvws</Fingerprint>
-      <Integrity>vsLIaWeBYGAYNl/XTm6Rwa4BU/X1/iDdDwwl6kElVBU=</Integrity>
+      <Fingerprint>6uwdez3cb0</Fingerprint>
+      <Integrity>flEo9gBoNRkVFRyAUyjXvA9PfzGG4vXWGcSD27S3jxE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Secondary\Hero.png'))</OriginalItemSpec>
@@ -4746,8 +4746,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1r2i65dihh</Fingerprint>
-      <Integrity>k9dK4Eo07y+MB0DZyh33wiTA5M6FiWi6LvyjWbc+lDw=</Integrity>
+      <Fingerprint>uihlh3blqq</Fingerprint>
+      <Integrity>CifKravOQbW4VHPl4Q7kheK5Te4VmbTMmgziczNT0KE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Secondary\Prime-location-1.png'))</OriginalItemSpec>
@@ -4764,8 +4764,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>td65teqk3l</Fingerprint>
-      <Integrity>kYQreIxQfhQeYK/8/7km0nZTsi6n+q0KW3Mnuk2Ksko=</Integrity>
+      <Fingerprint>yda321tyx8</Fingerprint>
+      <Integrity>qnK1LO0/aFyljifbFJx+I/HFaLhVCplukFv2ZSSK4YU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Secondary\Prime-location-2.png'))</OriginalItemSpec>
@@ -4782,8 +4782,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n46cxbhx0o</Fingerprint>
-      <Integrity>+Ti+2IjWkdGKXUP81chE87uJUWzg20kA/W7MXEm1ZBk=</Integrity>
+      <Fingerprint>dbqngl75ba</Fingerprint>
+      <Integrity>B+fxPBqn28m0iidtiiMstSyT1WI2AeweIuT0hQoO8vw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Secondary\Prime-location-3.png'))</OriginalItemSpec>
@@ -4800,8 +4800,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>k60qdo4u84</Fingerprint>
-      <Integrity>bNCemFgGUF9wRHZkLnBHJkhrJqUcfJamQiZq473A4So=</Integrity>
+      <Fingerprint>2dscn62vvk</Fingerprint>
+      <Integrity>lknN1CzJK7olg8AChqaylaMKbqGIxWSdIxD/DzhxbYs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Secondary\Property-selection.png'))</OriginalItemSpec>
@@ -4818,8 +4818,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4ji56xa6gl</Fingerprint>
-      <Integrity>8AhjBnDwPnCfe3N6hXEWF613+gungwjGsDw1e7Y76bc=</Integrity>
+      <Fingerprint>6n1jautvch</Fingerprint>
+      <Integrity>EqHb3pSBo+EgCYP6zzqdJe0GWP+Th177DFLxqupbyNA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Secondary\Quick-handover.png'))</OriginalItemSpec>
@@ -4836,8 +4836,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>s6woxvk37s</Fingerprint>
-      <Integrity>DKon9ekmQaWDb/wBpyH4CaPtO8UTXqImT2O6yNoYI+Y=</Integrity>
+      <Fingerprint>0jrs3esk6s</Fingerprint>
+      <Integrity>pOrgeC0vDWTLQYDnSIWlHvAb+pTfbFqj9c2BkfnCEXU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Secondary\Smooth-transaction.png'))</OriginalItemSpec>
@@ -4854,8 +4854,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qlcglo7ih5</Fingerprint>
-      <Integrity>zigUBqPAvgcJXrT9A/y05ESTTTM1ZfPmFqfqJdE6nE4=</Integrity>
+      <Fingerprint>0bjm7fxdi3</Fingerprint>
+      <Integrity>xKG0l5xaETftSngpF/kCprCzbfUkO+n2E/88Q0F+2CA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\Secondary\Why-Choose-Us.png'))</OriginalItemSpec>
@@ -5016,8 +5016,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2ay4bqozc7</Fingerprint>
-      <Integrity>ilkGr8ea/apLFJT+BCkrSax3eNaZ34SjMIW1mrWbEF4=</Integrity>
+      <Fingerprint>a40yrfxkb3</Fingerprint>
+      <Integrity>5iPfpi6l3UHHyqSjp/uE3n1q9YVRIsQliv5kwv6UVhA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\agent.jpg'))</OriginalItemSpec>
@@ -5034,8 +5034,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>asu4ndaca9</Fingerprint>
-      <Integrity>JiD1WGjqmJHD5N5q+rqVT2l6CiWEeG5ekJaeUqzOQ24=</Integrity>
+      <Fingerprint>4rcgpiom9e</Fingerprint>
+      <Integrity>cBow6zZlEkuuS/msswvdB0BXWA874K97hh5S9LSXiXQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\ashfaq.jpg'))</OriginalItemSpec>
@@ -5052,8 +5052,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sc0rqkod8i</Fingerprint>
-      <Integrity>jCT1t5Q6rCsCiT56xjYyzPkq7XInyv0l5xHGxDpQLtU=</Integrity>
+      <Fingerprint>bkjif7ipnf</Fingerprint>
+      <Integrity>i35eIgxnBmwl9S8YBtG3EuBBEq1FHbIUuuQLjUN9Zdc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\ashfaq.png'))</OriginalItemSpec>
@@ -5070,8 +5070,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ap3nkn0ymq</Fingerprint>
-      <Integrity>gr23QrgU/M69gN7aMP6+in+Ft2pvua2/1JT371JXbPs=</Integrity>
+      <Fingerprint>c7eav777st</Fingerprint>
+      <Integrity>aJEJkecNdLVwIGIA5MPJ5GWB3eUIH2oKS7RWG107moI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Contact-section.png'))</OriginalItemSpec>
@@ -5088,8 +5088,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>93ls73r5uu</Fingerprint>
-      <Integrity>O2Pk9oBAtFvHh8oEWQ1YuwomhWdre9shiehNi/i178I=</Integrity>
+      <Fingerprint>fhi0ei4loq</Fingerprint>
+      <Integrity>bczR2qoRY6rIu7+crrkYwlHtO2D7XOaJzYsJqsDUlYo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Hero-Image.png'))</OriginalItemSpec>
@@ -5106,8 +5106,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0ieapi79ut</Fingerprint>
-      <Integrity>6Fjzm+h3S7U9/ZxuczD8daKQ9rA90bYkxf6HZdVMcgA=</Integrity>
+      <Fingerprint>zocd53sfdl</Fingerprint>
+      <Integrity>gxL2bM7uQN8oLhhAMspX3kGul2/gspZj/iNrkP+uIhk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Layout-Design-Image-1.png'))</OriginalItemSpec>
@@ -5124,8 +5124,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d7fvhd8y7v</Fingerprint>
-      <Integrity>R5yr6oJdhTiNLdvTNbm4Hfqi139h2FDwGCxsSL7LTS4=</Integrity>
+      <Fingerprint>h34jd7lek9</Fingerprint>
+      <Integrity>g+uOpG4nj4zO064ew3QtIz+Zv88jtcw6PjW4NBeF3cg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Layout-Design-Image-2.png'))</OriginalItemSpec>
@@ -5142,8 +5142,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ivkkfcltdw</Fingerprint>
-      <Integrity>rlVlVEM8/RxRtnecSy5yjUmWbhX2zT+WCQDugfeF+S8=</Integrity>
+      <Fingerprint>9expfhis8t</Fingerprint>
+      <Integrity>rxeuUoHM7orXShKanv1qA5VulGKye8F5FO8JnsrLHtU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Layout-Design-Image-3.png'))</OriginalItemSpec>
@@ -5160,8 +5160,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yxun4g042n</Fingerprint>
-      <Integrity>mj8nNtQdVK2VgPo0j2mwa2N2Mtsg9S/EmZbS6T0KYTY=</Integrity>
+      <Fingerprint>ybmk9avrz1</Fingerprint>
+      <Integrity>Dm/KV56/24kNPE7+YQB5ifuek1xFgsvnebvcPIh+R8A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Premium-Features-1st-Image.png'))</OriginalItemSpec>
@@ -5178,8 +5178,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tg3nfnr4rz</Fingerprint>
-      <Integrity>TUzMbudhBeQkyuvBz+V5mwIksrapGZFQavGhrD2EFhM=</Integrity>
+      <Fingerprint>tb81qjd5kk</Fingerprint>
+      <Integrity>aXZELTYSEiZvZiV7oITmyF6tBM+oP/LkUSjzsd/Mcds=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Premium-Features-2nd-Image.png'))</OriginalItemSpec>
@@ -5196,8 +5196,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xpxufc5b9h</Fingerprint>
-      <Integrity>y8qUv/TTFf2O8KJklLKKoAdjsVsPxsRTLVdfq6nUrSQ=</Integrity>
+      <Fingerprint>s1io786qj2</Fingerprint>
+      <Integrity>oCcu60/DyGafMgRrMJVm6dQ1JdVUdi7fLwSRwbnOKm4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Premium-Features-3rd-Image.png'))</OriginalItemSpec>
@@ -5214,8 +5214,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sxa0itenxw</Fingerprint>
-      <Integrity>oEJyH5/R2hrrJQ60leIdR5ybH6/yYO+fAnt9KzARqtE=</Integrity>
+      <Fingerprint>quhvxkgwtb</Fingerprint>
+      <Integrity>3gLlURFqMgal9Wky2CUvmPZLKpikG9guUyyWS5yGhCM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\shahbaz.png'))</OriginalItemSpec>
@@ -5232,8 +5232,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>khbhvegrgc</Fingerprint>
-      <Integrity>mHTiVMuakSrR6NW12K4CePWWzLiCHGMSVGBg1wdtEAQ=</Integrity>
+      <Fingerprint>joszjr85cq</Fingerprint>
+      <Integrity>83oDnEaQVDIU+WtQLdgyVreHXPJuVfZJEIHstEXBRNg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Whats-Included.png'))</OriginalItemSpec>
@@ -5250,8 +5250,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0wv1u5s8ln</Fingerprint>
-      <Integrity>sCmgNEbJdhIrxEGnlRfWUAaiu+dx3szrGGW3zyt/8Vc=</Integrity>
+      <Fingerprint>npqyv48bnf</Fingerprint>
+      <Integrity>RfX5Hc8pEDibTvaUfPEC8yjUp6X/7lKIsPY/7Lt5CPA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\StudioX\Why-Invest-with-Us.png'))</OriginalItemSpec>
@@ -6240,8 +6240,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c2tiyv64ts</Fingerprint>
-      <Integrity>pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=</Integrity>
+      <Fingerprint>gxe01kdq5n</Fingerprint>
+      <Integrity>bPNZj9rANsm6ywYXaw1SsIrRFubpwPO6M2g+L2iKBN0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
