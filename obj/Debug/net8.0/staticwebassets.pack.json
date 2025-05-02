@@ -869,6 +869,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\home\\indian-village-house-surrounded-by-green-grass-beatiful-cloudy-blue-sky-village-landscape 1.png"
     },
     {
+      "Id": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\HOME_32PX.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\HOME_32PX.png"
+    },
+    {
       "Id": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\area.svg",
       "PackagePath": "staticwebassets\\assets\\images\\icon\\area.svg"
     },
@@ -903,6 +907,10 @@
     {
       "Id": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\home.png",
       "PackagePath": "staticwebassets\\assets\\images\\icon\\home.png"
+    },
+    {
+      "Id": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\home_64px.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon\\home_64px.png"
     },
     {
       "Id": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\kitchen.png",

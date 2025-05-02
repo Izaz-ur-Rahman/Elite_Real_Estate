@@ -8,81 +8,34 @@
 }
 <!-- Hero section start -->
 <style>
+    /* Loader Styles */
     #property-loader {
         position: fixed;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 9999;
-        background: #ffffff;
-        padding: 20px 30px;
-        border-radius: 12px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        z-index: 2147483647 !important;
+        background: #fff;
+        padding: 30px 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
         display: none;
+    }
+
+    .loader-content {
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: center; /* Centers icon and text horizontally */
+        justify-content: center; /* Optional, for vertical alignment within parent */
+        text-align: center;
     }
 
-        #property-loader .house {
-            position: relative;
-            width: 60px;
-            height: 60px;
-            animation: bounce 1s infinite;
-        }
-
-        #property-loader .roof {
-            width: 0;
-            height: 0;
-            border-left: 30px solid transparent;
-            border-right: 30px solid transparent;
-            border-bottom: 25px solid #1FA7EA;
-            position: absolute;
-            top: 0;
-            left: 75px !important;
-        }
-
-        #property-loader .walls {
-            width: 60px;
-            height: 35px;
-            background: #1FA7EA;
-            position: absolute;
-            top: 25px;
-            left: 75px !important;
-        }
-
-        #property-loader .door {
-            width: 15px;
-            height: 20px;
-            background: #ffffff;
-            position: absolute;
-            bottom: 5px;
-            left: 97.5px !important;
-            border-radius: 2px;
-        }
-
-    @@media (max-width: 767px) {
-        #property-loader .roof {
-            left: 40px !important;
-        }
-
-        #property-loader .walls {
-            left: 40px !important;
-        }
-
-        #property-loader .door {
-            left: 63.5px !important;
-        }
+    .loader-icon {
+        width: 50px;
+        height: 40px;
+        margin-bottom: 12px;
+        animation: bounce 1s infinite;
     }
-
-    #property-loader p {
-            margin-top: 16px;
-            font-size: 16px;
-            color: #1FA7EA;
-            font-weight: bold;
-            animation: fadeIn 1s ease-in-out infinite alternate;
-        }
-
     @@keyframes bounce {
         0%, 100% {
             transform: translateY(0);
@@ -278,13 +231,12 @@
 
 <!-- Custom Real Estate Loader -->
 <div id="property-loader">
-    <div class="house">
-        <div class="roof"></div>
-        <div class="walls"></div>
-        <div class="door"></div>
+    <div class="loader-content">
+        <img src="/assets/images/icon/HOME_32PX.png" alt="Loading..." class="loader-icon">
+        <p>Processing your request please wait...</p>
     </div>
-    <p>Processing your request...</p>
 </div>
+
 
 
 <script>

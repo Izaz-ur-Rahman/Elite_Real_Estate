@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yhcK4CvOXQkX1i2AofbAiQYkPUHir79abI7k3eD+1PQ=",
+  "Hash": "wpj/l9uMCY5JiDe+nJ6aKBREEnBgVruCRSMKUJUBlRU=",
   "Source": "EliteRealEstate",
   "BasePath": "_content/EliteRealEstate",
   "Mode": "Default",
@@ -3627,6 +3627,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\icon\\home.png"
+    },
+    {
+      "Identity": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\HOME_32PX.png",
+      "SourceId": "EliteRealEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\",
+      "BasePath": "_content/EliteRealEstate",
+      "RelativePath": "assets/images/icon/HOME_32PX#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4d970vzsdi",
+      "Integrity": "KDcyC/JbulE9XJOB3/1wGVKjcWXDVp7WD5o/09l0Wlg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\icon\\HOME_32PX.png"
+    },
+    {
+      "Identity": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\home_64px.png",
+      "SourceId": "EliteRealEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\",
+      "BasePath": "_content/EliteRealEstate",
+      "RelativePath": "assets/images/icon/home_64px#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h8dcvf99xk",
+      "Integrity": "Abm7b7kZZFlzf8+IxxRBUlbfPaUt0o5kxe116YF0eKI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\icon\\home_64px.png"
     },
     {
       "Identity": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\kitchen.png",
@@ -22481,6 +22523,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-FjtpDIXFNzTUQ4OEavhYQDuy7gAFym8wW2OaOQCAu+g="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/icon/HOME_32PX.4d970vzsdi.png",
+      "AssetFile": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\HOME_32PX.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KDcyC/JbulE9XJOB3/1wGVKjcWXDVp7WD5o/09l0Wlg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jan 2017 11:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4d970vzsdi"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/icon/HOME_32PX.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KDcyC/JbulE9XJOB3/1wGVKjcWXDVp7WD5o/09l0Wlg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/icon/HOME_32PX.png",
+      "AssetFile": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\HOME_32PX.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KDcyC/JbulE9XJOB3/1wGVKjcWXDVp7WD5o/09l0Wlg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jan 2017 11:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KDcyC/JbulE9XJOB3/1wGVKjcWXDVp7WD5o/09l0Wlg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/icon/home_64px.h8dcvf99xk.png",
+      "AssetFile": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\home_64px.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Abm7b7kZZFlzf8+IxxRBUlbfPaUt0o5kxe116YF0eKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jan 2017 11:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h8dcvf99xk"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/icon/home_64px.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Abm7b7kZZFlzf8+IxxRBUlbfPaUt0o5kxe116YF0eKI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/icon/home_64px.png",
+      "AssetFile": "D:\\skill_starting\\job\\elite_real_estate_mehmood\\EliteRealEstate\\EliteRealEstate\\wwwroot\\assets\\images\\icon\\home_64px.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Abm7b7kZZFlzf8+IxxRBUlbfPaUt0o5kxe116YF0eKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jan 2017 11:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Abm7b7kZZFlzf8+IxxRBUlbfPaUt0o5kxe116YF0eKI="
         }
       ]
     },

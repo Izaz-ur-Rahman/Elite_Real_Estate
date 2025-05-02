@@ -168,6 +168,8 @@ wwwroot\assets\images\icon\doller.png
 wwwroot\assets\images\icon\garage.png
 wwwroot\assets\images\icon\healthcare.png
 wwwroot\assets\images\icon\home.png
+wwwroot\assets\images\icon\HOME_32PX.png
+wwwroot\assets\images\icon\home_64px.png
 wwwroot\assets\images\icon\kitchen.png
 wwwroot\assets\images\icon\location.png
 wwwroot\assets\images\icon\location.svg
